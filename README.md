@@ -17,9 +17,15 @@ gomoji
 
 ## Controls
 
-- `Space`: switch placeholder motif
+- `Space`: switch placeholder word
 - `D`: toggle debug overlay
 - `Esc`: quit
+
+Current placeholder screen:
+
+- Japanese display with the bundled `assets/umplus_j12r.bdf` font
+- Portrait layout tuned for an iPhone 16-sized `396x696` Pyxel screen
+- Larger 5-character slots while the detailed game specification is pending
 
 ## Test
 

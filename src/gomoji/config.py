@@ -1,9 +1,10 @@
 from __future__ import annotations
 
 WINDOW_TITLE = "Gomoji"
-SCREEN_WIDTH = 256
-SCREEN_HEIGHT = 192
+SCREEN_WIDTH = 396
+SCREEN_HEIGHT = 696
 FPS = 30
+FONT_PATH = "assets/umplus_j12r.bdf"
 
 BACKGROUND_COLOR = 0
 TEXT_COLOR = 7
@@ -14,4 +15,4 @@ GRID_COLOR = 5
 ACTIVE_COLOR = 11
 LOCKED_COLOR = 3
 
-PLACEHOLDER_WORDS = ("GOMJI", "KOTBA", "PYXEL", "MOJIQ")
+PLACEHOLDER_WORDS = ("ごもじだよ", "あさひかり", "ゆめあかり", "ほしあかり")

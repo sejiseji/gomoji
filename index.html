@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Gomoji</title>
-    <meta name="gomoji-build" content="b06ff3b" />
+    <meta name="gomoji-build" content="iphone16-ja" />
     <style>
       html,
       body {
@@ -29,9 +29,9 @@
 
       pyxel-run {
         display: block;
-        width: min(100vw, calc(100dvh * 256 / 192), 768px);
-        height: min(100dvh, calc(100vw * 192 / 256), 576px);
-        aspect-ratio: 256 / 192;
+        width: min(100vw, calc(100dvh * 396 / 696), 430px);
+        height: min(100dvh, calc(100vw * 696 / 396), 696px);
+        aspect-ratio: 396 / 696;
         touch-action: none;
       }
 
@@ -39,6 +39,17 @@
         width: 100% !important;
         height: 100% !important;
         image-rendering: pixelated;
+      }
+
+      @media (orientation: portrait) and (max-width: 500px) {
+        body {
+          padding: 0;
+        }
+
+        pyxel-run {
+          width: 100vw;
+          height: 100dvh;
+        }
       }
     </style>
     <script>

@@ -1,8 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from pathlib import Path
 
 from gomoji import config
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+FONT_FILE = PROJECT_ROOT / config.FONT_PATH
 
 
 @dataclass
@@ -26,6 +30,7 @@ class GomojiApp:
         self.pyxel = pyxel
         self.state = AppState()
         self.smoke_frames = smoke_frames
+        self.font = None
 
         pyxel.init(
             config.SCREEN_WIDTH,
@@ -34,6 +39,8 @@ class GomojiApp:
             fps=config.FPS,
             headless=headless,
         )
+        if FONT_FILE.exists():
+            self.font = pyxel.Font(str(FONT_FILE))
         pyxel.run(self.update, self.draw)
 
     def update(self) -> None:
@@ -58,45 +65,55 @@ class GomojiApp:
         pyxel.cls(config.BACKGROUND_COLOR)
 
         center_x = config.SCREEN_WIDTH // 2
+        word = self.state.word
         cursor_index = (self.state.frame // 18) % 5
         wave_index = (self.state.frame // 10) % 5
 
         pyxel.rectb(
-            18,
-            18,
-            config.SCREEN_WIDTH - 36,
-            config.SCREEN_HEIGHT - 36,
+            24,
+            32,
+            config.SCREEN_WIDTH - 48,
+            config.SCREEN_HEIGHT - 64,
             config.SHADOW_COLOR,
         )
-        pyxel.text(center_x - 12, 34, "GOMOJI", config.TEXT_COLOR)
-        pyxel.text(center_x - 38, 48, "5 LETTER PUZZLE BASE", config.GRID_COLOR)
+        self.draw_text(center_x - 18, 78, "ごもじ", config.TEXT_COLOR)
+        self.draw_text(center_x - 36, 108, "五文字の仮画面", config.GRID_COLOR)
 
-        slot_size = 28
-        gap = 6
+        slot_size = 58
+        gap = 10
         total_width = slot_size * 5 + gap * 4
         start_x = center_x - total_width // 2
-        top_y = 74
+        top_y = 190
 
-        for index, letter in enumerate(self.state.word):
+        for index, letter in enumerate(word):
             x = start_x + index * (slot_size + gap)
-            y = top_y - 2 if index == wave_index else top_y
+            y = top_y - 6 if index == wave_index else top_y
             color = config.ACTIVE_COLOR if index == cursor_index else config.GRID_COLOR
             fill = config.ACCENT_COLOR if index < 2 else config.BACKGROUND_COLOR
 
             pyxel.rect(x + 2, y + 2, slot_size, slot_size, config.SHADOW_COLOR)
             pyxel.rect(x, y, slot_size, slot_size, fill)
             pyxel.rectb(x, y, slot_size, slot_size, color)
-            pyxel.text(x + 12, y + 11, letter, config.BACKGROUND_COLOR if index < 2 else color)
+            self.draw_text(
+                x + 23,
+                y + 22,
+                letter,
+                config.BACKGROUND_COLOR if index < 2 else color,
+            )
 
             if index == cursor_index:
-                pyxel.rect(x + 8, y + slot_size + 5, 12, 2, config.ACTIVE_COLOR)
+                pyxel.rect(x + 15, y + slot_size + 11, 28, 3, config.ACTIVE_COLOR)
 
-        pyxel.text(center_x - 47, 126, "SPACE: CHANGE WORD", config.TEXT_COLOR)
-        pyxel.text(center_x - 35, 138, "SPEC SLOT OPEN", config.LOCKED_COLOR)
+        self.draw_text(center_x - 84, 332, "スペースで ことばを切替", config.TEXT_COLOR)
+        self.draw_text(center_x - 66, 366, "iPhone 16 画面向け", config.LOCKED_COLOR)
+        self.draw_text(center_x - 72, 420, "詳細仕様待ち", config.GRID_COLOR)
 
         if self.state.debug_enabled:
             pyxel.text(4, 4, f"frame={self.state.frame}", config.DEBUG_COLOR)
             pyxel.text(4, 12, f"word={self.state.word}", config.DEBUG_COLOR)
+
+    def draw_text(self, x: int, y: int, text: str, color: int) -> None:
+        self.pyxel.text(x, y, text, color, self.font)
 
 
 def main() -> None:
