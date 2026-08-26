@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/gomojingo/entry.schema.json",
+  "title": "ごもじンゴ Content Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "word",
+    "category",
+    "rarity",
+    "paragraphs",
+    "tags",
+    "tone",
+    "ending_family",
+    "status",
+    "source_kind",
+    "editor_note"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^GMG[0-9]{4}$"
+    },
+    "word": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 5,
+      "pattern": "^[あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽゔぁぃぅぇぉっゃゅょゎ]{5}$"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "phenomenon",
+        "condition",
+        "creature",
+        "food",
+        "technique",
+        "tool",
+        "custom",
+        "place",
+        "internet",
+        "mystery"
+      ]
+    },
+    "rarity": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "paragraphs": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 4,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 160
+      }
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 6,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 24
+      }
+    },
+    "tone": {
+      "type": "string",
+      "enum": [
+        "deadpan",
+        "mock_academic",
+        "observational",
+        "dry",
+        "absurd"
+      ]
+    },
+    "ending_family": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "reviewed",
+        "approved",
+        "retired"
+      ]
+    },
+    "source_kind": {
+      "type": "string",
+      "enum": [
+        "manual_seed",
+        "combinatorial_draft",
+        "manual_revision"
+      ]
+    },
+    "editor_note": {
+      "type": "string",
+      "maxLength": 500
+    }
+  }
+}

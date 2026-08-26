@@ -1,0 +1,1061 @@
+{
+  "schema_version": 2,
+  "pack_id": "pack_019",
+  "id_range": [
+    "GMG0901",
+    "GMG0950"
+  ],
+  "entry_count": 50,
+  "entries": [
+    {
+      "id": "GMG0901",
+      "word": "ろぐまわし",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "回覧行為のうち、記録だけが先行する状態。",
+        "速度だけは速く、内容の確認は後回しになる。",
+        "ろぐまわしの発端を示すログは残っているが、長すぎて誰も最後まで読まない。"
+      ],
+      "tags": [
+        "インターネット",
+        "記録",
+        "回覧行為"
+      ],
+      "tone": "dry",
+      "ending_family": "log_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0902",
+      "word": "ろぐのこし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "記録を長く続けた結果発生する保存行為。",
+        "発生後は元の話題へ戻りにくく、「必要な箇所ほど後から見つからない」傾向だけが残る。",
+        "訂正は可能だが、訂正前の内容のほうが長く残る。この状態をろぐのこしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "記録",
+        "保存行為"
+      ],
+      "tone": "absurd",
+      "ending_family": "correction_late",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0903",
+      "word": "こめぴたっ",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "コメント欄の流れが、特定の一言を境に突然止まる現象。",
+        "強い反論より、返し方の分からない正論や妙に具体的な体験談で起こりやすい。",
+        "止めた本人だけは、まだ通知を待っている。"
+      ],
+      "tags": [
+        "コメント",
+        "沈黙",
+        "正論"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_comment_stop",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0904",
+      "word": "ろぐずらし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "記録を別の場所へ運ぶための論点移動。",
+        "悪意がなくても起こり、「答えずに近い別問題へ着地する」結果になりやすい。",
+        "書き込まない者ほど状況を理解しているが、説明役は引き受けない。この状態をろぐずらしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "記録",
+        "論点移動"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "silent_knows",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0905",
+      "word": "ろぐだまり",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "記録から生まれた停滞状態。",
+        "発端では「必要な箇所ほど後から見つからない」ことが多く、その後は「全員が見ているのに誰も書き込まない」状態へ移る。",
+        "誰が始めたかは、だいたい全員が別の人だと思っている。この状態をろぐだまりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "記録",
+        "停滞状態"
+      ],
+      "tone": "observational",
+      "ending_family": "origin_elsewhere",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0906",
+      "word": "ろぐひろい",
+      "category": "internet",
+      "rarity": 3,
+      "paragraphs": [
+        "記録の流れで頻繁に見られる拾い行為。",
+        "本人は整理したつもりでも、読む側には「本筋より小さな誤字だけを持ち帰る」ように見える。",
+        "速度だけは速く、内容の確認は後回しになる。この状態をろぐひろいと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "記録",
+        "拾い行為"
+      ],
+      "tone": "dry",
+      "ending_family": "speed_over_check",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0907",
+      "word": "ろぐかえし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "応答技法のうち、記録だけが先行する状態。",
+        "速度だけは速く、内容の確認は後回しになる。",
+        "使いどころを待っている間に古くなり、出した時だけ懐かしい扱いを受ける。この状態をろぐかえしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "記録",
+        "応答技法"
+      ],
+      "tone": "absurd",
+      "ending_family": "old_when_ready",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0908",
+      "word": "ろぐつなぎ",
+      "category": "internet",
+      "rarity": 3,
+      "paragraphs": [
+        "記録を長く続けた結果発生する接続行為。",
+        "発生後は元の話題へ戻りにくく、「必要な箇所ほど後から見つからない」傾向だけが残る。",
+        "本筋より小さな誤字のほうが長く話題へ残る。この状態をろぐつなぎと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "記録",
+        "接続行為"
+      ],
+      "tone": "deadpan",
+      "ending_family": "small_typo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0909",
+      "word": "ろぐおくり",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "記録の内容より反応を優先した転送行為。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが残る。",
+        "悪意がなくても起こるため、原因の特定はだいたい雰囲気で終わる。この状態をろぐおくりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "記録",
+        "転送行為"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_bad_intent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0910",
+      "word": "ろぐよみて",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "記録を別の場所へ運ぶための閲覧者。",
+        "悪意がなくても起こり、「発言せず流れだけを正確に把握する」結果になりやすい。",
+        "反応が良ければ予告、悪ければ独り言だったことになる。この状態をろぐよみてと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "記録",
+        "閲覧者"
+      ],
+      "tone": "observational",
+      "ending_family": "post_escape",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0911",
+      "word": "こめまわし",
+      "category": "internet",
+      "rarity": 3,
+      "paragraphs": [
+        "コメントから生まれた回覧行為。",
+        "発端では「短いほど強く見えることがある」ことが多く、その後は「同じ内容へ少しずつ解釈を足して渡す」状態へ移る。",
+        "こめまわしの発端を示すログは残っているが、長すぎて誰も最後まで読まない。"
+      ],
+      "tags": [
+        "インターネット",
+        "コメント",
+        "回覧行為"
+      ],
+      "tone": "dry",
+      "ending_family": "log_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0912",
+      "word": "こめのこし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "コメントの流れで頻繁に見られる保存行為。",
+        "本人は整理したつもりでも、読む側には「後で読むと言って二度と開かない」ように見える。",
+        "訂正は可能だが、訂正前の内容のほうが長く残る。この状態をこめのこしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "コメント",
+        "保存行為"
+      ],
+      "tone": "absurd",
+      "ending_family": "correction_late",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0913",
+      "word": "こめながれ",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "進行状態のうち、コメントだけが先行する状態。",
+        "速度だけは速く、内容の確認は後回しになる。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが共有される。この状態をこめながれと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "コメント",
+        "進行状態"
+      ],
+      "tone": "deadpan",
+      "ending_family": "meaning_thins",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0914",
+      "word": "ねたちょい",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "完成していない話題を少しだけ出し、周囲の反応で続きを決める投稿形式。",
+        "反応が良ければ予告だったことになり、悪ければ独り言だったことになる。",
+        "撤退経路まで含めて一つの技法である。"
+      ],
+      "tags": [
+        "話題",
+        "投稿",
+        "反応"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "manual_teaser",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0915",
+      "word": "こめだまり",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "コメントの内容より反応を優先した停滞状態。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが残る。",
+        "誰が始めたかは、だいたい全員が別の人だと思っている。この状態をこめだまりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "コメント",
+        "停滞状態"
+      ],
+      "tone": "observational",
+      "ending_family": "origin_elsewhere",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0916",
+      "word": "こめひろい",
+      "category": "internet",
+      "rarity": 3,
+      "paragraphs": [
+        "コメントを別の場所へ運ぶための拾い行為。",
+        "悪意がなくても起こり、「本筋より小さな誤字だけを持ち帰る」結果になりやすい。",
+        "速度だけは速く、内容の確認は後回しになる。この状態をこめひろいと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "コメント",
+        "拾い行為"
+      ],
+      "tone": "dry",
+      "ending_family": "speed_over_check",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0917",
+      "word": "こめかえし",
+      "category": "internet",
+      "rarity": 3,
+      "paragraphs": [
+        "コメントから生まれた応答技法。",
+        "発端では「短いほど強く見えることがある」ことが多く、その後は「相手の言葉をほぼそのまま返して優位に見せる」状態へ移る。",
+        "使いどころを待っている間に古くなり、出した時だけ懐かしい扱いを受ける。この状態をこめかえしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "コメント",
+        "応答技法"
+      ],
+      "tone": "absurd",
+      "ending_family": "old_when_ready",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0918",
+      "word": "こめつなぎ",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "コメントの流れで頻繁に見られる接続行為。",
+        "本人は整理したつもりでも、読む側には「別々の話題を一文で無理に結ぶ」ように見える。",
+        "本筋より小さな誤字のほうが長く話題へ残る。この状態をこめつなぎと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "コメント",
+        "接続行為"
+      ],
+      "tone": "deadpan",
+      "ending_family": "small_typo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0919",
+      "word": "こめおくり",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "転送行為のうち、コメントだけが先行する状態。",
+        "速度だけは速く、内容の確認は後回しになる。",
+        "悪意がなくても起こるため、原因の特定はだいたい雰囲気で終わる。この状態をこめおくりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "コメント",
+        "転送行為"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_bad_intent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0920",
+      "word": "こめよみて",
+      "category": "internet",
+      "rarity": 4,
+      "paragraphs": [
+        "コメントを長く続けた結果発生する閲覧者。",
+        "発生後は元の話題へ戻りにくく、「短いほど強く見えることがある」傾向だけが残る。",
+        "反応が良ければ予告、悪ければ独り言だったことになる。この状態をこめよみてと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "コメント",
+        "閲覧者"
+      ],
+      "tone": "observational",
+      "ending_family": "post_escape",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0921",
+      "word": "ねたまわし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "話題材料の内容より反応を優先した回覧行為。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが残る。",
+        "ねたまわしの発端を示すログは残っているが、長すぎて誰も最後まで読まない。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題材料",
+        "回覧行為"
+      ],
+      "tone": "dry",
+      "ending_family": "log_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0922",
+      "word": "ねたのこし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "話題材料を別の場所へ運ぶための保存行為。",
+        "悪意がなくても起こり、「後で読むと言って二度と開かない」結果になりやすい。",
+        "訂正は可能だが、訂正前の内容のほうが長く残る。この状態をねたのこしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題材料",
+        "保存行為"
+      ],
+      "tone": "absurd",
+      "ending_family": "correction_late",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0923",
+      "word": "ねたながれ",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "話題材料から生まれた進行状態。",
+        "発端では「使いどころを待つうちに古くなる」ことが多く、その後は「重要な発言ほど速く画面外へ消える」状態へ移る。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが共有される。この状態をねたながれと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題材料",
+        "進行状態"
+      ],
+      "tone": "deadpan",
+      "ending_family": "meaning_thins",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0924",
+      "word": "ねたずらし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "話題材料の流れで頻繁に見られる論点移動。",
+        "本人は整理したつもりでも、読む側には「答えずに近い別問題へ着地する」ように見える。",
+        "書き込まない者ほど状況を理解しているが、説明役は引き受けない。この状態をねたずらしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題材料",
+        "論点移動"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "silent_knows",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0925",
+      "word": "ねただまり",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "停滞状態のうち、話題材料だけが先行する状態。",
+        "速度だけは速く、内容の確認は後回しになる。",
+        "誰が始めたかは、だいたい全員が別の人だと思っている。この状態をねただまりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題材料",
+        "停滞状態"
+      ],
+      "tone": "observational",
+      "ending_family": "origin_elsewhere",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0926",
+      "word": "ねたひろい",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "話題材料を長く続けた結果発生する拾い行為。",
+        "発生後は元の話題へ戻りにくく、「使いどころを待つうちに古くなる」傾向だけが残る。",
+        "速度だけは速く、内容の確認は後回しになる。この状態をねたひろいと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題材料",
+        "拾い行為"
+      ],
+      "tone": "dry",
+      "ending_family": "speed_over_check",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0927",
+      "word": "ねたかえし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "話題材料の内容より反応を優先した応答技法。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが残る。",
+        "使いどころを待っている間に古くなり、出した時だけ懐かしい扱いを受ける。この状態をねたかえしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題材料",
+        "応答技法"
+      ],
+      "tone": "absurd",
+      "ending_family": "old_when_ready",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0928",
+      "word": "ねたつなぎ",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "話題材料を別の場所へ運ぶための接続行為。",
+        "悪意がなくても起こり、「別々の話題を一文で無理に結ぶ」結果になりやすい。",
+        "本筋より小さな誤字のほうが長く話題へ残る。この状態をねたつなぎと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題材料",
+        "接続行為"
+      ],
+      "tone": "deadpan",
+      "ending_family": "small_typo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0929",
+      "word": "ねたおくり",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "話題材料から生まれた転送行為。",
+        "発端では「使いどころを待つうちに古くなる」ことが多く、その後は「確認より先に共有先を増やす」状態へ移る。",
+        "悪意がなくても起こるため、原因の特定はだいたい雰囲気で終わる。この状態をねたおくりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題材料",
+        "転送行為"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_bad_intent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0930",
+      "word": "ねたよみて",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "話題材料の流れで頻繁に見られる閲覧者。",
+        "本人は整理したつもりでも、読む側には「発言せず流れだけを正確に把握する」ように見える。",
+        "反応が良ければ予告、悪ければ独り言だったことになる。この状態をねたよみてと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題材料",
+        "閲覧者"
+      ],
+      "tone": "observational",
+      "ending_family": "post_escape",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0931",
+      "word": "ばずまわし",
+      "category": "internet",
+      "rarity": 3,
+      "paragraphs": [
+        "回覧行為のうち、拡散だけが先行する状態。",
+        "速度だけは速く、内容の確認は後回しになる。",
+        "ばずまわしの発端を示すログは残っているが、長すぎて誰も最後まで読まない。"
+      ],
+      "tags": [
+        "インターネット",
+        "拡散",
+        "回覧行為"
+      ],
+      "tone": "dry",
+      "ending_family": "log_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0932",
+      "word": "ばずのこし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "拡散を長く続けた結果発生する保存行為。",
+        "発生後は元の話題へ戻りにくく、「理由より勢いだけが共有される」傾向だけが残る。",
+        "訂正は可能だが、訂正前の内容のほうが長く残る。この状態をばずのこしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "拡散",
+        "保存行為"
+      ],
+      "tone": "absurd",
+      "ending_family": "correction_late",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0933",
+      "word": "ばずながれ",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "拡散の内容より反応を優先した進行状態。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが残る。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが共有される。この状態をばずながれと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "拡散",
+        "進行状態"
+      ],
+      "tone": "deadpan",
+      "ending_family": "meaning_thins",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0934",
+      "word": "ばずずらし",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "拡散を別の場所へ運ぶための論点移動。",
+        "悪意がなくても起こり、「答えずに近い別問題へ着地する」結果になりやすい。",
+        "書き込まない者ほど状況を理解しているが、説明役は引き受けない。この状態をばずずらしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "拡散",
+        "論点移動"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "silent_knows",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0935",
+      "word": "ばずだまり",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "拡散から生まれた停滞状態。",
+        "発端では「理由より勢いだけが共有される」ことが多く、その後は「全員が見ているのに誰も書き込まない」状態へ移る。",
+        "誰が始めたかは、だいたい全員が別の人だと思っている。この状態をばずだまりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "拡散",
+        "停滞状態"
+      ],
+      "tone": "observational",
+      "ending_family": "origin_elsewhere",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0936",
+      "word": "ばずひろい",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "拡散の流れで頻繁に見られる拾い行為。",
+        "本人は整理したつもりでも、読む側には「本筋より小さな誤字だけを持ち帰る」ように見える。",
+        "速度だけは速く、内容の確認は後回しになる。この状態をばずひろいと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "拡散",
+        "拾い行為"
+      ],
+      "tone": "dry",
+      "ending_family": "speed_over_check",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0937",
+      "word": "ばずかえし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "応答技法のうち、拡散だけが先行する状態。",
+        "速度だけは速く、内容の確認は後回しになる。",
+        "使いどころを待っている間に古くなり、出した時だけ懐かしい扱いを受ける。この状態をばずかえしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "拡散",
+        "応答技法"
+      ],
+      "tone": "absurd",
+      "ending_family": "old_when_ready",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0938",
+      "word": "ばずつなぎ",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "拡散を長く続けた結果発生する接続行為。",
+        "発生後は元の話題へ戻りにくく、「理由より勢いだけが共有される」傾向だけが残る。",
+        "本筋より小さな誤字のほうが長く話題へ残る。この状態をばずつなぎと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "拡散",
+        "接続行為"
+      ],
+      "tone": "deadpan",
+      "ending_family": "small_typo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0939",
+      "word": "ばずおくり",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "拡散の内容より反応を優先した転送行為。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが残る。",
+        "悪意がなくても起こるため、原因の特定はだいたい雰囲気で終わる。この状態をばずおくりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "拡散",
+        "転送行為"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_bad_intent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0940",
+      "word": "ばずよみて",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "拡散を別の場所へ運ぶための閲覧者。",
+        "悪意がなくても起こり、「発言せず流れだけを正確に把握する」結果になりやすい。",
+        "反応が良ければ予告、悪ければ独り言だったことになる。この状態をばずよみてと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "拡散",
+        "閲覧者"
+      ],
+      "tone": "observational",
+      "ending_family": "post_escape",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0941",
+      "word": "かきまわし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "書き込みから生まれた回覧行為。",
+        "発端では「送信した直後に直したくなる」ことが多く、その後は「同じ内容へ少しずつ解釈を足して渡す」状態へ移る。",
+        "かきまわしの発端を示すログは残っているが、長すぎて誰も最後まで読まない。"
+      ],
+      "tags": [
+        "インターネット",
+        "書き込み",
+        "回覧行為"
+      ],
+      "tone": "dry",
+      "ending_family": "log_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0942",
+      "word": "かきのこし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "書き込みの流れで頻繁に見られる保存行為。",
+        "本人は整理したつもりでも、読む側には「後で読むと言って二度と開かない」ように見える。",
+        "訂正は可能だが、訂正前の内容のほうが長く残る。この状態をかきのこしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "書き込み",
+        "保存行為"
+      ],
+      "tone": "absurd",
+      "ending_family": "correction_late",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0943",
+      "word": "かきながれ",
+      "category": "internet",
+      "rarity": 3,
+      "paragraphs": [
+        "進行状態のうち、書き込みだけが先行する状態。",
+        "速度だけは速く、内容の確認は後回しになる。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが共有される。この状態をかきながれと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "書き込み",
+        "進行状態"
+      ],
+      "tone": "deadpan",
+      "ending_family": "meaning_thins",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0944",
+      "word": "かきずらし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "書き込みを長く続けた結果発生する論点移動。",
+        "発生後は元の話題へ戻りにくく、「送信した直後に直したくなる」傾向だけが残る。",
+        "書き込まない者ほど状況を理解しているが、説明役は引き受けない。この状態をかきずらしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "書き込み",
+        "論点移動"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "silent_knows",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0945",
+      "word": "かきだまり",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "書き込みの内容より反応を優先した停滞状態。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが残る。",
+        "誰が始めたかは、だいたい全員が別の人だと思っている。この状態をかきだまりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "書き込み",
+        "停滞状態"
+      ],
+      "tone": "observational",
+      "ending_family": "origin_elsewhere",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0946",
+      "word": "かきひろい",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "書き込みを別の場所へ運ぶための拾い行為。",
+        "悪意がなくても起こり、「本筋より小さな誤字だけを持ち帰る」結果になりやすい。",
+        "速度だけは速く、内容の確認は後回しになる。この状態をかきひろいと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "書き込み",
+        "拾い行為"
+      ],
+      "tone": "dry",
+      "ending_family": "speed_over_check",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0947",
+      "word": "かきかえし",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "書き込みから生まれた応答技法。",
+        "発端では「送信した直後に直したくなる」ことが多く、その後は「相手の言葉をほぼそのまま返して優位に見せる」状態へ移る。",
+        "使いどころを待っている間に古くなり、出した時だけ懐かしい扱いを受ける。この状態をかきかえしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "書き込み",
+        "応答技法"
+      ],
+      "tone": "absurd",
+      "ending_family": "old_when_ready",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0948",
+      "word": "かきつなぎ",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "書き込みの流れで頻繁に見られる接続行為。",
+        "本人は整理したつもりでも、読む側には「別々の話題を一文で無理に結ぶ」ように見える。",
+        "本筋より小さな誤字のほうが長く話題へ残る。この状態をかきつなぎと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "書き込み",
+        "接続行為"
+      ],
+      "tone": "deadpan",
+      "ending_family": "small_typo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0949",
+      "word": "かきおくり",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "転送行為のうち、書き込みだけが先行する状態。",
+        "速度だけは速く、内容の確認は後回しになる。",
+        "悪意がなくても起こるため、原因の特定はだいたい雰囲気で終わる。この状態をかきおくりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "書き込み",
+        "転送行為"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_bad_intent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0950",
+      "word": "かきよみて",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "書き込みを長く続けた結果発生する閲覧者。",
+        "発生後は元の話題へ戻りにくく、「送信した直後に直したくなる」傾向だけが残る。",
+        "反応が良ければ予告、悪ければ独り言だったことになる。この状態をかきよみてと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "書き込み",
+        "閲覧者"
+      ],
+      "tone": "observational",
+      "ending_family": "post_escape",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    }
+  ]
+}

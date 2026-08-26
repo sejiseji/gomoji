@@ -1,0 +1,1061 @@
+{
+  "schema_version": 2,
+  "pack_id": "pack_013",
+  "id_range": [
+    "GMG0601",
+    "GMG0650"
+  ],
+  "entry_count": 50,
+  "entries": [
+    {
+      "id": "GMG0601",
+      "word": "かみつまみ",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "机へ平らに張りついた紙の角だけを持ち上げるための小さな道具。",
+        "爪で取れば済む場面でも使えるため、導入理由は主に気分である。",
+        "なくした時に限って必要性を強く感じる。"
+      ],
+      "tags": [
+        "紙",
+        "机",
+        "道具"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_paper_picker",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0602",
+      "word": "かみおさえ",
+      "category": "tool",
+      "rarity": 3,
+      "paragraphs": [
+        "紙の不便さを別の不便さへ置き換える押さえ具。",
+        "操作は簡単だが、保管場所を忘れると何も解決しない。",
+        "一つあると便利で、二つ目から急に置き場所へ困る。この道具がかみおさえである。"
+      ],
+      "tags": [
+        "道具",
+        "紙",
+        "押さえ具"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "one_good_two_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0603",
+      "word": "かみまもり",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "紙と一緒に使うことを想定した小型の保護具。",
+        "説明書では「壊れないことより触らせないことを重視する」とされるが、実際は別用途で使われがち。",
+        "操作は簡単だが、説明書だけは用途以上に長い。この道具がかみまもりである。"
+      ],
+      "tags": [
+        "道具",
+        "紙",
+        "保護具"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_long",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0604",
+      "word": "かみはかり",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "計測具として販売されたが、用途の半分は紙の整理である。",
+        "壊れにくい一方、「薄さを理由に多くの仕事を任される」点はそのまま残る。",
+        "本来の用途より、別の作業へ流用される時間のほうが長い。この道具がかみはかりである。"
+      ],
+      "tags": [
+        "道具",
+        "紙",
+        "計測具"
+      ],
+      "tone": "dry",
+      "ending_family": "other_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0605",
+      "word": "かみよせる",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "紙を扱う者の手間を少しだけ減らす寄せ具。",
+        "使用前後で見た目はほぼ変わらないが、使った側は満足する。",
+        "使用後の保管場所までは解決してくれない。この道具がかみよせるである。"
+      ],
+      "tags": [
+        "道具",
+        "紙",
+        "寄せ具"
+      ],
+      "tone": "absurd",
+      "ending_family": "storage_unsolved",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0606",
+      "word": "かみたたき",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "紙の紛失を防ぐために作られた、紛失しやすい打ち具。",
+        "一つあると便利で、二つ目から急に邪魔になる。",
+        "使用前後で見た目はほぼ変わらないが、使った側は満足する。この道具がかみたたきである。"
+      ],
+      "tags": [
+        "道具",
+        "紙",
+        "打ち具"
+      ],
+      "tone": "deadpan",
+      "ending_family": "looks_same",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0607",
+      "word": "かみひらき",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "紙を素材または着想にした開き具。",
+        "素材側には「薄さを理由に多くの仕事を任される」事情があり、道具は「固いものへ話し合いを求めず隙間を作る」ために使われる。",
+        "本体より付属品のほうが長く残り、最後には用途だけ忘れられる。この道具がかみひらきである。"
+      ],
+      "tags": [
+        "道具",
+        "紙",
+        "開き具"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "attachment_survives",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0608",
+      "word": "かみとじる",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "紙の不便さを別の不便さへ置き換える閉じ具。",
+        "操作は簡単だが、保管場所を忘れると何も解決しない。",
+        "見つからないため買い直すと、以前のかみとじるが同じ日に出てくる。"
+      ],
+      "tags": [
+        "道具",
+        "紙",
+        "閉じ具"
+      ],
+      "tone": "observational",
+      "ending_family": "buy_again",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0609",
+      "word": "かみならべ",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "紙と一緒に使うことを想定した小型の整列具。",
+        "説明書では「順番を作るだけで管理した気分にする」とされるが、実際は別用途で使われがち。",
+        "正しく使えば役立つが、正しい使い方を覚えるほどではない。この道具がかみならべである。"
+      ],
+      "tags": [
+        "道具",
+        "紙",
+        "整列具"
+      ],
+      "tone": "dry",
+      "ending_family": "correct_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0610",
+      "word": "かみみがき",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "研磨具として販売されたが、用途の半分は紙の整理である。",
+        "壊れにくい一方、「薄さを理由に多くの仕事を任される」点はそのまま残る。",
+        "問題を解決する道具ではなく、解決まで手で押さえるための道具である。この道具がかみみがきである。"
+      ],
+      "tags": [
+        "道具",
+        "紙",
+        "研磨具"
+      ],
+      "tone": "absurd",
+      "ending_family": "not_magic",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0611",
+      "word": "ひもつまみ",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "紐を扱う者の手間を少しだけ減らす摘まみ具。",
+        "使用前後で見た目はほぼ変わらないが、使った側は満足する。",
+        "ひもつまみは、なくした時に限って必要性を強く感じる道具である。"
+      ],
+      "tags": [
+        "道具",
+        "紐",
+        "摘まみ具"
+      ],
+      "tone": "deadpan",
+      "ending_family": "lost_when_needed",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0612",
+      "word": "ちょんおき",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "小物を一時的に置いたという事実だけを記録する台。",
+        "定位置ではないため、数分後には置いた本人も場所を説明できない。",
+        "整理用品として売られているが、散らかりの中継地点になりやすい。"
+      ],
+      "tags": [
+        "小物",
+        "整理",
+        "台"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "manual_temporary_stand",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0613",
+      "word": "ひもまもり",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "紐を素材または着想にした保護具。",
+        "素材側には「結び方より解きやすさが重要になる」事情があり、道具は「壊れないことより触らせないことを重視する」ために使われる。",
+        "操作は簡単だが、説明書だけは用途以上に長い。この道具がひもまもりである。"
+      ],
+      "tags": [
+        "道具",
+        "紐",
+        "保護具"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_long",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0614",
+      "word": "ひもはかり",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "紐の不便さを別の不便さへ置き換える計測具。",
+        "操作は簡単だが、保管場所を忘れると何も解決しない。",
+        "本来の用途より、別の作業へ流用される時間のほうが長い。この道具がひもはかりである。"
+      ],
+      "tags": [
+        "道具",
+        "紐",
+        "計測具"
+      ],
+      "tone": "dry",
+      "ending_family": "other_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0615",
+      "word": "ひもよせる",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "紐と一緒に使うことを想定した小型の寄せ具。",
+        "説明書では「散らかったものを一か所へ集めて片づけたことにする」とされるが、実際は別用途で使われがち。",
+        "使用後の保管場所までは解決してくれない。この道具がひもよせるである。"
+      ],
+      "tags": [
+        "道具",
+        "紐",
+        "寄せ具"
+      ],
+      "tone": "absurd",
+      "ending_family": "storage_unsolved",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0616",
+      "word": "ひもたたき",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "打ち具として販売されたが、用途の半分は紐の整理である。",
+        "壊れにくい一方、「結び方より解きやすさが重要になる」点はそのまま残る。",
+        "使用前後で見た目はほぼ変わらないが、使った側は満足する。この道具がひもたたきである。"
+      ],
+      "tags": [
+        "道具",
+        "紐",
+        "打ち具"
+      ],
+      "tone": "deadpan",
+      "ending_family": "looks_same",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0617",
+      "word": "ひもひらき",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "紐を扱う者の手間を少しだけ減らす開き具。",
+        "使用前後で見た目はほぼ変わらないが、使った側は満足する。",
+        "本体より付属品のほうが長く残り、最後には用途だけ忘れられる。この道具がひもひらきである。"
+      ],
+      "tags": [
+        "道具",
+        "紐",
+        "開き具"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "attachment_survives",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0618",
+      "word": "ひもとじる",
+      "category": "tool",
+      "rarity": 4,
+      "paragraphs": [
+        "紐の紛失を防ぐために作られた、紛失しやすい閉じ具。",
+        "一つあると便利で、二つ目から急に邪魔になる。",
+        "見つからないため買い直すと、以前のひもとじるが同じ日に出てくる。"
+      ],
+      "tags": [
+        "道具",
+        "紐",
+        "閉じ具"
+      ],
+      "tone": "observational",
+      "ending_family": "buy_again",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0619",
+      "word": "ひもならべ",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "紐を素材または着想にした整列具。",
+        "素材側には「結び方より解きやすさが重要になる」事情があり、道具は「順番を作るだけで管理した気分にする」ために使われる。",
+        "正しく使えば役立つが、正しい使い方を覚えるほどではない。この道具がひもならべである。"
+      ],
+      "tags": [
+        "道具",
+        "紐",
+        "整列具"
+      ],
+      "tone": "dry",
+      "ending_family": "correct_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0620",
+      "word": "ひもみがき",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "紐の不便さを別の不便さへ置き換える研磨具。",
+        "操作は簡単だが、保管場所を忘れると何も解決しない。",
+        "問題を解決する道具ではなく、解決まで手で押さえるための道具である。この道具がひもみがきである。"
+      ],
+      "tags": [
+        "道具",
+        "紐",
+        "研磨具"
+      ],
+      "tone": "absurd",
+      "ending_family": "not_magic",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0621",
+      "word": "はこつまみ",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "箱と一緒に使うことを想定した小型の摘まみ具。",
+        "説明書では「小さな操作を大きな成果に見せる」とされるが、実際は別用途で使われがち。",
+        "はこつまみは、なくした時に限って必要性を強く感じる道具である。"
+      ],
+      "tags": [
+        "道具",
+        "箱",
+        "摘まみ具"
+      ],
+      "tone": "deadpan",
+      "ending_family": "lost_when_needed",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0622",
+      "word": "はこおさえ",
+      "category": "tool",
+      "rarity": 3,
+      "paragraphs": [
+        "押さえ具として販売されたが、用途の半分は箱の整理である。",
+        "壊れにくい一方、「中身がなくても期待だけは収納する」点はそのまま残る。",
+        "一つあると便利で、二つ目から急に置き場所へ困る。この道具がはこおさえである。"
+      ],
+      "tags": [
+        "道具",
+        "箱",
+        "押さえ具"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "one_good_two_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0623",
+      "word": "ぴたっとめ",
+      "category": "tool",
+      "rarity": 4,
+      "paragraphs": [
+        "扉や紙などを、閉じ切らず開き切らずの位置で固定する道具。",
+        "便利な角度は毎回違うため、製品より使う人の勘が重要になる。",
+        "外した後の置き場所までは固定してくれない。"
+      ],
+      "tags": [
+        "固定",
+        "扉",
+        "道具"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_exact_stop",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0624",
+      "word": "はこはかり",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "箱の紛失を防ぐために作られた、紛失しやすい計測具。",
+        "一つあると便利で、二つ目から急に邪魔になる。",
+        "本来の用途より、別の作業へ流用される時間のほうが長い。この道具がはこはかりである。"
+      ],
+      "tags": [
+        "道具",
+        "箱",
+        "計測具"
+      ],
+      "tone": "dry",
+      "ending_family": "other_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0625",
+      "word": "はこよせる",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "箱を素材または着想にした寄せ具。",
+        "素材側には「中身がなくても期待だけは収納する」事情があり、道具は「散らかったものを一か所へ集めて片づけたことにする」ために使われる。",
+        "使用後の保管場所までは解決してくれない。この道具がはこよせるである。"
+      ],
+      "tags": [
+        "道具",
+        "箱",
+        "寄せ具"
+      ],
+      "tone": "absurd",
+      "ending_family": "storage_unsolved",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0626",
+      "word": "はこたたき",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "箱の不便さを別の不便さへ置き換える打ち具。",
+        "操作は簡単だが、保管場所を忘れると何も解決しない。",
+        "使用前後で見た目はほぼ変わらないが、使った側は満足する。この道具がはこたたきである。"
+      ],
+      "tags": [
+        "道具",
+        "箱",
+        "打ち具"
+      ],
+      "tone": "deadpan",
+      "ending_family": "looks_same",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0627",
+      "word": "はこひらき",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "箱と一緒に使うことを想定した小型の開き具。",
+        "説明書では「固いものへ話し合いを求めず隙間を作る」とされるが、実際は別用途で使われがち。",
+        "本体より付属品のほうが長く残り、最後には用途だけ忘れられる。この道具がはこひらきである。"
+      ],
+      "tags": [
+        "道具",
+        "箱",
+        "開き具"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "attachment_survives",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0628",
+      "word": "はことじる",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "閉じ具として販売されたが、用途の半分は箱の整理である。",
+        "壊れにくい一方、「中身がなくても期待だけは収納する」点はそのまま残る。",
+        "見つからないため買い直すと、以前のはことじるが同じ日に出てくる。"
+      ],
+      "tags": [
+        "道具",
+        "箱",
+        "閉じ具"
+      ],
+      "tone": "observational",
+      "ending_family": "buy_again",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0629",
+      "word": "はこならべ",
+      "category": "tool",
+      "rarity": 3,
+      "paragraphs": [
+        "箱を扱う者の手間を少しだけ減らす整列具。",
+        "使用前後で見た目はほぼ変わらないが、使った側は満足する。",
+        "正しく使えば役立つが、正しい使い方を覚えるほどではない。この道具がはこならべである。"
+      ],
+      "tags": [
+        "道具",
+        "箱",
+        "整列具"
+      ],
+      "tone": "dry",
+      "ending_family": "correct_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0630",
+      "word": "はこみがき",
+      "category": "tool",
+      "rarity": 4,
+      "paragraphs": [
+        "箱の紛失を防ぐために作られた、紛失しやすい研磨具。",
+        "一つあると便利で、二つ目から急に邪魔になる。",
+        "問題を解決する道具ではなく、解決まで手で押さえるための道具である。この道具がはこみがきである。"
+      ],
+      "tags": [
+        "道具",
+        "箱",
+        "研磨具"
+      ],
+      "tone": "absurd",
+      "ending_family": "not_magic",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0631",
+      "word": "つえつまみ",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "杖を素材または着想にした摘まみ具。",
+        "素材側には「支える対象より持つ人の雰囲気を整える」事情があり、道具は「小さな操作を大きな成果に見せる」ために使われる。",
+        "つえつまみは、なくした時に限って必要性を強く感じる道具である。"
+      ],
+      "tags": [
+        "道具",
+        "杖",
+        "摘まみ具"
+      ],
+      "tone": "deadpan",
+      "ending_family": "lost_when_needed",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0632",
+      "word": "つえおさえ",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "杖の不便さを別の不便さへ置き換える押さえ具。",
+        "操作は簡単だが、保管場所を忘れると何も解決しない。",
+        "一つあると便利で、二つ目から急に置き場所へ困る。この道具がつえおさえである。"
+      ],
+      "tags": [
+        "道具",
+        "杖",
+        "押さえ具"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "one_good_two_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0633",
+      "word": "つえまもり",
+      "category": "tool",
+      "rarity": 3,
+      "paragraphs": [
+        "杖と一緒に使うことを想定した小型の保護具。",
+        "説明書では「壊れないことより触らせないことを重視する」とされるが、実際は別用途で使われがち。",
+        "操作は簡単だが、説明書だけは用途以上に長い。この道具がつえまもりである。"
+      ],
+      "tags": [
+        "道具",
+        "杖",
+        "保護具"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_long",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0634",
+      "word": "ぎゅうおし",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "蓋や荷物を、理屈ではなく面積と体重で押し込むための補助具。",
+        "正しい使用法では少しずつ圧をかけるが、実際は一度に使われる。",
+        "閉まった場合は成功、開かなくなった場合は別件である。"
+      ],
+      "tags": [
+        "圧力",
+        "蓋",
+        "補助具"
+      ],
+      "tone": "dry",
+      "ending_family": "manual_pressure_tool",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0635",
+      "word": "つえよせる",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "杖を扱う者の手間を少しだけ減らす寄せ具。",
+        "使用前後で見た目はほぼ変わらないが、使った側は満足する。",
+        "使用後の保管場所までは解決してくれない。この道具がつえよせるである。"
+      ],
+      "tags": [
+        "道具",
+        "杖",
+        "寄せ具"
+      ],
+      "tone": "absurd",
+      "ending_family": "storage_unsolved",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0636",
+      "word": "つえたたき",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "杖の紛失を防ぐために作られた、紛失しやすい打ち具。",
+        "一つあると便利で、二つ目から急に邪魔になる。",
+        "使用前後で見た目はほぼ変わらないが、使った側は満足する。この道具がつえたたきである。"
+      ],
+      "tags": [
+        "道具",
+        "杖",
+        "打ち具"
+      ],
+      "tone": "deadpan",
+      "ending_family": "looks_same",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0637",
+      "word": "つえひらき",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "杖を素材または着想にした開き具。",
+        "素材側には「支える対象より持つ人の雰囲気を整える」事情があり、道具は「固いものへ話し合いを求めず隙間を作る」ために使われる。",
+        "本体より付属品のほうが長く残り、最後には用途だけ忘れられる。この道具がつえひらきである。"
+      ],
+      "tags": [
+        "道具",
+        "杖",
+        "開き具"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "attachment_survives",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0638",
+      "word": "つえとじる",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "杖の不便さを別の不便さへ置き換える閉じ具。",
+        "操作は簡単だが、保管場所を忘れると何も解決しない。",
+        "見つからないため買い直すと、以前のつえとじるが同じ日に出てくる。"
+      ],
+      "tags": [
+        "道具",
+        "杖",
+        "閉じ具"
+      ],
+      "tone": "observational",
+      "ending_family": "buy_again",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0639",
+      "word": "つえならべ",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "杖と一緒に使うことを想定した小型の整列具。",
+        "説明書では「順番を作るだけで管理した気分にする」とされるが、実際は別用途で使われがち。",
+        "正しく使えば役立つが、正しい使い方を覚えるほどではない。この道具がつえならべである。"
+      ],
+      "tags": [
+        "道具",
+        "杖",
+        "整列具"
+      ],
+      "tone": "dry",
+      "ending_family": "correct_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0640",
+      "word": "つえみがき",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "研磨具として販売されたが、用途の半分は杖の整理である。",
+        "壊れにくい一方、「支える対象より持つ人の雰囲気を整える」点はそのまま残る。",
+        "問題を解決する道具ではなく、解決まで手で押さえるための道具である。この道具がつえみがきである。"
+      ],
+      "tags": [
+        "道具",
+        "杖",
+        "研磨具"
+      ],
+      "tone": "absurd",
+      "ending_family": "not_magic",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0641",
+      "word": "かさつまみ",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "傘を扱う者の手間を少しだけ減らす摘まみ具。",
+        "使用前後で見た目はほぼ変わらないが、使った側は満足する。",
+        "かさつまみは、なくした時に限って必要性を強く感じる道具である。"
+      ],
+      "tags": [
+        "道具",
+        "傘",
+        "摘まみ具"
+      ],
+      "tone": "deadpan",
+      "ending_family": "lost_when_needed",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0642",
+      "word": "かさおさえ",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "傘の紛失を防ぐために作られた、紛失しやすい押さえ具。",
+        "一つあると便利で、二つ目から急に邪魔になる。",
+        "一つあると便利で、二つ目から急に置き場所へ困る。この道具がかさおさえである。"
+      ],
+      "tags": [
+        "道具",
+        "傘",
+        "押さえ具"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "one_good_two_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0643",
+      "word": "かさまもり",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "傘を素材または着想にした保護具。",
+        "素材側には「雨より置き忘れとの戦いが長い」事情があり、道具は「壊れないことより触らせないことを重視する」ために使われる。",
+        "操作は簡単だが、説明書だけは用途以上に長い。この道具がかさまもりである。"
+      ],
+      "tags": [
+        "道具",
+        "傘",
+        "保護具"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_long",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0644",
+      "word": "かさはかり",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "傘の不便さを別の不便さへ置き換える計測具。",
+        "操作は簡単だが、保管場所を忘れると何も解決しない。",
+        "本来の用途より、別の作業へ流用される時間のほうが長い。この道具がかさはかりである。"
+      ],
+      "tags": [
+        "道具",
+        "傘",
+        "計測具"
+      ],
+      "tone": "dry",
+      "ending_family": "other_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0645",
+      "word": "かさよせる",
+      "category": "tool",
+      "rarity": 4,
+      "paragraphs": [
+        "傘と一緒に使うことを想定した小型の寄せ具。",
+        "説明書では「散らかったものを一か所へ集めて片づけたことにする」とされるが、実際は別用途で使われがち。",
+        "使用後の保管場所までは解決してくれない。この道具がかさよせるである。"
+      ],
+      "tags": [
+        "道具",
+        "傘",
+        "寄せ具"
+      ],
+      "tone": "absurd",
+      "ending_family": "storage_unsolved",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0646",
+      "word": "かさたたき",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "打ち具として販売されたが、用途の半分は傘の整理である。",
+        "壊れにくい一方、「雨より置き忘れとの戦いが長い」点はそのまま残る。",
+        "使用前後で見た目はほぼ変わらないが、使った側は満足する。この道具がかさたたきである。"
+      ],
+      "tags": [
+        "道具",
+        "傘",
+        "打ち具"
+      ],
+      "tone": "deadpan",
+      "ending_family": "looks_same",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0647",
+      "word": "かさひらき",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "傘を扱う者の手間を少しだけ減らす開き具。",
+        "使用前後で見た目はほぼ変わらないが、使った側は満足する。",
+        "本体より付属品のほうが長く残り、最後には用途だけ忘れられる。この道具がかさひらきである。"
+      ],
+      "tags": [
+        "道具",
+        "傘",
+        "開き具"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "attachment_survives",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0648",
+      "word": "かさとじる",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "傘の紛失を防ぐために作られた、紛失しやすい閉じ具。",
+        "一つあると便利で、二つ目から急に邪魔になる。",
+        "見つからないため買い直すと、以前のかさとじるが同じ日に出てくる。"
+      ],
+      "tags": [
+        "道具",
+        "傘",
+        "閉じ具"
+      ],
+      "tone": "observational",
+      "ending_family": "buy_again",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0649",
+      "word": "かさならべ",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "傘を素材または着想にした整列具。",
+        "素材側には「雨より置き忘れとの戦いが長い」事情があり、道具は「順番を作るだけで管理した気分にする」ために使われる。",
+        "正しく使えば役立つが、正しい使い方を覚えるほどではない。この道具がかさならべである。"
+      ],
+      "tags": [
+        "道具",
+        "傘",
+        "整列具"
+      ],
+      "tone": "dry",
+      "ending_family": "correct_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0650",
+      "word": "かさみがき",
+      "category": "tool",
+      "rarity": 3,
+      "paragraphs": [
+        "傘の不便さを別の不便さへ置き換える研磨具。",
+        "操作は簡単だが、保管場所を忘れると何も解決しない。",
+        "問題を解決する道具ではなく、解決まで手で押さえるための道具である。この道具がかさみがきである。"
+      ],
+      "tags": [
+        "道具",
+        "傘",
+        "研磨具"
+      ],
+      "tone": "absurd",
+      "ending_family": "not_magic",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    }
+  ]
+}

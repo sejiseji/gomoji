@@ -1,0 +1,1061 @@
+{
+  "schema_version": 2,
+  "pack_id": "pack_017",
+  "id_range": [
+    "GMG0801",
+    "GMG0850"
+  ],
+  "entry_count": 50,
+  "entries": [
+    {
+      "id": "GMG0801",
+      "word": "そらまがり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "空にあるとされる曲がり道。",
+        "周囲では「地面の都合がほとんど届かない」と感じられ、内部では「曲がった後に元の方角へ戻った気がする」場所とされる。",
+        "そらまがりは地図に載らないが、帰ってきた者だけは道順を説明したがる。"
+      ],
+      "tags": [
+        "場所",
+        "空",
+        "曲がり道"
+      ],
+      "tone": "observational",
+      "ending_family": "map_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0802",
+      "word": "そらたまり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "空の奥で見つかる、小さな溜まり場。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "写真では普通の場所に見えるため、そらたまりの証明には向かない。"
+      ],
+      "tags": [
+        "場所",
+        "空",
+        "溜まり場"
+      ],
+      "tone": "dry",
+      "ending_family": "photo_normal",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0803",
+      "word": "そらこみち",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "空を見上げたまま歩くと、一度だけ入り込めるとされる細い道。",
+        "地図上では普通の路地だが、通行中だけ建物の高さが少し遠ざかる。",
+        "出口へ着くころには、何を探していたか忘れている。"
+      ],
+      "tags": [
+        "空",
+        "小道",
+        "路地"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_sky_path",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0804",
+      "word": "そらひろば",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "空を歩く者が一度だけ通る広場。",
+        "訪れた者は「地面の都合がほとんど届かない」と話すが、写真では普通の場所に見える。",
+        "目印が毎回少し変わるため、同じ道順は二度使えない。この場所がそらひろばである。"
+      ],
+      "tags": [
+        "場所",
+        "空",
+        "広場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "landmark_moves",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0805",
+      "word": "そらさかい",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "空の地図には載らないが、道順だけ知られている境界。",
+        "長居する理由はないのに、「越えた瞬間より戻る時に気づく」ため妙に記憶へ残る。",
+        "目的地には向かないが、途中で休む場所として妙に覚えられる。この場所がそらさかいである。"
+      ],
+      "tags": [
+        "場所",
+        "空",
+        "境界"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_destination",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0806",
+      "word": "そらはずれ",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "空と日常の境目に生じる外れ地。",
+        "目印が毎回少し変わるため、同じ道順が二度は使えない。",
+        "長居した記憶はないのに、戻ると予定より少し時間が進んでいる。この場所がそらはずれである。"
+      ],
+      "tags": [
+        "場所",
+        "空",
+        "外れ地"
+      ],
+      "tone": "observational",
+      "ending_family": "time_feels",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0807",
+      "word": "そらかげり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "空にあるとされる陰り場。",
+        "周囲では「地面の都合がほとんど届かない」と感じられ、内部では「時刻に関係なく少し暗い」場所とされる。",
+        "近隣では別名で呼ばれており、そらかげりという名称は訪問者しか使わない。"
+      ],
+      "tags": [
+        "場所",
+        "空",
+        "陰り場"
+      ],
+      "tone": "dry",
+      "ending_family": "locals_other_name",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0808",
+      "word": "そらとまり",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "空の奥で見つかる、小さな止まり場。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "中央へ近づくほど居場所がなくなり、端のほうが落ち着く。この場所がそらとまりである。"
+      ],
+      "tags": [
+        "場所",
+        "空",
+        "止まり場"
+      ],
+      "tone": "absurd",
+      "ending_family": "center_empty",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0809",
+      "word": "そらあなば",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "穴場の性質を持つ、空寄りの場所。",
+        "人は少なく、「知られていないことを全員が知っている」ことだけが共有されている。",
+        "探している時には見つからず、道を間違えた時だけ入れる。この場所がそらあなばである。"
+      ],
+      "tags": [
+        "場所",
+        "空",
+        "穴場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "found_when_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0810",
+      "word": "そらわたり",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "空を歩く者が一度だけ通る渡り場。",
+        "訪れた者は「地面の都合がほとんど届かない」と話すが、写真では普通の場所に見える。",
+        "危険な場所ではない。ただし急いでいる時には通らないほうがよい。この場所がそらわたりである。"
+      ],
+      "tags": [
+        "場所",
+        "空",
+        "渡り場"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_dangerous",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0811",
+      "word": "うみまがり",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "海の地図には載らないが、道順だけ知られている曲がり道。",
+        "長居する理由はないのに、「曲がった後に元の方角へ戻った気がする」ため妙に記憶へ残る。",
+        "うみまがりは地図に載らないが、帰ってきた者だけは道順を説明したがる。"
+      ],
+      "tags": [
+        "場所",
+        "海",
+        "曲がり道"
+      ],
+      "tone": "observational",
+      "ending_family": "map_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0812",
+      "word": "ちょいみち",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "近道のつもりで選ばれ、結果として少しだけ遠回りになる道。",
+        "景色は悪くないため、案内した側は失敗を認めず散歩だったことにする。",
+        "急いでいない日に限れば、かなり良い道である。"
+      ],
+      "tags": [
+        "道",
+        "遠回り",
+        "散歩"
+      ],
+      "tone": "dry",
+      "ending_family": "manual_slight_detour",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0813",
+      "word": "うみこみち",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "海にあるとされる小道。",
+        "周囲では「方向より潮の気分が優先される」と感じられ、内部では「地図にはないが足跡だけが続いている」場所とされる。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。この場所がうみこみちである。"
+      ],
+      "tags": [
+        "場所",
+        "海",
+        "小道"
+      ],
+      "tone": "absurd",
+      "ending_family": "exit_hard",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0814",
+      "word": "うみひろば",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "海の奥で見つかる、小さな広場。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "目印が毎回少し変わるため、同じ道順は二度使えない。この場所がうみひろばである。"
+      ],
+      "tags": [
+        "場所",
+        "海",
+        "広場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "landmark_moves",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0815",
+      "word": "うみさかい",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "境界の性質を持つ、海寄りの場所。",
+        "人は少なく、「越えた瞬間より戻る時に気づく」ことだけが共有されている。",
+        "目的地には向かないが、途中で休む場所として妙に覚えられる。この場所がうみさかいである。"
+      ],
+      "tags": [
+        "場所",
+        "海",
+        "境界"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_destination",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0816",
+      "word": "うみはずれ",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "海を歩く者が一度だけ通る外れ地。",
+        "訪れた者は「方向より潮の気分が優先される」と話すが、写真では普通の場所に見える。",
+        "長居した記憶はないのに、戻ると予定より少し時間が進んでいる。この場所がうみはずれである。"
+      ],
+      "tags": [
+        "場所",
+        "海",
+        "外れ地"
+      ],
+      "tone": "observational",
+      "ending_family": "time_feels",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0817",
+      "word": "うみかげり",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "海の地図には載らないが、道順だけ知られている陰り場。",
+        "長居する理由はないのに、「時刻に関係なく少し暗い」ため妙に記憶へ残る。",
+        "近隣では別名で呼ばれており、うみかげりという名称は訪問者しか使わない。"
+      ],
+      "tags": [
+        "場所",
+        "海",
+        "陰り場"
+      ],
+      "tone": "dry",
+      "ending_family": "locals_other_name",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0818",
+      "word": "うみとまり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "海と日常の境目に生じる止まり場。",
+        "目印が毎回少し変わるため、同じ道順が二度は使えない。",
+        "中央へ近づくほど居場所がなくなり、端のほうが落ち着く。この場所がうみとまりである。"
+      ],
+      "tags": [
+        "場所",
+        "海",
+        "止まり場"
+      ],
+      "tone": "absurd",
+      "ending_family": "center_empty",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0819",
+      "word": "うみあなば",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "海にあるとされる穴場。",
+        "周囲では「方向より潮の気分が優先される」と感じられ、内部では「知られていないことを全員が知っている」場所とされる。",
+        "探している時には見つからず、道を間違えた時だけ入れる。この場所がうみあなばである。"
+      ],
+      "tags": [
+        "場所",
+        "海",
+        "穴場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "found_when_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0820",
+      "word": "うみわたり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "海の奥で見つかる、小さな渡り場。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "危険な場所ではない。ただし急いでいる時には通らないほうがよい。この場所がうみわたりである。"
+      ],
+      "tags": [
+        "場所",
+        "海",
+        "渡り場"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_dangerous",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0821",
+      "word": "もりまがり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "曲がり道の性質を持つ、森寄りの場所。",
+        "人は少なく、「曲がった後に元の方角へ戻った気がする」ことだけが共有されている。",
+        "もりまがりは地図に載らないが、帰ってきた者だけは道順を説明したがる。"
+      ],
+      "tags": [
+        "場所",
+        "森",
+        "曲がり道"
+      ],
+      "tone": "observational",
+      "ending_family": "map_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0822",
+      "word": "もりたまり",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "森を歩く者が一度だけ通る溜まり場。",
+        "訪れた者は「同じ景色が少しずつ別の場所に見える」と話すが、写真では普通の場所に見える。",
+        "写真では普通の場所に見えるため、もりたまりの証明には向かない。"
+      ],
+      "tags": [
+        "場所",
+        "森",
+        "溜まり場"
+      ],
+      "tone": "dry",
+      "ending_family": "photo_normal",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0823",
+      "word": "きゃくまち",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "誰かを迎えるために立つ場所が、待つ人の数だけ少しずつ移動した区域。",
+        "駅前、玄関、店先などに発生し、正しい位置は相手が現れた後で判明する。",
+        "目印を伝え合うほど互いに動くので、収束には時間がかかる。"
+      ],
+      "tags": [
+        "待ち合わせ",
+        "場所",
+        "移動"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_guest_wait",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0824",
+      "word": "もりひろば",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "森と日常の境目に生じる広場。",
+        "目印が毎回少し変わるため、同じ道順が二度は使えない。",
+        "目印が毎回少し変わるため、同じ道順は二度使えない。この場所がもりひろばである。"
+      ],
+      "tags": [
+        "場所",
+        "森",
+        "広場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "landmark_moves",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0825",
+      "word": "もりさかい",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "森にあるとされる境界。",
+        "周囲では「同じ景色が少しずつ別の場所に見える」と感じられ、内部では「越えた瞬間より戻る時に気づく」場所とされる。",
+        "目的地には向かないが、途中で休む場所として妙に覚えられる。この場所がもりさかいである。"
+      ],
+      "tags": [
+        "場所",
+        "森",
+        "境界"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_destination",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0826",
+      "word": "もりはずれ",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "森の奥で見つかる、小さな外れ地。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "長居した記憶はないのに、戻ると予定より少し時間が進んでいる。この場所がもりはずれである。"
+      ],
+      "tags": [
+        "場所",
+        "森",
+        "外れ地"
+      ],
+      "tone": "observational",
+      "ending_family": "time_feels",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0827",
+      "word": "もりかげり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "陰り場の性質を持つ、森寄りの場所。",
+        "人は少なく、「時刻に関係なく少し暗い」ことだけが共有されている。",
+        "近隣では別名で呼ばれており、もりかげりという名称は訪問者しか使わない。"
+      ],
+      "tags": [
+        "場所",
+        "森",
+        "陰り場"
+      ],
+      "tone": "dry",
+      "ending_family": "locals_other_name",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0828",
+      "word": "もりとまり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "森を歩く者が一度だけ通る止まり場。",
+        "訪れた者は「同じ景色が少しずつ別の場所に見える」と話すが、写真では普通の場所に見える。",
+        "中央へ近づくほど居場所がなくなり、端のほうが落ち着く。この場所がもりとまりである。"
+      ],
+      "tags": [
+        "場所",
+        "森",
+        "止まり場"
+      ],
+      "tone": "absurd",
+      "ending_family": "center_empty",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0829",
+      "word": "もりあなば",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "森の地図には載らないが、道順だけ知られている穴場。",
+        "長居する理由はないのに、「知られていないことを全員が知っている」ため妙に記憶へ残る。",
+        "探している時には見つからず、道を間違えた時だけ入れる。この場所がもりあなばである。"
+      ],
+      "tags": [
+        "場所",
+        "森",
+        "穴場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "found_when_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0830",
+      "word": "もりわたり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "森と日常の境目に生じる渡り場。",
+        "目印が毎回少し変わるため、同じ道順が二度は使えない。",
+        "危険な場所ではない。ただし急いでいる時には通らないほうがよい。この場所がもりわたりである。"
+      ],
+      "tags": [
+        "場所",
+        "森",
+        "渡り場"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_dangerous",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0831",
+      "word": "やままがり",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "山にあるとされる曲がり道。",
+        "周囲では「近くに見えてからの距離が長い」と感じられ、内部では「曲がった後に元の方角へ戻った気がする」場所とされる。",
+        "やままがりは地図に載らないが、帰ってきた者だけは道順を説明したがる。"
+      ],
+      "tags": [
+        "場所",
+        "山",
+        "曲がり道"
+      ],
+      "tone": "observational",
+      "ending_family": "map_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0832",
+      "word": "やまたまり",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "山の奥で見つかる、小さな溜まり場。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "写真では普通の場所に見えるため、やまたまりの証明には向かない。"
+      ],
+      "tags": [
+        "場所",
+        "山",
+        "溜まり場"
+      ],
+      "tone": "dry",
+      "ending_family": "photo_normal",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0833",
+      "word": "やまこみち",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "小道の性質を持つ、山寄りの場所。",
+        "人は少なく、「地図にはないが足跡だけが続いている」ことだけが共有されている。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。この場所がやまこみちである。"
+      ],
+      "tags": [
+        "場所",
+        "山",
+        "小道"
+      ],
+      "tone": "absurd",
+      "ending_family": "exit_hard",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0834",
+      "word": "ひょいまち",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "曲がり角を一つ越えただけで、知らない町へ入った気がする場所。",
+        "実際の距離は短いが、看板と匂いが急に変わるため帰り道が長く感じる。",
+        "写真を撮ると、だいたいいつもの町に戻る。"
+      ],
+      "tags": [
+        "町",
+        "曲がり角",
+        "違和感"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_quick_town",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0835",
+      "word": "やまさかい",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "山の地図には載らないが、道順だけ知られている境界。",
+        "長居する理由はないのに、「越えた瞬間より戻る時に気づく」ため妙に記憶へ残る。",
+        "目的地には向かないが、途中で休む場所として妙に覚えられる。この場所がやまさかいである。"
+      ],
+      "tags": [
+        "場所",
+        "山",
+        "境界"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_destination",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0836",
+      "word": "やまはずれ",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "山と日常の境目に生じる外れ地。",
+        "目印が毎回少し変わるため、同じ道順が二度は使えない。",
+        "長居した記憶はないのに、戻ると予定より少し時間が進んでいる。この場所がやまはずれである。"
+      ],
+      "tags": [
+        "場所",
+        "山",
+        "外れ地"
+      ],
+      "tone": "observational",
+      "ending_family": "time_feels",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0837",
+      "word": "やまかげり",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "山にあるとされる陰り場。",
+        "周囲では「近くに見えてからの距離が長い」と感じられ、内部では「時刻に関係なく少し暗い」場所とされる。",
+        "近隣では別名で呼ばれており、やまかげりという名称は訪問者しか使わない。"
+      ],
+      "tags": [
+        "場所",
+        "山",
+        "陰り場"
+      ],
+      "tone": "dry",
+      "ending_family": "locals_other_name",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0838",
+      "word": "やまとまり",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "山の奥で見つかる、小さな止まり場。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "中央へ近づくほど居場所がなくなり、端のほうが落ち着く。この場所がやまとまりである。"
+      ],
+      "tags": [
+        "場所",
+        "山",
+        "止まり場"
+      ],
+      "tone": "absurd",
+      "ending_family": "center_empty",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0839",
+      "word": "やまあなば",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "穴場の性質を持つ、山寄りの場所。",
+        "人は少なく、「知られていないことを全員が知っている」ことだけが共有されている。",
+        "探している時には見つからず、道を間違えた時だけ入れる。この場所がやまあなばである。"
+      ],
+      "tags": [
+        "場所",
+        "山",
+        "穴場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "found_when_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0840",
+      "word": "やまわたり",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "山を歩く者が一度だけ通る渡り場。",
+        "訪れた者は「近くに見えてからの距離が長い」と話すが、写真では普通の場所に見える。",
+        "危険な場所ではない。ただし急いでいる時には通らないほうがよい。この場所がやまわたりである。"
+      ],
+      "tags": [
+        "場所",
+        "山",
+        "渡り場"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_dangerous",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0841",
+      "word": "かわまがり",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "川の地図には載らないが、道順だけ知られている曲がり道。",
+        "長居する理由はないのに、「曲がった後に元の方角へ戻った気がする」ため妙に記憶へ残る。",
+        "かわまがりは地図に載らないが、帰ってきた者だけは道順を説明したがる。"
+      ],
+      "tags": [
+        "場所",
+        "川",
+        "曲がり道"
+      ],
+      "tone": "observational",
+      "ending_family": "map_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0842",
+      "word": "かわたまり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "川と日常の境目に生じる溜まり場。",
+        "目印が毎回少し変わるため、同じ道順が二度は使えない。",
+        "写真では普通の場所に見えるため、かわたまりの証明には向かない。"
+      ],
+      "tags": [
+        "場所",
+        "川",
+        "溜まり場"
+      ],
+      "tone": "dry",
+      "ending_family": "photo_normal",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0843",
+      "word": "かわこみち",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "川にあるとされる小道。",
+        "周囲では「立ち止まっても景色だけが進む」と感じられ、内部では「地図にはないが足跡だけが続いている」場所とされる。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。この場所がかわこみちである。"
+      ],
+      "tags": [
+        "場所",
+        "川",
+        "小道"
+      ],
+      "tone": "absurd",
+      "ending_family": "exit_hard",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0844",
+      "word": "かわひろば",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "川の奥で見つかる、小さな広場。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "目印が毎回少し変わるため、同じ道順は二度使えない。この場所がかわひろばである。"
+      ],
+      "tags": [
+        "場所",
+        "川",
+        "広場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "landmark_moves",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0845",
+      "word": "かわさかい",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "境界の性質を持つ、川寄りの場所。",
+        "人は少なく、「越えた瞬間より戻る時に気づく」ことだけが共有されている。",
+        "目的地には向かないが、途中で休む場所として妙に覚えられる。この場所がかわさかいである。"
+      ],
+      "tags": [
+        "場所",
+        "川",
+        "境界"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_destination",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0846",
+      "word": "かわはずれ",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "川を歩く者が一度だけ通る外れ地。",
+        "訪れた者は「立ち止まっても景色だけが進む」と話すが、写真では普通の場所に見える。",
+        "長居した記憶はないのに、戻ると予定より少し時間が進んでいる。この場所がかわはずれである。"
+      ],
+      "tags": [
+        "場所",
+        "川",
+        "外れ地"
+      ],
+      "tone": "observational",
+      "ending_family": "time_feels",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0847",
+      "word": "かわかげり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "川の地図には載らないが、道順だけ知られている陰り場。",
+        "長居する理由はないのに、「時刻に関係なく少し暗い」ため妙に記憶へ残る。",
+        "近隣では別名で呼ばれており、かわかげりという名称は訪問者しか使わない。"
+      ],
+      "tags": [
+        "場所",
+        "川",
+        "陰り場"
+      ],
+      "tone": "dry",
+      "ending_family": "locals_other_name",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0848",
+      "word": "かわとまり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "川と日常の境目に生じる止まり場。",
+        "目印が毎回少し変わるため、同じ道順が二度は使えない。",
+        "中央へ近づくほど居場所がなくなり、端のほうが落ち着く。この場所がかわとまりである。"
+      ],
+      "tags": [
+        "場所",
+        "川",
+        "止まり場"
+      ],
+      "tone": "absurd",
+      "ending_family": "center_empty",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0849",
+      "word": "かわあなば",
+      "category": "place",
+      "rarity": 4,
+      "paragraphs": [
+        "川にあるとされる穴場。",
+        "周囲では「立ち止まっても景色だけが進む」と感じられ、内部では「知られていないことを全員が知っている」場所とされる。",
+        "探している時には見つからず、道を間違えた時だけ入れる。この場所がかわあなばである。"
+      ],
+      "tags": [
+        "場所",
+        "川",
+        "穴場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "found_when_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0850",
+      "word": "かわわたり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "川の奥で見つかる、小さな渡り場。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "危険な場所ではない。ただし急いでいる時には通らないほうがよい。この場所がかわわたりである。"
+      ],
+      "tags": [
+        "場所",
+        "川",
+        "渡り場"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_dangerous",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    }
+  ]
+}

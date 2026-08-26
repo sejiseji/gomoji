@@ -1,0 +1,1061 @@
+{
+  "schema_version": 2,
+  "pack_id": "pack_018",
+  "id_range": [
+    "GMG0851",
+    "GMG0900"
+  ],
+  "entry_count": 50,
+  "entries": [
+    {
+      "id": "GMG0851",
+      "word": "まちまがり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "曲がり道の性質を持つ、町寄りの場所。",
+        "人は少なく、「曲がった後に元の方角へ戻った気がする」ことだけが共有されている。",
+        "まちまがりは地図に載らないが、帰ってきた者だけは道順を説明したがる。"
+      ],
+      "tags": [
+        "場所",
+        "町",
+        "曲がり道"
+      ],
+      "tone": "observational",
+      "ending_family": "map_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0852",
+      "word": "まちたまり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "町を歩く者が一度だけ通る溜まり場。",
+        "訪れた者は「人の気配だけが道順を作る」と話すが、写真では普通の場所に見える。",
+        "写真では普通の場所に見えるため、まちたまりの証明には向かない。"
+      ],
+      "tags": [
+        "場所",
+        "町",
+        "溜まり場"
+      ],
+      "tone": "dry",
+      "ending_family": "photo_normal",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0853",
+      "word": "まちこみち",
+      "category": "place",
+      "rarity": 4,
+      "paragraphs": [
+        "町の地図には載らないが、道順だけ知られている小道。",
+        "長居する理由はないのに、「地図にはないが足跡だけが続いている」ため妙に記憶へ残る。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。この場所がまちこみちである。"
+      ],
+      "tags": [
+        "場所",
+        "町",
+        "小道"
+      ],
+      "tone": "absurd",
+      "ending_family": "exit_hard",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0854",
+      "word": "まちひろば",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "町と日常の境目に生じる広場。",
+        "目印が毎回少し変わるため、同じ道順が二度は使えない。",
+        "目印が毎回少し変わるため、同じ道順は二度使えない。この場所がまちひろばである。"
+      ],
+      "tags": [
+        "場所",
+        "町",
+        "広場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "landmark_moves",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0855",
+      "word": "まちさかい",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "町にあるとされる境界。",
+        "周囲では「人の気配だけが道順を作る」と感じられ、内部では「越えた瞬間より戻る時に気づく」場所とされる。",
+        "目的地には向かないが、途中で休む場所として妙に覚えられる。この場所がまちさかいである。"
+      ],
+      "tags": [
+        "場所",
+        "町",
+        "境界"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_destination",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0856",
+      "word": "まちはずれ",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "町の奥で見つかる、小さな外れ地。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "長居した記憶はないのに、戻ると予定より少し時間が進んでいる。この場所がまちはずれである。"
+      ],
+      "tags": [
+        "場所",
+        "町",
+        "外れ地"
+      ],
+      "tone": "observational",
+      "ending_family": "time_feels",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0857",
+      "word": "まちかげり",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "陰り場の性質を持つ、町寄りの場所。",
+        "人は少なく、「時刻に関係なく少し暗い」ことだけが共有されている。",
+        "近隣では別名で呼ばれており、まちかげりという名称は訪問者しか使わない。"
+      ],
+      "tags": [
+        "場所",
+        "町",
+        "陰り場"
+      ],
+      "tone": "dry",
+      "ending_family": "locals_other_name",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0858",
+      "word": "まちとまり",
+      "category": "place",
+      "rarity": 4,
+      "paragraphs": [
+        "町を歩く者が一度だけ通る止まり場。",
+        "訪れた者は「人の気配だけが道順を作る」と話すが、写真では普通の場所に見える。",
+        "中央へ近づくほど居場所がなくなり、端のほうが落ち着く。この場所がまちとまりである。"
+      ],
+      "tags": [
+        "場所",
+        "町",
+        "止まり場"
+      ],
+      "tone": "absurd",
+      "ending_family": "center_empty",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0859",
+      "word": "まちあなば",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "町の地図には載らないが、道順だけ知られている穴場。",
+        "長居する理由はないのに、「知られていないことを全員が知っている」ため妙に記憶へ残る。",
+        "探している時には見つからず、道を間違えた時だけ入れる。この場所がまちあなばである。"
+      ],
+      "tags": [
+        "場所",
+        "町",
+        "穴場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "found_when_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0860",
+      "word": "まちわたり",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "町と日常の境目に生じる渡り場。",
+        "目印が毎回少し変わるため、同じ道順が二度は使えない。",
+        "危険な場所ではない。ただし急いでいる時には通らないほうがよい。この場所がまちわたりである。"
+      ],
+      "tags": [
+        "場所",
+        "町",
+        "渡り場"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_dangerous",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0861",
+      "word": "ゆめまがり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "夢にあるとされる曲がり道。",
+        "周囲では「入った理由より出方が問題になる」と感じられ、内部では「曲がった後に元の方角へ戻った気がする」場所とされる。",
+        "ゆめまがりは地図に載らないが、帰ってきた者だけは道順を説明したがる。"
+      ],
+      "tags": [
+        "場所",
+        "夢",
+        "曲がり道"
+      ],
+      "tone": "observational",
+      "ending_family": "map_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0862",
+      "word": "ゆめたまり",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "夢の奥で見つかる、小さな溜まり場。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "写真では普通の場所に見えるため、ゆめたまりの証明には向かない。"
+      ],
+      "tags": [
+        "場所",
+        "夢",
+        "溜まり場"
+      ],
+      "tone": "dry",
+      "ending_family": "photo_normal",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0863",
+      "word": "ゆめこみち",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "小道の性質を持つ、夢寄りの場所。",
+        "人は少なく、「地図にはないが足跡だけが続いている」ことだけが共有されている。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。この場所がゆめこみちである。"
+      ],
+      "tags": [
+        "場所",
+        "夢",
+        "小道"
+      ],
+      "tone": "absurd",
+      "ending_family": "exit_hard",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0864",
+      "word": "ゆめひろば",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "夢を歩く者が一度だけ通る広場。",
+        "訪れた者は「入った理由より出方が問題になる」と話すが、写真では普通の場所に見える。",
+        "目印が毎回少し変わるため、同じ道順は二度使えない。この場所がゆめひろばである。"
+      ],
+      "tags": [
+        "場所",
+        "夢",
+        "広場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "landmark_moves",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0865",
+      "word": "ゆめさかい",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "夢の地図には載らないが、道順だけ知られている境界。",
+        "長居する理由はないのに、「越えた瞬間より戻る時に気づく」ため妙に記憶へ残る。",
+        "目的地には向かないが、途中で休む場所として妙に覚えられる。この場所がゆめさかいである。"
+      ],
+      "tags": [
+        "場所",
+        "夢",
+        "境界"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_destination",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0866",
+      "word": "ゆめはずれ",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "夢と日常の境目に生じる外れ地。",
+        "目印が毎回少し変わるため、同じ道順が二度は使えない。",
+        "長居した記憶はないのに、戻ると予定より少し時間が進んでいる。この場所がゆめはずれである。"
+      ],
+      "tags": [
+        "場所",
+        "夢",
+        "外れ地"
+      ],
+      "tone": "observational",
+      "ending_family": "time_feels",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0867",
+      "word": "ゆめかげり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "夢にあるとされる陰り場。",
+        "周囲では「入った理由より出方が問題になる」と感じられ、内部では「時刻に関係なく少し暗い」場所とされる。",
+        "近隣では別名で呼ばれており、ゆめかげりという名称は訪問者しか使わない。"
+      ],
+      "tags": [
+        "場所",
+        "夢",
+        "陰り場"
+      ],
+      "tone": "dry",
+      "ending_family": "locals_other_name",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0868",
+      "word": "ゆめとまり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "夢の奥で見つかる、小さな止まり場。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "中央へ近づくほど居場所がなくなり、端のほうが落ち着く。この場所がゆめとまりである。"
+      ],
+      "tags": [
+        "場所",
+        "夢",
+        "止まり場"
+      ],
+      "tone": "absurd",
+      "ending_family": "center_empty",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0869",
+      "word": "ゆめあなば",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "穴場の性質を持つ、夢寄りの場所。",
+        "人は少なく、「知られていないことを全員が知っている」ことだけが共有されている。",
+        "探している時には見つからず、道を間違えた時だけ入れる。この場所がゆめあなばである。"
+      ],
+      "tags": [
+        "場所",
+        "夢",
+        "穴場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "found_when_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0870",
+      "word": "ゆめわたり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "夢を歩く者が一度だけ通る渡り場。",
+        "訪れた者は「入った理由より出方が問題になる」と話すが、写真では普通の場所に見える。",
+        "危険な場所ではない。ただし急いでいる時には通らないほうがよい。この場所がゆめわたりである。"
+      ],
+      "tags": [
+        "場所",
+        "夢",
+        "渡り場"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_dangerous",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0871",
+      "word": "よるまがり",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "夜の地図には載らないが、道順だけ知られている曲がり道。",
+        "長居する理由はないのに、「曲がった後に元の方角へ戻った気がする」ため妙に記憶へ残る。",
+        "よるまがりは地図に載らないが、帰ってきた者だけは道順を説明したがる。"
+      ],
+      "tags": [
+        "場所",
+        "夜",
+        "曲がり道"
+      ],
+      "tone": "observational",
+      "ending_family": "map_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0872",
+      "word": "よるたまり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "夜と日常の境目に生じる溜まり場。",
+        "目印が毎回少し変わるため、同じ道順が二度は使えない。",
+        "写真では普通の場所に見えるため、よるたまりの証明には向かない。"
+      ],
+      "tags": [
+        "場所",
+        "夜",
+        "溜まり場"
+      ],
+      "tone": "dry",
+      "ending_family": "photo_normal",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0873",
+      "word": "よるこみち",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "夜にあるとされる小道。",
+        "周囲では「灯りの数で広さが変わって見える」と感じられ、内部では「地図にはないが足跡だけが続いている」場所とされる。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。この場所がよるこみちである。"
+      ],
+      "tags": [
+        "場所",
+        "夜",
+        "小道"
+      ],
+      "tone": "absurd",
+      "ending_family": "exit_hard",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0874",
+      "word": "よるひろば",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "夜の奥で見つかる、小さな広場。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "目印が毎回少し変わるため、同じ道順は二度使えない。この場所がよるひろばである。"
+      ],
+      "tags": [
+        "場所",
+        "夜",
+        "広場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "landmark_moves",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0875",
+      "word": "よるさかい",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "境界の性質を持つ、夜寄りの場所。",
+        "人は少なく、「越えた瞬間より戻る時に気づく」ことだけが共有されている。",
+        "目的地には向かないが、途中で休む場所として妙に覚えられる。この場所がよるさかいである。"
+      ],
+      "tags": [
+        "場所",
+        "夜",
+        "境界"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_destination",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0876",
+      "word": "よるはずれ",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "夜を歩く者が一度だけ通る外れ地。",
+        "訪れた者は「灯りの数で広さが変わって見える」と話すが、写真では普通の場所に見える。",
+        "長居した記憶はないのに、戻ると予定より少し時間が進んでいる。この場所がよるはずれである。"
+      ],
+      "tags": [
+        "場所",
+        "夜",
+        "外れ地"
+      ],
+      "tone": "observational",
+      "ending_family": "time_feels",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0877",
+      "word": "よるかげり",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "夜の地図には載らないが、道順だけ知られている陰り場。",
+        "長居する理由はないのに、「時刻に関係なく少し暗い」ため妙に記憶へ残る。",
+        "近隣では別名で呼ばれており、よるかげりという名称は訪問者しか使わない。"
+      ],
+      "tags": [
+        "場所",
+        "夜",
+        "陰り場"
+      ],
+      "tone": "dry",
+      "ending_family": "locals_other_name",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0878",
+      "word": "よるとまり",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "夜と日常の境目に生じる止まり場。",
+        "目印が毎回少し変わるため、同じ道順が二度は使えない。",
+        "中央へ近づくほど居場所がなくなり、端のほうが落ち着く。この場所がよるとまりである。"
+      ],
+      "tags": [
+        "場所",
+        "夜",
+        "止まり場"
+      ],
+      "tone": "absurd",
+      "ending_family": "center_empty",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0879",
+      "word": "よるあなば",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "夜にあるとされる穴場。",
+        "周囲では「灯りの数で広さが変わって見える」と感じられ、内部では「知られていないことを全員が知っている」場所とされる。",
+        "探している時には見つからず、道を間違えた時だけ入れる。この場所がよるあなばである。"
+      ],
+      "tags": [
+        "場所",
+        "夜",
+        "穴場"
+      ],
+      "tone": "deadpan",
+      "ending_family": "found_when_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0880",
+      "word": "よるわたり",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "夜の奥で見つかる、小さな渡り場。",
+        "入口は分かりやすいが、帰り道だけ説明しにくい。",
+        "危険な場所ではない。ただし急いでいる時には通らないほうがよい。この場所がよるわたりである。"
+      ],
+      "tags": [
+        "場所",
+        "夜",
+        "渡り場"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_dangerous",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0881",
+      "word": "れすまわし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "一つの返信を別の話題へ持ち運び、少しずつ意味を変えていく行為。",
+        "引用が増えるほど最初の発言は見えにくくなり、最後には語尾だけが残る。",
+        "誰が始めたかは、だいたい全員が別の人だと思っている。"
+      ],
+      "tags": [
+        "返信",
+        "引用",
+        "流れ"
+      ],
+      "tone": "dry",
+      "ending_family": "manual_reply_rotation",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0882",
+      "word": "れすのこし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "返信の流れで頻繁に見られる保存行為。",
+        "本人は整理したつもりでも、読む側には「後で読むと言って二度と開かない」ように見える。",
+        "訂正は可能だが、訂正前の内容のほうが長く残る。この状態をれすのこしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "返信",
+        "保存行為"
+      ],
+      "tone": "absurd",
+      "ending_family": "correction_late",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0883",
+      "word": "れすながれ",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "進行状態のうち、返信だけが先行する状態。",
+        "速度だけは速く、内容の確認は後回しになる。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが共有される。この状態をれすながれと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "返信",
+        "進行状態"
+      ],
+      "tone": "deadpan",
+      "ending_family": "meaning_thins",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0884",
+      "word": "れすずらし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "返信を長く続けた結果発生する論点移動。",
+        "発生後は元の話題へ戻りにくく、「内容より反応の速さが評価される」傾向だけが残る。",
+        "書き込まない者ほど状況を理解しているが、説明役は引き受けない。この状態をれすずらしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "返信",
+        "論点移動"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "silent_knows",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0885",
+      "word": "れすだまり",
+      "category": "internet",
+      "rarity": 3,
+      "paragraphs": [
+        "返信の内容より反応を優先した停滞状態。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが残る。",
+        "誰が始めたかは、だいたい全員が別の人だと思っている。この状態をれすだまりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "返信",
+        "停滞状態"
+      ],
+      "tone": "observational",
+      "ending_family": "origin_elsewhere",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0886",
+      "word": "れすひろい",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "返信を別の場所へ運ぶための拾い行為。",
+        "悪意がなくても起こり、「本筋より小さな誤字だけを持ち帰る」結果になりやすい。",
+        "速度だけは速く、内容の確認は後回しになる。この状態をれすひろいと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "返信",
+        "拾い行為"
+      ],
+      "tone": "dry",
+      "ending_family": "speed_over_check",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0887",
+      "word": "れすかえし",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "返信から生まれた応答技法。",
+        "発端では「内容より反応の速さが評価される」ことが多く、その後は「相手の言葉をほぼそのまま返して優位に見せる」状態へ移る。",
+        "使いどころを待っている間に古くなり、出した時だけ懐かしい扱いを受ける。この状態をれすかえしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "返信",
+        "応答技法"
+      ],
+      "tone": "absurd",
+      "ending_family": "old_when_ready",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0888",
+      "word": "れすつなぎ",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "返信の流れで頻繁に見られる接続行為。",
+        "本人は整理したつもりでも、読む側には「別々の話題を一文で無理に結ぶ」ように見える。",
+        "本筋より小さな誤字のほうが長く話題へ残る。この状態をれすつなぎと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "返信",
+        "接続行為"
+      ],
+      "tone": "deadpan",
+      "ending_family": "small_typo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0889",
+      "word": "れすおくり",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "転送行為のうち、返信だけが先行する状態。",
+        "速度だけは速く、内容の確認は後回しになる。",
+        "悪意がなくても起こるため、原因の特定はだいたい雰囲気で終わる。この状態をれすおくりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "返信",
+        "転送行為"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_bad_intent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0890",
+      "word": "れすよみて",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "返信を長く続けた結果発生する閲覧者。",
+        "発生後は元の話題へ戻りにくく、「内容より反応の速さが評価される」傾向だけが残る。",
+        "反応が良ければ予告、悪ければ独り言だったことになる。この状態をれすよみてと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "返信",
+        "閲覧者"
+      ],
+      "tone": "observational",
+      "ending_family": "post_escape",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0891",
+      "word": "すれまわし",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "話題の内容より反応を優先した回覧行為。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが残る。",
+        "すれまわしの発端を示すログは残っているが、長すぎて誰も最後まで読まない。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題",
+        "回覧行為"
+      ],
+      "tone": "dry",
+      "ending_family": "log_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0892",
+      "word": "しゃべりて",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "内容より先に会話へ参加し、流れを止めないことを役割とする人。",
+        "詳しくなくても反応は速く、沈黙が続く場面では意外と重宝される。",
+        "情報の正確さは、後から来る人へ委ねられる。"
+      ],
+      "tags": [
+        "会話",
+        "参加者",
+        "反応"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_talker",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0893",
+      "word": "すれながれ",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "話題から生まれた進行状態。",
+        "発端では「始まった目的と違う方向へ育つ」ことが多く、その後は「重要な発言ほど速く画面外へ消える」状態へ移る。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが共有される。この状態をすれながれと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題",
+        "進行状態"
+      ],
+      "tone": "deadpan",
+      "ending_family": "meaning_thins",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0894",
+      "word": "すれずらし",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "話題の流れで頻繁に見られる論点移動。",
+        "本人は整理したつもりでも、読む側には「答えずに近い別問題へ着地する」ように見える。",
+        "書き込まない者ほど状況を理解しているが、説明役は引き受けない。この状態をすれずらしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題",
+        "論点移動"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "silent_knows",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0895",
+      "word": "すれだまり",
+      "category": "internet",
+      "rarity": 3,
+      "paragraphs": [
+        "停滞状態のうち、話題だけが先行する状態。",
+        "速度だけは速く、内容の確認は後回しになる。",
+        "誰が始めたかは、だいたい全員が別の人だと思っている。この状態をすれだまりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題",
+        "停滞状態"
+      ],
+      "tone": "observational",
+      "ending_family": "origin_elsewhere",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0896",
+      "word": "すれひろい",
+      "category": "internet",
+      "rarity": 4,
+      "paragraphs": [
+        "話題を長く続けた結果発生する拾い行為。",
+        "発生後は元の話題へ戻りにくく、「始まった目的と違う方向へ育つ」傾向だけが残る。",
+        "速度だけは速く、内容の確認は後回しになる。この状態をすれひろいと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題",
+        "拾い行為"
+      ],
+      "tone": "dry",
+      "ending_family": "speed_over_check",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0897",
+      "word": "すれかえし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "話題の内容より反応を優先した応答技法。",
+        "反応が増えるほど意味が薄まり、最後には雰囲気だけが残る。",
+        "使いどころを待っている間に古くなり、出した時だけ懐かしい扱いを受ける。この状態をすれかえしと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題",
+        "応答技法"
+      ],
+      "tone": "absurd",
+      "ending_family": "old_when_ready",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0898",
+      "word": "すれつなぎ",
+      "category": "internet",
+      "rarity": 2,
+      "paragraphs": [
+        "話題を別の場所へ運ぶための接続行為。",
+        "悪意がなくても起こり、「別々の話題を一文で無理に結ぶ」結果になりやすい。",
+        "本筋より小さな誤字のほうが長く話題へ残る。この状態をすれつなぎと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題",
+        "接続行為"
+      ],
+      "tone": "deadpan",
+      "ending_family": "small_typo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0899",
+      "word": "すれおくり",
+      "category": "internet",
+      "rarity": 3,
+      "paragraphs": [
+        "話題から生まれた転送行為。",
+        "発端では「始まった目的と違う方向へ育つ」ことが多く、その後は「確認より先に共有先を増やす」状態へ移る。",
+        "悪意がなくても起こるため、原因の特定はだいたい雰囲気で終わる。この状態をすれおくりと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題",
+        "転送行為"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "no_bad_intent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0900",
+      "word": "すれよみて",
+      "category": "internet",
+      "rarity": 4,
+      "paragraphs": [
+        "話題の流れで頻繁に見られる閲覧者。",
+        "本人は整理したつもりでも、読む側には「発言せず流れだけを正確に把握する」ように見える。",
+        "反応が良ければ予告、悪ければ独り言だったことになる。この状態をすれよみてと呼ぶ。"
+      ],
+      "tags": [
+        "インターネット",
+        "話題",
+        "閲覧者"
+      ],
+      "tone": "observational",
+      "ending_family": "post_escape",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    }
+  ]
+}

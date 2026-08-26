@@ -1,0 +1,1061 @@
+{
+  "schema_version": 2,
+  "pack_id": "pack_009",
+  "id_range": [
+    "GMG0401",
+    "GMG0450"
+  ],
+  "entry_count": 50,
+  "entries": [
+    {
+      "id": "GMG0401",
+      "word": "もちころげ",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "餅を使った転がし料理。",
+        "素材には「粘りが強く、扱う側の判断力を試す」性質があり、調理では「皿の上で安定しない形に仕上げる」ことが特徴となる。",
+        "もちころげは温かいうちが最も評価され、冷めると急に議論が増える。"
+      ],
+      "tags": [
+        "食べ物",
+        "餅",
+        "転がし料理"
+      ],
+      "tone": "dry",
+      "ending_family": "best_hot",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0402",
+      "word": "もちまぶし",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "餅を中心に組み立てる、素朴なまぶし料理。",
+        "作り方は単純だが、「粉や具材を必要以上にまとわせる」ため仕上がりに差が出る。",
+        "家庭ごとの差が大きく、同じもちまぶしでも別料理として出てくる。"
+      ],
+      "tags": [
+        "食べ物",
+        "餅",
+        "まぶし料理"
+      ],
+      "tone": "absurd",
+      "ending_family": "home_diff",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0403",
+      "word": "もちあぶり",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "餅の表面だけを慎重に炙り、中身の危険性を残した料理。",
+        "香ばしさは増すが伸びる力も増すため、食べる側にも技術が求められる。",
+        "急ぐ理由がある日は選ばないほうがよい。"
+      ],
+      "tags": [
+        "餅",
+        "炙り",
+        "食感"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_mochi_grill",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0404",
+      "word": "もちにこみ",
+      "category": "food",
+      "rarity": 3,
+      "paragraphs": [
+        "煮込み料理の形式で提供される餅料理。",
+        "見た目より量が多く、「待ち時間を調味料として使う」形式で提供される。",
+        "急ぐ日に選ぶ料理ではないが、急ぐ日に限って食べたくなる。この仕立てをもちにこみと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "餅",
+        "煮込み料理"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_rush",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0405",
+      "word": "もちつつみ",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "餅を食べやすくしたつもりの包み料理。",
+        "味付けは自由とされるが、自由にするとだいたい濃くなる。",
+        "レシピの「適量」が多く、もちつつみの完成には作る側の自信が必要になる。"
+      ],
+      "tags": [
+        "食べ物",
+        "餅",
+        "包み料理"
+      ],
+      "tone": "observational",
+      "ending_family": "recipe_vague",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0406",
+      "word": "もちかさね",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "餅の長所を残し、短所まで強調した重ね料理。",
+        "食感の評価が分かれやすく、「粘りが強く、扱う側の判断力を試す」性質が原因とされる。",
+        "一口目より二口目から特徴が出るため、評価は少し待つ必要がある。この仕立てをもちかさねと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "餅",
+        "重ね料理"
+      ],
+      "tone": "dry",
+      "ending_family": "second_bite",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0407",
+      "word": "もちまぜり",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "餅を使った混成料理。",
+        "素材には「粘りが強く、扱う側の判断力を試す」性質があり、調理では「混ぜた結果を偶然として受け入れる」ことが特徴となる。",
+        "余り物から作った時のほうが妙にうまく、再現しようとすると普通になる。この仕立てをもちまぜりと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "餅",
+        "混成料理"
+      ],
+      "tone": "absurd",
+      "ending_family": "leftover_good",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0408",
+      "word": "もちこぼし",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "餅を中心に組み立てる、素朴なこぼし料理。",
+        "作り方は単純だが、「食卓に少量落とすところまでを完成とする」ため仕上がりに差が出る。",
+        "飲み物を先に用意しておくと安心だが、理由は食べてから分かる。この仕立てをもちこぼしと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "餅",
+        "こぼし料理"
+      ],
+      "tone": "deadpan",
+      "ending_family": "drink_ready",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0409",
+      "word": "もちやわら",
+      "category": "food",
+      "rarity": 4,
+      "paragraphs": [
+        "餅の扱いを少し間違えた結果生まれた軟らか仕立て。",
+        "温かいうちは好評で、冷めると「粘りが強く、扱う側の判断力を試す」点が目立つ。",
+        "仕上がりが曖昧でも、もちやわらと言えば料理名としては一応まとまる。"
+      ],
+      "tags": [
+        "食べ物",
+        "餅",
+        "軟らか仕立て"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "name_excuse",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0410",
+      "word": "もちかため",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "固め仕立ての形式で提供される餅料理。",
+        "見た目より量が多く、「歯ごたえを理由に調理時間を正当化する」形式で提供される。",
+        "体に良さそうな名前だが、栄養上の根拠は特にない。この仕立てをもちかためと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "餅",
+        "固め仕立て"
+      ],
+      "tone": "observational",
+      "ending_family": "not_medical",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0411",
+      "word": "まめころげ",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "豆を食べやすくしたつもりの転がし料理。",
+        "味付けは自由とされるが、自由にするとだいたい濃くなる。",
+        "まめころげは温かいうちが最も評価され、冷めると急に議論が増える。"
+      ],
+      "tags": [
+        "食べ物",
+        "豆",
+        "転がし料理"
+      ],
+      "tone": "dry",
+      "ending_family": "best_hot",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0412",
+      "word": "がっつめし",
+      "category": "food",
+      "rarity": 4,
+      "paragraphs": [
+        "量の説明を省き、見た目の圧だけで満腹を予告する食事。",
+        "食べ始めは勢いがあるが、中盤から箸と相談する時間が増える。",
+        "完食より、注文した時の覚悟が評価される。"
+      ],
+      "tags": [
+        "大盛り",
+        "食事",
+        "覚悟"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_heavy_meal",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0413",
+      "word": "まめあぶり",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "豆を使った炙り料理。",
+        "素材には「小さいのに量の見積もりを狂わせる」性質があり、調理では「表面だけに覚悟を求める」ことが特徴となる。",
+        "見た目より量が多いため、追加注文は一口食べてから判断したほうがよい。この仕立てをまめあぶりと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "豆",
+        "炙り料理"
+      ],
+      "tone": "deadpan",
+      "ending_family": "portion_trap",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0414",
+      "word": "まめにこみ",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "豆を中心に組み立てる、素朴な煮込み料理。",
+        "作り方は単純だが、「待ち時間を調味料として使う」ため仕上がりに差が出る。",
+        "急ぐ日に選ぶ料理ではないが、急ぐ日に限って食べたくなる。この仕立てをまめにこみと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "豆",
+        "煮込み料理"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_rush",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0415",
+      "word": "まめつつみ",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "豆の扱いを少し間違えた結果生まれた包み料理。",
+        "温かいうちは好評で、冷めると「小さいのに量の見積もりを狂わせる」点が目立つ。",
+        "レシピの「適量」が多く、まめつつみの完成には作る側の自信が必要になる。"
+      ],
+      "tags": [
+        "食べ物",
+        "豆",
+        "包み料理"
+      ],
+      "tone": "observational",
+      "ending_family": "recipe_vague",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0416",
+      "word": "まめかさね",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "重ね料理の形式で提供される豆料理。",
+        "見た目より量が多く、「同じ材料を層にして努力を演出する」形式で提供される。",
+        "一口目より二口目から特徴が出るため、評価は少し待つ必要がある。この仕立てをまめかさねと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "豆",
+        "重ね料理"
+      ],
+      "tone": "dry",
+      "ending_family": "second_bite",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0417",
+      "word": "まめまぜり",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "豆を食べやすくしたつもりの混成料理。",
+        "味付けは自由とされるが、自由にするとだいたい濃くなる。",
+        "余り物から作った時のほうが妙にうまく、再現しようとすると普通になる。この仕立てをまめまぜりと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "豆",
+        "混成料理"
+      ],
+      "tone": "absurd",
+      "ending_family": "leftover_good",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0418",
+      "word": "まめこぼし",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "豆の長所を残し、短所まで強調したこぼし料理。",
+        "食感の評価が分かれやすく、「小さいのに量の見積もりを狂わせる」性質が原因とされる。",
+        "飲み物を先に用意しておくと安心だが、理由は食べてから分かる。この仕立てをまめこぼしと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "豆",
+        "こぼし料理"
+      ],
+      "tone": "deadpan",
+      "ending_family": "drink_ready",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0419",
+      "word": "まめやわら",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "豆を使った軟らか仕立て。",
+        "素材には「小さいのに量の見積もりを狂わせる」性質があり、調理では「噛む前から許される食感にする」ことが特徴となる。",
+        "仕上がりが曖昧でも、まめやわらと言えば料理名としては一応まとまる。"
+      ],
+      "tags": [
+        "食べ物",
+        "豆",
+        "軟らか仕立て"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "name_excuse",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0420",
+      "word": "まめかため",
+      "category": "food",
+      "rarity": 3,
+      "paragraphs": [
+        "豆を中心に組み立てる、素朴な固め仕立て。",
+        "作り方は単純だが、「歯ごたえを理由に調理時間を正当化する」ため仕上がりに差が出る。",
+        "体に良さそうな名前だが、栄養上の根拠は特にない。この仕立てをまめかためと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "豆",
+        "固め仕立て"
+      ],
+      "tone": "observational",
+      "ending_family": "not_medical",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0421",
+      "word": "いもころげ",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "芋の扱いを少し間違えた結果生まれた転がし料理。",
+        "温かいうちは好評で、冷めると「温度によって急に主役になる」点が目立つ。",
+        "いもころげは温かいうちが最も評価され、冷めると急に議論が増える。"
+      ],
+      "tags": [
+        "食べ物",
+        "芋",
+        "転がし料理"
+      ],
+      "tone": "dry",
+      "ending_family": "best_hot",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0422",
+      "word": "いもまぶし",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "まぶし料理の形式で提供される芋料理。",
+        "見た目より量が多く、「粉や具材を必要以上にまとわせる」形式で提供される。",
+        "家庭ごとの差が大きく、同じいもまぶしでも別料理として出てくる。"
+      ],
+      "tags": [
+        "食べ物",
+        "芋",
+        "まぶし料理"
+      ],
+      "tone": "absurd",
+      "ending_family": "home_diff",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0423",
+      "word": "ふっくらめ",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "通常より少しだけ厚く、柔らかく仕上げる調理上の加減。",
+        "数値で指定できないため、作る側の自信と食べる側の好意で成立する。",
+        "失敗しても「ふっくらめ」と言えば説明としては丸い。"
+      ],
+      "tags": [
+        "食感",
+        "調理",
+        "曖昧"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_softish",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0424",
+      "word": "いもにこみ",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "芋の長所を残し、短所まで強調した煮込み料理。",
+        "食感の評価が分かれやすく、「温度によって急に主役になる」性質が原因とされる。",
+        "急ぐ日に選ぶ料理ではないが、急ぐ日に限って食べたくなる。この仕立てをいもにこみと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "芋",
+        "煮込み料理"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_rush",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0425",
+      "word": "いもつつみ",
+      "category": "food",
+      "rarity": 3,
+      "paragraphs": [
+        "芋を使った包み料理。",
+        "素材には「温度によって急に主役になる」性質があり、調理では「中身を最後まで説明しない」ことが特徴となる。",
+        "レシピの「適量」が多く、いもつつみの完成には作る側の自信が必要になる。"
+      ],
+      "tags": [
+        "食べ物",
+        "芋",
+        "包み料理"
+      ],
+      "tone": "observational",
+      "ending_family": "recipe_vague",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0426",
+      "word": "いもかさね",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "芋を中心に組み立てる、素朴な重ね料理。",
+        "作り方は単純だが、「同じ材料を層にして努力を演出する」ため仕上がりに差が出る。",
+        "一口目より二口目から特徴が出るため、評価は少し待つ必要がある。この仕立てをいもかさねと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "芋",
+        "重ね料理"
+      ],
+      "tone": "dry",
+      "ending_family": "second_bite",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0427",
+      "word": "いもまぜり",
+      "category": "food",
+      "rarity": 3,
+      "paragraphs": [
+        "芋の扱いを少し間違えた結果生まれた混成料理。",
+        "温かいうちは好評で、冷めると「温度によって急に主役になる」点が目立つ。",
+        "余り物から作った時のほうが妙にうまく、再現しようとすると普通になる。この仕立てをいもまぜりと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "芋",
+        "混成料理"
+      ],
+      "tone": "absurd",
+      "ending_family": "leftover_good",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0428",
+      "word": "いもこぼし",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "こぼし料理の形式で提供される芋料理。",
+        "見た目より量が多く、「食卓に少量落とすところまでを完成とする」形式で提供される。",
+        "飲み物を先に用意しておくと安心だが、理由は食べてから分かる。この仕立てをいもこぼしと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "芋",
+        "こぼし料理"
+      ],
+      "tone": "deadpan",
+      "ending_family": "drink_ready",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0429",
+      "word": "いもやわら",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "芋を食べやすくしたつもりの軟らか仕立て。",
+        "味付けは自由とされるが、自由にするとだいたい濃くなる。",
+        "仕上がりが曖昧でも、いもやわらと言えば料理名としては一応まとまる。"
+      ],
+      "tags": [
+        "食べ物",
+        "芋",
+        "軟らか仕立て"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "name_excuse",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0430",
+      "word": "いもかため",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "芋の長所を残し、短所まで強調した固め仕立て。",
+        "食感の評価が分かれやすく、「温度によって急に主役になる」性質が原因とされる。",
+        "体に良さそうな名前だが、栄養上の根拠は特にない。この仕立てをいもかためと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "芋",
+        "固め仕立て"
+      ],
+      "tone": "observational",
+      "ending_family": "not_medical",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0431",
+      "word": "こめころげ",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "米を使った転がし料理。",
+        "素材には「他の具材を受け止めるふりをして全部まとめる」性質があり、調理では「皿の上で安定しない形に仕上げる」ことが特徴となる。",
+        "こめころげは温かいうちが最も評価され、冷めると急に議論が増える。"
+      ],
+      "tags": [
+        "食べ物",
+        "米",
+        "転がし料理"
+      ],
+      "tone": "dry",
+      "ending_family": "best_hot",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0432",
+      "word": "こめまぶし",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "米を中心に組み立てる、素朴なまぶし料理。",
+        "作り方は単純だが、「粉や具材を必要以上にまとわせる」ため仕上がりに差が出る。",
+        "家庭ごとの差が大きく、同じこめまぶしでも別料理として出てくる。"
+      ],
+      "tags": [
+        "食べ物",
+        "米",
+        "まぶし料理"
+      ],
+      "tone": "absurd",
+      "ending_family": "home_diff",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0433",
+      "word": "こめあぶり",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "米の扱いを少し間違えた結果生まれた炙り料理。",
+        "温かいうちは好評で、冷めると「他の具材を受け止めるふりをして全部まとめる」点が目立つ。",
+        "見た目より量が多いため、追加注文は一口食べてから判断したほうがよい。この仕立てをこめあぶりと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "米",
+        "炙り料理"
+      ],
+      "tone": "deadpan",
+      "ending_family": "portion_trap",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0434",
+      "word": "ぴりっから",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "辛いと言い切るほどではない刺激を、最後まで舌へ残す味付け。",
+        "最初の一口では油断させ、二口目から飲み物の位置を確認させる。",
+        "子ども向けかどうかは、作った人の自己申告による。"
+      ],
+      "tags": [
+        "辛味",
+        "味付け",
+        "飲み物"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "manual_mild_spice",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0435",
+      "word": "こめつつみ",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "米を食べやすくしたつもりの包み料理。",
+        "味付けは自由とされるが、自由にするとだいたい濃くなる。",
+        "レシピの「適量」が多く、こめつつみの完成には作る側の自信が必要になる。"
+      ],
+      "tags": [
+        "食べ物",
+        "米",
+        "包み料理"
+      ],
+      "tone": "observational",
+      "ending_family": "recipe_vague",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0436",
+      "word": "こめかさね",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "米の長所を残し、短所まで強調した重ね料理。",
+        "食感の評価が分かれやすく、「他の具材を受け止めるふりをして全部まとめる」性質が原因とされる。",
+        "一口目より二口目から特徴が出るため、評価は少し待つ必要がある。この仕立てをこめかさねと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "米",
+        "重ね料理"
+      ],
+      "tone": "dry",
+      "ending_family": "second_bite",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0437",
+      "word": "こめまぜり",
+      "category": "food",
+      "rarity": 3,
+      "paragraphs": [
+        "米を使った混成料理。",
+        "素材には「他の具材を受け止めるふりをして全部まとめる」性質があり、調理では「混ぜた結果を偶然として受け入れる」ことが特徴となる。",
+        "余り物から作った時のほうが妙にうまく、再現しようとすると普通になる。この仕立てをこめまぜりと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "米",
+        "混成料理"
+      ],
+      "tone": "absurd",
+      "ending_family": "leftover_good",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0438",
+      "word": "こめこぼし",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "米を中心に組み立てる、素朴なこぼし料理。",
+        "作り方は単純だが、「食卓に少量落とすところまでを完成とする」ため仕上がりに差が出る。",
+        "飲み物を先に用意しておくと安心だが、理由は食べてから分かる。この仕立てをこめこぼしと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "米",
+        "こぼし料理"
+      ],
+      "tone": "deadpan",
+      "ending_family": "drink_ready",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0439",
+      "word": "こめやわら",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "米の扱いを少し間違えた結果生まれた軟らか仕立て。",
+        "温かいうちは好評で、冷めると「他の具材を受け止めるふりをして全部まとめる」点が目立つ。",
+        "仕上がりが曖昧でも、こめやわらと言えば料理名としては一応まとまる。"
+      ],
+      "tags": [
+        "食べ物",
+        "米",
+        "軟らか仕立て"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "name_excuse",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0440",
+      "word": "こめかため",
+      "category": "food",
+      "rarity": 3,
+      "paragraphs": [
+        "固め仕立ての形式で提供される米料理。",
+        "見た目より量が多く、「歯ごたえを理由に調理時間を正当化する」形式で提供される。",
+        "体に良さそうな名前だが、栄養上の根拠は特にない。この仕立てをこめかためと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "米",
+        "固め仕立て"
+      ],
+      "tone": "observational",
+      "ending_family": "not_medical",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0441",
+      "word": "ぱんころげ",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "パンを食べやすくしたつもりの転がし料理。",
+        "味付けは自由とされるが、自由にするとだいたい濃くなる。",
+        "ぱんころげは温かいうちが最も評価され、冷めると急に議論が増える。"
+      ],
+      "tags": [
+        "食べ物",
+        "パン",
+        "転がし料理"
+      ],
+      "tone": "dry",
+      "ending_family": "best_hot",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0442",
+      "word": "ぱんまぶし",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "パンの長所を残し、短所まで強調したまぶし料理。",
+        "食感の評価が分かれやすく、「焼き加減ひとつで朝の機嫌を左右する」性質が原因とされる。",
+        "家庭ごとの差が大きく、同じぱんまぶしでも別料理として出てくる。"
+      ],
+      "tags": [
+        "食べ物",
+        "パン",
+        "まぶし料理"
+      ],
+      "tone": "absurd",
+      "ending_family": "home_diff",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0443",
+      "word": "ぱんあぶり",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "パンを使った炙り料理。",
+        "素材には「焼き加減ひとつで朝の機嫌を左右する」性質があり、調理では「表面だけに覚悟を求める」ことが特徴となる。",
+        "見た目より量が多いため、追加注文は一口食べてから判断したほうがよい。この仕立てをぱんあぶりと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "パン",
+        "炙り料理"
+      ],
+      "tone": "deadpan",
+      "ending_family": "portion_trap",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0444",
+      "word": "ぱんにこみ",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "パンを中心に組み立てる、素朴な煮込み料理。",
+        "作り方は単純だが、「待ち時間を調味料として使う」ため仕上がりに差が出る。",
+        "急ぐ日に選ぶ料理ではないが、急ぐ日に限って食べたくなる。この仕立てをぱんにこみと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "パン",
+        "煮込み料理"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_rush",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0445",
+      "word": "ぱんつつみ",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "パンの扱いを少し間違えた結果生まれた包み料理。",
+        "温かいうちは好評で、冷めると「焼き加減ひとつで朝の機嫌を左右する」点が目立つ。",
+        "レシピの「適量」が多く、ぱんつつみの完成には作る側の自信が必要になる。"
+      ],
+      "tags": [
+        "食べ物",
+        "パン",
+        "包み料理"
+      ],
+      "tone": "observational",
+      "ending_family": "recipe_vague",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0446",
+      "word": "ぱんかさね",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "重ね料理の形式で提供されるパン料理。",
+        "見た目より量が多く、「同じ材料を層にして努力を演出する」形式で提供される。",
+        "一口目より二口目から特徴が出るため、評価は少し待つ必要がある。この仕立てをぱんかさねと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "パン",
+        "重ね料理"
+      ],
+      "tone": "dry",
+      "ending_family": "second_bite",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0447",
+      "word": "ぱんまぜり",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "パンを食べやすくしたつもりの混成料理。",
+        "味付けは自由とされるが、自由にするとだいたい濃くなる。",
+        "余り物から作った時のほうが妙にうまく、再現しようとすると普通になる。この仕立てをぱんまぜりと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "パン",
+        "混成料理"
+      ],
+      "tone": "absurd",
+      "ending_family": "leftover_good",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0448",
+      "word": "ぱんこぼし",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "パンの長所を残し、短所まで強調したこぼし料理。",
+        "食感の評価が分かれやすく、「焼き加減ひとつで朝の機嫌を左右する」性質が原因とされる。",
+        "飲み物を先に用意しておくと安心だが、理由は食べてから分かる。この仕立てをぱんこぼしと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "パン",
+        "こぼし料理"
+      ],
+      "tone": "deadpan",
+      "ending_family": "drink_ready",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0449",
+      "word": "ぱんやわら",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "パンを使った軟らか仕立て。",
+        "素材には「焼き加減ひとつで朝の機嫌を左右する」性質があり、調理では「噛む前から許される食感にする」ことが特徴となる。",
+        "仕上がりが曖昧でも、ぱんやわらと言えば料理名としては一応まとまる。"
+      ],
+      "tags": [
+        "食べ物",
+        "パン",
+        "軟らか仕立て"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "name_excuse",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0450",
+      "word": "ぱんかため",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "パンを中心に組み立てる、素朴な固め仕立て。",
+        "作り方は単純だが、「歯ごたえを理由に調理時間を正当化する」ため仕上がりに差が出る。",
+        "体に良さそうな名前だが、栄養上の根拠は特にない。この仕立てをぱんかためと呼ぶ。"
+      ],
+      "tags": [
+        "食べ物",
+        "パン",
+        "固め仕立て"
+      ],
+      "tone": "observational",
+      "ending_family": "not_medical",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    }
+  ]
+}

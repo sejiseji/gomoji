@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import unittest
 
-from gomoji import config
+from gomoji import content
 from gomoji.app import AppState
 
 
@@ -11,15 +11,19 @@ class AppStateTest(unittest.TestCase):
         state = AppState()
 
         seen = []
-        for _ in range(len(config.PLACEHOLDER_WORDS)):
+        for _ in range(content.CONTENT_COUNT):
             seen.append(state.word)
             state.next_word()
 
-        self.assertEqual(tuple(seen), config.PLACEHOLDER_WORDS)
-        self.assertEqual(state.word, config.PLACEHOLDER_WORDS[0])
+        self.assertEqual(tuple(seen), content.RUNTIME_WORDS)
+        self.assertEqual(state.word, content.RUNTIME_WORDS[0])
 
     def test_debug_starts_disabled(self) -> None:
         self.assertIs(AppState().debug_enabled, False)
+
+    def test_result_heading_does_not_append_ngo(self) -> None:
+        self.assertEqual(content.format_slot_text("ねこぱんち"), "ね こ ぱ ん ち")
+        self.assertEqual(content.format_result_heading("ねこぱんち"), "【ねこぱんち】")
 
 
 if __name__ == "__main__":

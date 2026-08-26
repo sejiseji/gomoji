@@ -1,0 +1,64 @@
+# コンテンツデータ
+
+## 正本
+
+`content/source/pack_001.json`〜`pack_020.json`が編集用の正本です。各50件、合計1000件です。
+
+現状:
+
+- `reviewed`: 40件
+- `draft`: 960件
+- `approved`: 0件
+
+40件の`reviewed`は個別作成した初期シードです。960件の`draft`は、入力分岐・カテゴリ配分・画面折り返し・1000件運用を先に検証するための制作スキャフォールドです。**960件をそのまま公開品質とは扱わないでください。**
+
+## 固定「んご」廃止
+
+`ンゴ/んご`を各語の後ろへ付けません。
+
+正しい結果見出し:
+
+```text
+【ねこぱんち】
+```
+
+誤り:
+
+```text
+【ねこぱんちンゴ】
+ね こ ぱ ん ち
+          んご
+```
+
+作品名の`ごもじンゴ`だけは維持します。
+
+## 検証
+
+```bash
+python scripts/validate_content.py
+python scripts/audit_content.py
+```
+
+公開判定:
+
+```bash
+python scripts/validate_content.py --release
+```
+
+現状は1000件が`approved`ではないため、`--release`が失敗するのが正しい状態です。
+
+## 生成
+
+レビュー済み40件だけ:
+
+```bash
+python scripts/build_content.py   --output generated/content_reviewed.py
+```
+
+1000件すべてを開発用に含める:
+
+```bash
+python scripts/build_content.py   --include-drafts   --output generated/content_all_drafts.py
+```
+
+本番生成では、1000件すべてを`approved`へ移した後に`--release`を使用します。

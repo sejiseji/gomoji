@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 
-from gomoji import config
+from gomoji import config, content
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 FONT_FILE = PROJECT_ROOT / config.FONT_PATH
@@ -17,10 +17,10 @@ class AppState:
 
     @property
     def word(self) -> str:
-        return config.PLACEHOLDER_WORDS[self.word_index]
+        return content.entry_at(self.word_index).word
 
     def next_word(self) -> None:
-        self.word_index = (self.word_index + 1) % len(config.PLACEHOLDER_WORDS)
+        self.word_index = (self.word_index + 1) % content.CONTENT_COUNT
 
 
 class GomojiApp:
@@ -76,7 +76,7 @@ class GomojiApp:
             config.SCREEN_HEIGHT - 64,
             config.SHADOW_COLOR,
         )
-        self.draw_text(center_x - 18, 78, "ごもじ", config.TEXT_COLOR)
+        self.draw_text(center_x - 30, 78, "ごもじンゴ", config.TEXT_COLOR)
         self.draw_text(center_x - 36, 108, "五文字の仮画面", config.GRID_COLOR)
 
         slot_size = 58
@@ -111,6 +111,7 @@ class GomojiApp:
         if self.state.debug_enabled:
             pyxel.text(4, 4, f"frame={self.state.frame}", config.DEBUG_COLOR)
             pyxel.text(4, 12, f"word={self.state.word}", config.DEBUG_COLOR)
+            pyxel.text(4, 20, f"content={content.CONTENT_COUNT}", config.DEBUG_COLOR)
 
     def draw_text(self, x: int, y: int, text: str, color: int) -> None:
         self.pyxel.text(x, y, text, color, self.font)

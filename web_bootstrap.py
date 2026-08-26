@@ -1,4 +1,4 @@
-# title: Gomoji
+# title: ごもじンゴ
 # author: sejiseji
 # desc: Pyxel project scaffold for Gomoji
 # site: https://github.com/sejiseji/gomoji
@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-WINDOW_TITLE = "Gomoji"
+WINDOW_TITLE = "ごもじンゴ"
 SCREEN_WIDTH = 396
 SCREEN_HEIGHT = 696
 FPS = 30
@@ -24,7 +24,7 @@ GRID_COLOR = 5
 ACTIVE_COLOR = 11
 LOCKED_COLOR = 3
 
-PLACEHOLDER_WORDS = ("ごもじだよ", "あさひかり", "ゆめあかり", "ほしあかり")
+PLACEHOLDER_WORDS = ("あめしらせ", "ちょいずれ", "すっぽぬけ", "ぴゅうかぜ")
 
 
 @dataclass
@@ -77,7 +77,7 @@ class GomojiWebApp:
         wave_index = (self.state.frame // 10) % 5
 
         pyxel.rectb(24, 32, SCREEN_WIDTH - 48, SCREEN_HEIGHT - 64, SHADOW_COLOR)
-        self.draw_text(center_x - 18, 78, "ごもじ", TEXT_COLOR)
+        self.draw_text(center_x - 30, 78, "ごもじンゴ", TEXT_COLOR)
         self.draw_text(center_x - 36, 108, "五文字の仮画面", GRID_COLOR)
 
         slot_size = 58

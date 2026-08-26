@@ -1,0 +1,1061 @@
+{
+  "schema_version": 2,
+  "pack_id": "pack_016",
+  "id_range": [
+    "GMG0751",
+    "GMG0800"
+  ],
+  "entry_count": 50,
+  "entries": [
+    {
+      "id": "GMG0751",
+      "word": "そとまつり",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "祭事のうち、屋外だけで通用する地域的な形式。",
+        "由来を知る者はいないものの、「目的より集まる理由を大切にする」点だけは守られている。",
+        "そとまつりの由来を知る者はいないが、中止を決められる者もいない。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "屋外",
+        "祭事"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "origin_unknown",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0752",
+      "word": "そとならい",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "屋外の空気を整えるための小さな習わし。",
+        "準備のほうが長く、本番は思ったより早く終わる。",
+        "参加は自由とされるが、不参加の理由だけは聞かれる。この習わしをそとならいと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "屋外",
+        "習わし"
+      ],
+      "tone": "observational",
+      "ending_family": "free_but_reason",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0753",
+      "word": "そときまり",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "屋外で昔から続くことになっている規則。",
+        "担当は毎回変わるが、詳しい人だけはなぜか固定される。",
+        "準備のほうが長く、本番は思ったより早く終わる。この習わしをそときまりと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "屋外",
+        "規則"
+      ],
+      "tone": "dry",
+      "ending_family": "prep_long",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0754",
+      "word": "そとやすみ",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "屋外へ人を集める理由として使われる休止日。",
+        "形式より顔を出すことが重視され、「天候を理由に予定を変更できる場所」場でも続けられる。",
+        "担当は毎回変わるが、詳しい人だけはなぜか固定される。この習わしをそとやすみと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "屋外",
+        "休止日"
+      ],
+      "tone": "absurd",
+      "ending_family": "same_expert",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0755",
+      "word": "そとばんこ",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "屋外に行われる持ち回り。",
+        "場の特徴として「天候を理由に予定を変更できる場所」ことがあり、形式上は「負担を公平に見せながら順番に押しつける」ことを目的とする。",
+        "終了後の片づけまで含めてそとばんことされる。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "屋外",
+        "持ち回り"
+      ],
+      "tone": "deadpan",
+      "ending_family": "cleanup_part",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0756",
+      "word": "そとおくり",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "屋外をきっかけに始まったとされる送り事。",
+        "参加は自由とされるが、不参加の理由だけは聞かれる。",
+        "一度中止すると再開理由が見つからないため、惰性で続いている。この習わしをそとおくりと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "屋外",
+        "送り事"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "resume_hard",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0757",
+      "word": "そとむかえ",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "迎え事のうち、屋外だけで通用する地域的な形式。",
+        "由来を知る者はいないものの、「来る時刻より待ち始める時刻が早い」点だけは守られている。",
+        "内容より顔を出すことが重視され、遅れても一度来れば参加扱いになる。この習わしをそとむかえと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "屋外",
+        "迎え事"
+      ],
+      "tone": "observational",
+      "ending_family": "face_matters",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0758",
+      "word": "そとわかれ",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "屋外の空気を整えるための小さな別れ事。",
+        "準備のほうが長く、本番は思ったより早く終わる。",
+        "昔からあると言われるが、確認できる最古の記録は意外と新しい。この習わしをそとわかれと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "屋外",
+        "別れ事"
+      ],
+      "tone": "dry",
+      "ending_family": "old_claim",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0759",
+      "word": "そとあそび",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "屋外で昔から続くことになっている遊び事。",
+        "担当は毎回変わるが、詳しい人だけはなぜか固定される。",
+        "全員が少しずつ面倒だと思いながら、全員で維持している。この習わしをそとあそびと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "屋外",
+        "遊び事"
+      ],
+      "tone": "absurd",
+      "ending_family": "everyone_slight",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0760",
+      "word": "そといわい",
+      "category": "custom",
+      "rarity": 3,
+      "paragraphs": [
+        "屋外へ人を集める理由として使われる祝い事。",
+        "形式より顔を出すことが重視され、「天候を理由に予定を変更できる場所」場でも続けられる。",
+        "反省点は毎回記録されるが、翌年もほぼ同じ形で行われる。この習わしをそといわいと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "屋外",
+        "祝い事"
+      ],
+      "tone": "deadpan",
+      "ending_family": "next_year",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0761",
+      "word": "むらまつり",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "集落に行われる祭事。",
+        "場の特徴として「全員が事情を知っていることになっている範囲」ことがあり、形式上は「目的より集まる理由を大切にする」ことを目的とする。",
+        "むらまつりの由来を知る者はいないが、中止を決められる者もいない。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "集落",
+        "祭事"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "origin_unknown",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0762",
+      "word": "むらならい",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "集落をきっかけに始まったとされる習わし。",
+        "参加は自由とされるが、不参加の理由だけは聞かれる。",
+        "参加は自由とされるが、不参加の理由だけは聞かれる。この習わしをむらならいと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "集落",
+        "習わし"
+      ],
+      "tone": "observational",
+      "ending_family": "free_but_reason",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0763",
+      "word": "むらきまり",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "規則のうち、集落だけで通用する地域的な形式。",
+        "由来を知る者はいないものの、「破られる前提で細部だけ厳しい」点だけは守られている。",
+        "準備のほうが長く、本番は思ったより早く終わる。この習わしをむらきまりと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "集落",
+        "規則"
+      ],
+      "tone": "dry",
+      "ending_family": "prep_long",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0764",
+      "word": "むらやすみ",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "集落の空気を整えるための小さな休止日。",
+        "準備のほうが長く、本番は思ったより早く終わる。",
+        "担当は毎回変わるが、詳しい人だけはなぜか固定される。この習わしをむらやすみと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "集落",
+        "休止日"
+      ],
+      "tone": "absurd",
+      "ending_family": "same_expert",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0765",
+      "word": "むらばんこ",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "集落で昔から続くことになっている持ち回り。",
+        "担当は毎回変わるが、詳しい人だけはなぜか固定される。",
+        "終了後の片づけまで含めてむらばんことされる。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "集落",
+        "持ち回り"
+      ],
+      "tone": "deadpan",
+      "ending_family": "cleanup_part",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0766",
+      "word": "むらおくり",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "集落へ人を集める理由として使われる送り事。",
+        "形式より顔を出すことが重視され、「全員が事情を知っていることになっている範囲」場でも続けられる。",
+        "一度中止すると再開理由が見つからないため、惰性で続いている。この習わしをむらおくりと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "集落",
+        "送り事"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "resume_hard",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0767",
+      "word": "むらむかえ",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "集落に行われる迎え事。",
+        "場の特徴として「全員が事情を知っていることになっている範囲」ことがあり、形式上は「来る時刻より待ち始める時刻が早い」ことを目的とする。",
+        "内容より顔を出すことが重視され、遅れても一度来れば参加扱いになる。この習わしをむらむかえと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "集落",
+        "迎え事"
+      ],
+      "tone": "observational",
+      "ending_family": "face_matters",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0768",
+      "word": "むらわかれ",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "集落をきっかけに始まったとされる別れ事。",
+        "参加は自由とされるが、不参加の理由だけは聞かれる。",
+        "昔からあると言われるが、確認できる最古の記録は意外と新しい。この習わしをむらわかれと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "集落",
+        "別れ事"
+      ],
+      "tone": "dry",
+      "ending_family": "old_claim",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0769",
+      "word": "むらあそび",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "遊び事のうち、集落だけで通用する地域的な形式。",
+        "由来を知る者はいないものの、「勝敗を決めないと言いながら少し競う」点だけは守られている。",
+        "全員が少しずつ面倒だと思いながら、全員で維持している。この習わしをむらあそびと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "集落",
+        "遊び事"
+      ],
+      "tone": "absurd",
+      "ending_family": "everyone_slight",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0770",
+      "word": "むらいわい",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "集落の空気を整えるための小さな祝い事。",
+        "準備のほうが長く、本番は思ったより早く終わる。",
+        "反省点は毎回記録されるが、翌年もほぼ同じ形で行われる。この習わしをむらいわいと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "集落",
+        "祝い事"
+      ],
+      "tone": "deadpan",
+      "ending_family": "next_year",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0771",
+      "word": "みせまつり",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "店内で昔から続くことになっている祭事。",
+        "担当は毎回変わるが、詳しい人だけはなぜか固定される。",
+        "みせまつりの由来を知る者はいないが、中止を決められる者もいない。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "店内",
+        "祭事"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "origin_unknown",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0772",
+      "word": "みせならい",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "店内へ人を集める理由として使われる習わし。",
+        "形式より顔を出すことが重視され、「買わなくても一度は手に取ることを求められる場所」場でも続けられる。",
+        "参加は自由とされるが、不参加の理由だけは聞かれる。この習わしをみせならいと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "店内",
+        "習わし"
+      ],
+      "tone": "observational",
+      "ending_family": "free_but_reason",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0773",
+      "word": "みせきまり",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "店内に行われる規則。",
+        "場の特徴として「買わなくても一度は手に取ることを求められる場所」ことがあり、形式上は「破られる前提で細部だけ厳しい」ことを目的とする。",
+        "準備のほうが長く、本番は思ったより早く終わる。この習わしをみせきまりと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "店内",
+        "規則"
+      ],
+      "tone": "dry",
+      "ending_family": "prep_long",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0774",
+      "word": "みせやすみ",
+      "category": "custom",
+      "rarity": 3,
+      "paragraphs": [
+        "店内をきっかけに始まったとされる休止日。",
+        "参加は自由とされるが、不参加の理由だけは聞かれる。",
+        "担当は毎回変わるが、詳しい人だけはなぜか固定される。この習わしをみせやすみと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "店内",
+        "休止日"
+      ],
+      "tone": "absurd",
+      "ending_family": "same_expert",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0775",
+      "word": "みせばんこ",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "持ち回りのうち、店内だけで通用する地域的な形式。",
+        "由来を知る者はいないものの、「負担を公平に見せながら順番に押しつける」点だけは守られている。",
+        "終了後の片づけまで含めてみせばんことされる。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "店内",
+        "持ち回り"
+      ],
+      "tone": "deadpan",
+      "ending_family": "cleanup_part",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0776",
+      "word": "みせおくり",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "店内の空気を整えるための小さな送り事。",
+        "準備のほうが長く、本番は思ったより早く終わる。",
+        "一度中止すると再開理由が見つからないため、惰性で続いている。この習わしをみせおくりと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "店内",
+        "送り事"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "resume_hard",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0777",
+      "word": "みせむかえ",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "店内で昔から続くことになっている迎え事。",
+        "担当は毎回変わるが、詳しい人だけはなぜか固定される。",
+        "内容より顔を出すことが重視され、遅れても一度来れば参加扱いになる。この習わしをみせむかえと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "店内",
+        "迎え事"
+      ],
+      "tone": "observational",
+      "ending_family": "face_matters",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0778",
+      "word": "みせわかれ",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "店内へ人を集める理由として使われる別れ事。",
+        "形式より顔を出すことが重視され、「買わなくても一度は手に取ることを求められる場所」場でも続けられる。",
+        "昔からあると言われるが、確認できる最古の記録は意外と新しい。この習わしをみせわかれと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "店内",
+        "別れ事"
+      ],
+      "tone": "dry",
+      "ending_family": "old_claim",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0779",
+      "word": "みせあそび",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "店内に行われる遊び事。",
+        "場の特徴として「買わなくても一度は手に取ることを求められる場所」ことがあり、形式上は「勝敗を決めないと言いながら少し競う」ことを目的とする。",
+        "全員が少しずつ面倒だと思いながら、全員で維持している。この習わしをみせあそびと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "店内",
+        "遊び事"
+      ],
+      "tone": "absurd",
+      "ending_family": "everyone_slight",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0780",
+      "word": "みせいわい",
+      "category": "custom",
+      "rarity": 3,
+      "paragraphs": [
+        "店内をきっかけに始まったとされる祝い事。",
+        "参加は自由とされるが、不参加の理由だけは聞かれる。",
+        "反省点は毎回記録されるが、翌年もほぼ同じ形で行われる。この習わしをみせいわいと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "店内",
+        "祝い事"
+      ],
+      "tone": "deadpan",
+      "ending_family": "next_year",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0781",
+      "word": "えきまつり",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "祭事のうち、駅前だけで通用する地域的な形式。",
+        "由来を知る者はいないものの、「目的より集まる理由を大切にする」点だけは守られている。",
+        "えきまつりの由来を知る者はいないが、中止を決められる者もいない。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "駅前",
+        "祭事"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "origin_unknown",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0782",
+      "word": "えきならい",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "駅前の空気を整えるための小さな習わし。",
+        "準備のほうが長く、本番は思ったより早く終わる。",
+        "参加は自由とされるが、不参加の理由だけは聞かれる。この習わしをえきならいと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "駅前",
+        "習わし"
+      ],
+      "tone": "observational",
+      "ending_family": "free_but_reason",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0783",
+      "word": "えききまり",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "駅前で昔から続くことになっている規則。",
+        "担当は毎回変わるが、詳しい人だけはなぜか固定される。",
+        "準備のほうが長く、本番は思ったより早く終わる。この習わしをえききまりと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "駅前",
+        "規則"
+      ],
+      "tone": "dry",
+      "ending_family": "prep_long",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0784",
+      "word": "えきやすみ",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "駅前へ人を集める理由として使われる休止日。",
+        "形式より顔を出すことが重視され、「待つ人と急ぐ人が同じ方向を見る場所」場でも続けられる。",
+        "担当は毎回変わるが、詳しい人だけはなぜか固定される。この習わしをえきやすみと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "駅前",
+        "休止日"
+      ],
+      "tone": "absurd",
+      "ending_family": "same_expert",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0785",
+      "word": "えきばんこ",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "駅前に行われる持ち回り。",
+        "場の特徴として「待つ人と急ぐ人が同じ方向を見る場所」ことがあり、形式上は「負担を公平に見せながら順番に押しつける」ことを目的とする。",
+        "終了後の片づけまで含めてえきばんことされる。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "駅前",
+        "持ち回り"
+      ],
+      "tone": "deadpan",
+      "ending_family": "cleanup_part",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0786",
+      "word": "えきおくり",
+      "category": "custom",
+      "rarity": 3,
+      "paragraphs": [
+        "駅前をきっかけに始まったとされる送り事。",
+        "参加は自由とされるが、不参加の理由だけは聞かれる。",
+        "一度中止すると再開理由が見つからないため、惰性で続いている。この習わしをえきおくりと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "駅前",
+        "送り事"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "resume_hard",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0787",
+      "word": "えきむかえ",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "迎え事のうち、駅前だけで通用する地域的な形式。",
+        "由来を知る者はいないものの、「来る時刻より待ち始める時刻が早い」点だけは守られている。",
+        "内容より顔を出すことが重視され、遅れても一度来れば参加扱いになる。この習わしをえきむかえと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "駅前",
+        "迎え事"
+      ],
+      "tone": "observational",
+      "ending_family": "face_matters",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0788",
+      "word": "えきわかれ",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "駅前の空気を整えるための小さな別れ事。",
+        "準備のほうが長く、本番は思ったより早く終わる。",
+        "昔からあると言われるが、確認できる最古の記録は意外と新しい。この習わしをえきわかれと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "駅前",
+        "別れ事"
+      ],
+      "tone": "dry",
+      "ending_family": "old_claim",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0789",
+      "word": "えきあそび",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "駅前で昔から続くことになっている遊び事。",
+        "担当は毎回変わるが、詳しい人だけはなぜか固定される。",
+        "全員が少しずつ面倒だと思いながら、全員で維持している。この習わしをえきあそびと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "駅前",
+        "遊び事"
+      ],
+      "tone": "absurd",
+      "ending_family": "everyone_slight",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0790",
+      "word": "えきいわい",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "駅前へ人を集める理由として使われる祝い事。",
+        "形式より顔を出すことが重視され、「待つ人と急ぐ人が同じ方向を見る場所」場でも続けられる。",
+        "反省点は毎回記録されるが、翌年もほぼ同じ形で行われる。この習わしをえきいわいと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "駅前",
+        "祝い事"
+      ],
+      "tone": "deadpan",
+      "ending_family": "next_year",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0791",
+      "word": "にわまつり",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "庭先に行われる祭事。",
+        "場の特徴として「作業と休憩の境目が曖昧になる場所」ことがあり、形式上は「目的より集まる理由を大切にする」ことを目的とする。",
+        "にわまつりの由来を知る者はいないが、中止を決められる者もいない。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "庭先",
+        "祭事"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "origin_unknown",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0792",
+      "word": "にわならい",
+      "category": "custom",
+      "rarity": 4,
+      "paragraphs": [
+        "庭先をきっかけに始まったとされる習わし。",
+        "参加は自由とされるが、不参加の理由だけは聞かれる。",
+        "参加は自由とされるが、不参加の理由だけは聞かれる。この習わしをにわならいと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "庭先",
+        "習わし"
+      ],
+      "tone": "observational",
+      "ending_family": "free_but_reason",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0793",
+      "word": "にわきまり",
+      "category": "custom",
+      "rarity": 4,
+      "paragraphs": [
+        "規則のうち、庭先だけで通用する地域的な形式。",
+        "由来を知る者はいないものの、「破られる前提で細部だけ厳しい」点だけは守られている。",
+        "準備のほうが長く、本番は思ったより早く終わる。この習わしをにわきまりと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "庭先",
+        "規則"
+      ],
+      "tone": "dry",
+      "ending_family": "prep_long",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0794",
+      "word": "にわやすみ",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "庭先の空気を整えるための小さな休止日。",
+        "準備のほうが長く、本番は思ったより早く終わる。",
+        "担当は毎回変わるが、詳しい人だけはなぜか固定される。この習わしをにわやすみと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "庭先",
+        "休止日"
+      ],
+      "tone": "absurd",
+      "ending_family": "same_expert",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0795",
+      "word": "にわばんこ",
+      "category": "custom",
+      "rarity": 3,
+      "paragraphs": [
+        "庭先で昔から続くことになっている持ち回り。",
+        "担当は毎回変わるが、詳しい人だけはなぜか固定される。",
+        "終了後の片づけまで含めてにわばんことされる。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "庭先",
+        "持ち回り"
+      ],
+      "tone": "deadpan",
+      "ending_family": "cleanup_part",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0796",
+      "word": "にわおくり",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "庭先へ人を集める理由として使われる送り事。",
+        "形式より顔を出すことが重視され、「作業と休憩の境目が曖昧になる場所」場でも続けられる。",
+        "一度中止すると再開理由が見つからないため、惰性で続いている。この習わしをにわおくりと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "庭先",
+        "送り事"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "resume_hard",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0797",
+      "word": "にわむかえ",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "庭先に行われる迎え事。",
+        "場の特徴として「作業と休憩の境目が曖昧になる場所」ことがあり、形式上は「来る時刻より待ち始める時刻が早い」ことを目的とする。",
+        "内容より顔を出すことが重視され、遅れても一度来れば参加扱いになる。この習わしをにわむかえと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "庭先",
+        "迎え事"
+      ],
+      "tone": "observational",
+      "ending_family": "face_matters",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0798",
+      "word": "にわわかれ",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "庭先をきっかけに始まったとされる別れ事。",
+        "参加は自由とされるが、不参加の理由だけは聞かれる。",
+        "昔からあると言われるが、確認できる最古の記録は意外と新しい。この習わしをにわわかれと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "庭先",
+        "別れ事"
+      ],
+      "tone": "dry",
+      "ending_family": "old_claim",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0799",
+      "word": "にわあそび",
+      "category": "custom",
+      "rarity": 3,
+      "paragraphs": [
+        "遊び事のうち、庭先だけで通用する地域的な形式。",
+        "由来を知る者はいないものの、「勝敗を決めないと言いながら少し競う」点だけは守られている。",
+        "全員が少しずつ面倒だと思いながら、全員で維持している。この習わしをにわあそびと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "庭先",
+        "遊び事"
+      ],
+      "tone": "absurd",
+      "ending_family": "everyone_slight",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0800",
+      "word": "にわいわい",
+      "category": "custom",
+      "rarity": 3,
+      "paragraphs": [
+        "庭先の空気を整えるための小さな祝い事。",
+        "準備のほうが長く、本番は思ったより早く終わる。",
+        "反省点は毎回記録されるが、翌年もほぼ同じ形で行われる。この習わしをにわいわいと呼ぶ。"
+      ],
+      "tags": [
+        "習慣・制度",
+        "庭先",
+        "祝い事"
+      ],
+      "tone": "deadpan",
+      "ending_family": "next_year",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    }
+  ]
+}

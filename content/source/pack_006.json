@@ -1,0 +1,1061 @@
+{
+  "schema_version": 2,
+  "pack_id": "pack_006",
+  "id_range": [
+    "GMG0251",
+    "GMG0300"
+  ],
+  "entry_count": 50,
+  "entries": [
+    {
+      "id": "GMG0251",
+      "word": "ほろこころ",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "ほろ苦さが心の状態へ表れた状態。",
+        "本人には「懐かしさと後悔が同時に来る」と感じられ、外からは「気持ちの置き場所が定まらない」ように見える。",
+        "多くは休憩で改善するが、ほろこころの最中は休憩を始める判断も遅い。"
+      ],
+      "tags": [
+        "状態・感情",
+        "ほろ苦さ",
+        "心の状態"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "rest_helps",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0252",
+      "word": "ほろぐあい",
+      "category": "condition",
+      "rarity": 3,
+      "paragraphs": [
+        "ほろ苦さと体調の偏りが同時に崩れたときの俗称。",
+        "始まりは「懐かしさと後悔が同時に来る」ことで、しばらくすると「体の一部だけが休みたがる」状態へ移る。",
+        "症状に見える場合もあるが、本項は医学的な説明ではない。俗にほろぐあいと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "ほろ苦さ",
+        "体調の偏り"
+      ],
+      "tone": "observational",
+      "ending_family": "not_medical",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0253",
+      "word": "ほろきぶん",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "ほろ苦さの影響で、気分の波だけが通常どおり働かなくなる状態。",
+        "平常を装っても「機嫌が理由なく上下する」ため、周囲には意外と分かりやすい。",
+        "締切が近づくと一時的に改善するため、治ったとは言いにくい。俗にほろきぶんと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "ほろ苦さ",
+        "気分の波"
+      ],
+      "tone": "dry",
+      "ending_family": "deadline_heals",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0254",
+      "word": "ほろあたま",
+      "category": "condition",
+      "rarity": 3,
+      "paragraphs": [
+        "思考の状態へほろ苦さが混ざり、判断が少し遅くなる状態。",
+        "多くは休憩で改善するが、休むまでに「懐かしさと後悔が同時に来る」時間が続く。",
+        "本人は隠せているつもりでも、思考の状態へ出るので周囲には分かりやすい。俗にほろあたまと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "ほろ苦さ",
+        "思考の状態"
+      ],
+      "tone": "absurd",
+      "ending_family": "others_notice",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0255",
+      "word": "ほろからだ",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "ほろ苦さを自覚した直後から身体感覚へ波及する軽い不調。",
+        "安心した直後に出やすく、「姿勢と疲労感の釣り合いが崩れる」ことが特徴とされる。",
+        "解決はしないが、ほろからだと呼ぶと少しだけ扱いやすくなる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "ほろ苦さ",
+        "身体感覚"
+      ],
+      "tone": "deadpan",
+      "ending_family": "name_relief",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0256",
+      "word": "ほろめざめ",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "ほろ苦さを隠そうとして、かえって目覚め方へ出てしまう状態。",
+        "外見上は小さいが、本人の中では「懐かしさと後悔が同時に来る」感覚が強い。",
+        "対策には早寝が挙げられる。だいたい何にでも効くので参考度は低い。俗にほろめざめと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "ほろ苦さ",
+        "目覚め方"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "sleep_generic",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0257",
+      "word": "ほろひとみ",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "ほろ苦さが視線の状態へ表れた状態。",
+        "本人には「懐かしさと後悔が同時に来る」と感じられ、外からは「見るべきものから目だけが逃げる」ように見える。",
+        "ほろひとみだった理由は、翌日になると本人もだいたい忘れている。"
+      ],
+      "tags": [
+        "状態・感情",
+        "ほろ苦さ",
+        "視線の状態"
+      ],
+      "tone": "observational",
+      "ending_family": "tomorrow_forget",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0258",
+      "word": "ほろしせい",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "ほろ苦さと姿勢の崩れが同時に崩れたときの俗称。",
+        "始まりは「懐かしさと後悔が同時に来る」ことで、しばらくすると「背筋と意欲が同時に曲がる」状態へ移る。",
+        "緊急性は低いが、当事者のやる気だけは確実に削る。俗にほろしせいと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "ほろ苦さ",
+        "姿勢の崩れ"
+      ],
+      "tone": "dry",
+      "ending_family": "low_urgency",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0259",
+      "word": "ほろきおく",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "ほろ苦さの影響で、記憶の偏りだけが通常どおり働かなくなる状態。",
+        "平常を装っても「必要なことだけ思い出せなくなる」ため、周囲には意外と分かりやすい。",
+        "始まりは小さいものの、放置すると一日の説明役を務める。俗にほろきおくと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "ほろ苦さ",
+        "記憶の偏り"
+      ],
+      "tone": "absurd",
+      "ending_family": "small_start",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0260",
+      "word": "ほろやるき",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "意欲の動きへほろ苦さが混ざり、判断が少し遅くなる状態。",
+        "多くは休憩で改善するが、休むまでに「懐かしさと後悔が同時に来る」時間が続く。",
+        "性格の問題ではない。少なくとも本人はそう説明している。俗にほろやるきと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "ほろ苦さ",
+        "意欲の動き"
+      ],
+      "tone": "deadpan",
+      "ending_family": "not_personality",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0261",
+      "word": "つよこころ",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "強がりを自覚した直後から心の状態へ波及する軽い不調。",
+        "安心した直後に出やすく、「気持ちの置き場所が定まらない」ことが特徴とされる。",
+        "多くは休憩で改善するが、つよこころの最中は休憩を始める判断も遅い。"
+      ],
+      "tags": [
+        "状態・感情",
+        "強がり",
+        "心の状態"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "rest_helps",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0262",
+      "word": "つよぐあい",
+      "category": "condition",
+      "rarity": 3,
+      "paragraphs": [
+        "強がりを隠そうとして、かえって体調の偏りへ出てしまう状態。",
+        "外見上は小さいが、本人の中では「平気な顔だけが先に完成する」感覚が強い。",
+        "症状に見える場合もあるが、本項は医学的な説明ではない。俗につよぐあいと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "強がり",
+        "体調の偏り"
+      ],
+      "tone": "observational",
+      "ending_family": "not_medical",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0263",
+      "word": "つよきぶん",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "強がりが気分の波へ表れた状態。",
+        "本人には「平気な顔だけが先に完成する」と感じられ、外からは「機嫌が理由なく上下する」ように見える。",
+        "締切が近づくと一時的に改善するため、治ったとは言いにくい。俗につよきぶんと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "強がり",
+        "気分の波"
+      ],
+      "tone": "dry",
+      "ending_family": "deadline_heals",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0264",
+      "word": "つよあたま",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "強がりと思考の状態が同時に崩れたときの俗称。",
+        "始まりは「平気な顔だけが先に完成する」ことで、しばらくすると「考えが同じ場所を回り続ける」状態へ移る。",
+        "本人は隠せているつもりでも、思考の状態へ出るので周囲には分かりやすい。俗につよあたまと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "強がり",
+        "思考の状態"
+      ],
+      "tone": "absurd",
+      "ending_family": "others_notice",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0265",
+      "word": "つよからだ",
+      "category": "condition",
+      "rarity": 3,
+      "paragraphs": [
+        "強がりの影響で、身体感覚だけが通常どおり働かなくなる状態。",
+        "平常を装っても「姿勢と疲労感の釣り合いが崩れる」ため、周囲には意外と分かりやすい。",
+        "解決はしないが、つよからだと呼ぶと少しだけ扱いやすくなる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "強がり",
+        "身体感覚"
+      ],
+      "tone": "deadpan",
+      "ending_family": "name_relief",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0266",
+      "word": "つよめざめ",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "目覚め方へ強がりが混ざり、判断が少し遅くなる状態。",
+        "多くは休憩で改善するが、休むまでに「平気な顔だけが先に完成する」時間が続く。",
+        "対策には早寝が挙げられる。だいたい何にでも効くので参考度は低い。俗につよめざめと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "強がり",
+        "目覚め方"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "sleep_generic",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0267",
+      "word": "つよひとみ",
+      "category": "condition",
+      "rarity": 3,
+      "paragraphs": [
+        "強がりを自覚した直後から視線の状態へ波及する軽い不調。",
+        "安心した直後に出やすく、「見るべきものから目だけが逃げる」ことが特徴とされる。",
+        "つよひとみだった理由は、翌日になると本人もだいたい忘れている。"
+      ],
+      "tags": [
+        "状態・感情",
+        "強がり",
+        "視線の状態"
+      ],
+      "tone": "observational",
+      "ending_family": "tomorrow_forget",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0268",
+      "word": "つよしせい",
+      "category": "condition",
+      "rarity": 3,
+      "paragraphs": [
+        "強がりを隠そうとして、かえって姿勢の崩れへ出てしまう状態。",
+        "外見上は小さいが、本人の中では「平気な顔だけが先に完成する」感覚が強い。",
+        "緊急性は低いが、当事者のやる気だけは確実に削る。俗につよしせいと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "強がり",
+        "姿勢の崩れ"
+      ],
+      "tone": "dry",
+      "ending_family": "low_urgency",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0269",
+      "word": "つよきおく",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "強がりが記憶の偏りへ表れた状態。",
+        "本人には「平気な顔だけが先に完成する」と感じられ、外からは「必要なことだけ思い出せなくなる」ように見える。",
+        "始まりは小さいものの、放置すると一日の説明役を務める。俗につよきおくと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "強がり",
+        "記憶の偏り"
+      ],
+      "tone": "absurd",
+      "ending_family": "small_start",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0270",
+      "word": "つよやるき",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "強がりと意欲の動きが同時に崩れたときの俗称。",
+        "始まりは「平気な顔だけが先に完成する」ことで、しばらくすると「着手直前にだけ勢いが消える」状態へ移る。",
+        "性格の問題ではない。少なくとも本人はそう説明している。俗につよやるきと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "強がり",
+        "意欲の動き"
+      ],
+      "tone": "deadpan",
+      "ending_family": "not_personality",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0271",
+      "word": "よわこころ",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "弱気の影響で、心の状態だけが通常どおり働かなくなる状態。",
+        "平常を装っても「気持ちの置き場所が定まらない」ため、周囲には意外と分かりやすい。",
+        "多くは休憩で改善するが、よわこころの最中は休憩を始める判断も遅い。"
+      ],
+      "tags": [
+        "状態・感情",
+        "弱気",
+        "心の状態"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "rest_helps",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0272",
+      "word": "よわぐあい",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "体調の偏りへ弱気が混ざり、判断が少し遅くなる状態。",
+        "多くは休憩で改善するが、休むまでに「簡単な判断まで他人に委ねたくなる」時間が続く。",
+        "症状に見える場合もあるが、本項は医学的な説明ではない。俗によわぐあいと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "弱気",
+        "体調の偏り"
+      ],
+      "tone": "observational",
+      "ending_family": "not_medical",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0273",
+      "word": "よわきぶん",
+      "category": "condition",
+      "rarity": 3,
+      "paragraphs": [
+        "弱気を自覚した直後から気分の波へ波及する軽い不調。",
+        "安心した直後に出やすく、「機嫌が理由なく上下する」ことが特徴とされる。",
+        "締切が近づくと一時的に改善するため、治ったとは言いにくい。俗によわきぶんと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "弱気",
+        "気分の波"
+      ],
+      "tone": "dry",
+      "ending_family": "deadline_heals",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0274",
+      "word": "よわあたま",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "弱気を隠そうとして、かえって思考の状態へ出てしまう状態。",
+        "外見上は小さいが、本人の中では「簡単な判断まで他人に委ねたくなる」感覚が強い。",
+        "本人は隠せているつもりでも、思考の状態へ出るので周囲には分かりやすい。俗によわあたまと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "弱気",
+        "思考の状態"
+      ],
+      "tone": "absurd",
+      "ending_family": "others_notice",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0275",
+      "word": "よわからだ",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "弱気が身体感覚へ表れた状態。",
+        "本人には「簡単な判断まで他人に委ねたくなる」と感じられ、外からは「姿勢と疲労感の釣り合いが崩れる」ように見える。",
+        "解決はしないが、よわからだと呼ぶと少しだけ扱いやすくなる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "弱気",
+        "身体感覚"
+      ],
+      "tone": "deadpan",
+      "ending_family": "name_relief",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0276",
+      "word": "よわめざめ",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "弱気と目覚め方が同時に崩れたときの俗称。",
+        "始まりは「簡単な判断まで他人に委ねたくなる」ことで、しばらくすると「起きているのに起動が完了しない」状態へ移る。",
+        "対策には早寝が挙げられる。だいたい何にでも効くので参考度は低い。俗によわめざめと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "弱気",
+        "目覚め方"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "sleep_generic",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0277",
+      "word": "よわひとみ",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "弱気の影響で、視線の状態だけが通常どおり働かなくなる状態。",
+        "平常を装っても「見るべきものから目だけが逃げる」ため、周囲には意外と分かりやすい。",
+        "よわひとみだった理由は、翌日になると本人もだいたい忘れている。"
+      ],
+      "tags": [
+        "状態・感情",
+        "弱気",
+        "視線の状態"
+      ],
+      "tone": "observational",
+      "ending_family": "tomorrow_forget",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0278",
+      "word": "よわしせい",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "姿勢の崩れへ弱気が混ざり、判断が少し遅くなる状態。",
+        "多くは休憩で改善するが、休むまでに「簡単な判断まで他人に委ねたくなる」時間が続く。",
+        "緊急性は低いが、当事者のやる気だけは確実に削る。俗によわしせいと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "弱気",
+        "姿勢の崩れ"
+      ],
+      "tone": "dry",
+      "ending_family": "low_urgency",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0279",
+      "word": "よわきおく",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "弱気を自覚した直後から記憶の偏りへ波及する軽い不調。",
+        "安心した直後に出やすく、「必要なことだけ思い出せなくなる」ことが特徴とされる。",
+        "始まりは小さいものの、放置すると一日の説明役を務める。俗によわきおくと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "弱気",
+        "記憶の偏り"
+      ],
+      "tone": "absurd",
+      "ending_family": "small_start",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0280",
+      "word": "よわやるき",
+      "category": "condition",
+      "rarity": 4,
+      "paragraphs": [
+        "弱気を隠そうとして、かえって意欲の動きへ出てしまう状態。",
+        "外見上は小さいが、本人の中では「簡単な判断まで他人に委ねたくなる」感覚が強い。",
+        "性格の問題ではない。少なくとも本人はそう説明している。俗によわやるきと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "弱気",
+        "意欲の動き"
+      ],
+      "tone": "deadpan",
+      "ending_family": "not_personality",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0281",
+      "word": "むずこころ",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "難しさが心の状態へ表れた状態。",
+        "本人には「分かりそうなところで理解が止まる」と感じられ、外からは「気持ちの置き場所が定まらない」ように見える。",
+        "多くは休憩で改善するが、むずこころの最中は休憩を始める判断も遅い。"
+      ],
+      "tags": [
+        "状態・感情",
+        "難しさ",
+        "心の状態"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "rest_helps",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0282",
+      "word": "むずぐあい",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "難しさと体調の偏りが同時に崩れたときの俗称。",
+        "始まりは「分かりそうなところで理解が止まる」ことで、しばらくすると「体の一部だけが休みたがる」状態へ移る。",
+        "症状に見える場合もあるが、本項は医学的な説明ではない。俗にむずぐあいと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "難しさ",
+        "体調の偏り"
+      ],
+      "tone": "observational",
+      "ending_family": "not_medical",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0283",
+      "word": "むずきぶん",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "難しさの影響で、気分の波だけが通常どおり働かなくなる状態。",
+        "平常を装っても「機嫌が理由なく上下する」ため、周囲には意外と分かりやすい。",
+        "締切が近づくと一時的に改善するため、治ったとは言いにくい。俗にむずきぶんと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "難しさ",
+        "気分の波"
+      ],
+      "tone": "dry",
+      "ending_family": "deadline_heals",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0284",
+      "word": "むずあたま",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "思考の状態へ難しさが混ざり、判断が少し遅くなる状態。",
+        "多くは休憩で改善するが、休むまでに「分かりそうなところで理解が止まる」時間が続く。",
+        "本人は隠せているつもりでも、思考の状態へ出るので周囲には分かりやすい。俗にむずあたまと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "難しさ",
+        "思考の状態"
+      ],
+      "tone": "absurd",
+      "ending_family": "others_notice",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0285",
+      "word": "むずからだ",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "難しさを自覚した直後から身体感覚へ波及する軽い不調。",
+        "安心した直後に出やすく、「姿勢と疲労感の釣り合いが崩れる」ことが特徴とされる。",
+        "解決はしないが、むずからだと呼ぶと少しだけ扱いやすくなる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "難しさ",
+        "身体感覚"
+      ],
+      "tone": "deadpan",
+      "ending_family": "name_relief",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0286",
+      "word": "むずめざめ",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "難しさを隠そうとして、かえって目覚め方へ出てしまう状態。",
+        "外見上は小さいが、本人の中では「分かりそうなところで理解が止まる」感覚が強い。",
+        "対策には早寝が挙げられる。だいたい何にでも効くので参考度は低い。俗にむずめざめと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "難しさ",
+        "目覚め方"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "sleep_generic",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0287",
+      "word": "むずひとみ",
+      "category": "condition",
+      "rarity": 1,
+      "paragraphs": [
+        "難しさが視線の状態へ表れた状態。",
+        "本人には「分かりそうなところで理解が止まる」と感じられ、外からは「見るべきものから目だけが逃げる」ように見える。",
+        "むずひとみだった理由は、翌日になると本人もだいたい忘れている。"
+      ],
+      "tags": [
+        "状態・感情",
+        "難しさ",
+        "視線の状態"
+      ],
+      "tone": "observational",
+      "ending_family": "tomorrow_forget",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0288",
+      "word": "むずしせい",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "難しさと姿勢の崩れが同時に崩れたときの俗称。",
+        "始まりは「分かりそうなところで理解が止まる」ことで、しばらくすると「背筋と意欲が同時に曲がる」状態へ移る。",
+        "緊急性は低いが、当事者のやる気だけは確実に削る。俗にむずしせいと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "難しさ",
+        "姿勢の崩れ"
+      ],
+      "tone": "dry",
+      "ending_family": "low_urgency",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0289",
+      "word": "むずきおく",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "難しさの影響で、記憶の偏りだけが通常どおり働かなくなる状態。",
+        "平常を装っても「必要なことだけ思い出せなくなる」ため、周囲には意外と分かりやすい。",
+        "始まりは小さいものの、放置すると一日の説明役を務める。俗にむずきおくと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "難しさ",
+        "記憶の偏り"
+      ],
+      "tone": "absurd",
+      "ending_family": "small_start",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0290",
+      "word": "むずやるき",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "意欲の動きへ難しさが混ざり、判断が少し遅くなる状態。",
+        "多くは休憩で改善するが、休むまでに「分かりそうなところで理解が止まる」時間が続く。",
+        "性格の問題ではない。少なくとも本人はそう説明している。俗にむずやるきと呼ばれる。"
+      ],
+      "tags": [
+        "状態・感情",
+        "難しさ",
+        "意欲の動き"
+      ],
+      "tone": "deadpan",
+      "ending_family": "not_personality",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0291",
+      "word": "ねこもどき",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "猫に似た姿と態度を持つが、猫として重要な部分が少しずつ足りない生物。",
+        "箱には入るものの収まりが悪く、呼んでも来ない点だけは本物に近い。",
+        "専門家は猫ではないとしている。本人は特に気にしていない。"
+      ],
+      "tags": [
+        "猫",
+        "未確認生物",
+        "箱"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_cat_like",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0292",
+      "word": "ねここぞう",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "猫の仲間と誤認されやすい幼体。",
+        "主に人のいない時間へ現れ、「小柄なわりに態度だけは完成している」行動を繰り返す。",
+        "写真ではだいたいぶれるため、猫との区別は今もついていない。この個体がねここぞうである。"
+      ],
+      "tags": [
+        "生物",
+        "猫",
+        "幼体"
+      ],
+      "tone": "dry",
+      "ending_family": "photo_blur",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0293",
+      "word": "ねこぼうず",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "猫の習性を一部だけ受け継いだ未確認生物。",
+        "餌より居場所を重視し、「気まぐれで、人の作業を静かに妨げる」性質を持つ。",
+        "危険性は低いが、作業中の人間には妙に近づく。この個体がねこぼうずである。"
+      ],
+      "tags": [
+        "生物",
+        "猫",
+        "丸い個体"
+      ],
+      "tone": "absurd",
+      "ending_family": "harmless",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0294",
+      "word": "ねこまるこ",
+      "category": "creature",
+      "rarity": 3,
+      "paragraphs": [
+        "球形種として各地で語られる、猫に近い生物。",
+        "危険性は低いが、「転がることで移動を省略する」ため作業の邪魔にはなる。",
+        "ねこまるこという呼び名を本人が認識しているかは不明である。"
+      ],
+      "tags": [
+        "生物",
+        "猫",
+        "球形種"
+      ],
+      "tone": "deadpan",
+      "ending_family": "name_self",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0295",
+      "word": "ねこねむり",
+      "category": "creature",
+      "rarity": 3,
+      "paragraphs": [
+        "猫の姿を借りて暮らすとされる休眠種。",
+        "見つかると「気まぐれで、人の作業を静かに妨げる」かのように振る舞い、そのまま隠れる。",
+        "袋の音を出すと急に姿を見せるため、研究方法だけは確立している。この個体がねこねむりである。"
+      ],
+      "tags": [
+        "生物",
+        "猫",
+        "休眠種"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "food_sound",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0296",
+      "word": "ねこみはり",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "猫より少しだけ人間社会へ慣れた監視種。",
+        "鳴き声は小さく、行動の大半を「何も起きない場所を長時間見張る」ことへ使う。",
+        "専門家は猫ではないとしている。本人は特に気にしていない。この個体がねこみはりである。"
+      ],
+      "tags": [
+        "生物",
+        "猫",
+        "監視種"
+      ],
+      "tone": "observational",
+      "ending_family": "expert_denial",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0297",
+      "word": "ねこかくれ",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "猫に似た特徴を持つ、潜伏種に分類される小型生物。",
+        "習性として「気まぐれで、人の作業を静かに妨げる」ことと、「見つかった瞬間だけ隠れるのが上手い」ことが報告されている。",
+        "夜行性とされるが、昼も寝ているだけで完全には否定できない。この個体がねこかくれである。"
+      ],
+      "tags": [
+        "生物",
+        "猫",
+        "潜伏種"
+      ],
+      "tone": "dry",
+      "ending_family": "night_active",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0298",
+      "word": "ねこつかい",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "猫の仲間と誤認されやすい使役種。",
+        "主に人のいない時間へ現れ、「他の生物に用事を押しつける」行動を繰り返す。",
+        "主な生息地は人の家の隅で、所有者より先に居場所を決める。この個体がねこつかいである。"
+      ],
+      "tags": [
+        "生物",
+        "猫",
+        "使役種"
+      ],
+      "tone": "absurd",
+      "ending_family": "habitat_home",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0299",
+      "word": "ねこたろう",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "猫の習性を一部だけ受け継いだ未確認生物。",
+        "餌より居場所を重視し、「気まぐれで、人の作業を静かに妨げる」性質を持つ。",
+        "目撃者は多いが、全員が別の形を説明している。この個体がねこたろうである。"
+      ],
+      "tags": [
+        "生物",
+        "猫",
+        "大型個体"
+      ],
+      "tone": "deadpan",
+      "ending_family": "one_seen",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0300",
+      "word": "ねこじぞう",
+      "category": "creature",
+      "rarity": 3,
+      "paragraphs": [
+        "静止種として各地で語られる、猫に近い生物。",
+        "危険性は低いが、「動かないことで周囲へ圧をかける」ため作業の邪魔にはなる。",
+        "追うと隠れ、放置すると近づくため、観察には諦めが必要である。この個体がねこじぞうである。"
+      ],
+      "tags": [
+        "生物",
+        "猫",
+        "静止種"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "do_not_chase",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    }
+  ]
+}

@@ -1,0 +1,1061 @@
+{
+  "schema_version": 2,
+  "pack_id": "pack_003",
+  "id_range": [
+    "GMG0101",
+    "GMG0150"
+  ],
+  "entry_count": 50,
+  "entries": [
+    {
+      "id": "GMG0101",
+      "word": "なみしらせ",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "波の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「水面の周期が一度だけ乱れるとき」ことが挙げられるが、因果関係は確認されていない。",
+        "なお、なみしらせは意識して観察すると急に起きにくくなる。"
+      ],
+      "tags": [
+        "現象",
+        "波",
+        "前触れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "observe_fades",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0102",
+      "word": "なみまわり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "回転が波の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「周囲の向きだけがゆっくり入れ替わる」ため当事者だけは妙に確信を持つ。",
+        "天気予報には載らないが、波を気にする人にはよく知られている。この小さな異変をなみまわりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "波",
+        "回転"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "forecast_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0103",
+      "word": "なみほどき",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "波に関係して起きる、ほどけの一種。",
+        "観測記録では「水面の周期が一度だけ乱れるとき」という状況で起こりやすく、結果として「固まっていたものが自然に緩む」と説明される。",
+        "原因は不明だが、たぶん波のタイミングが悪かった。この小さな異変をなみほどきと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "波",
+        "ほどけ"
+      ],
+      "tone": "observational",
+      "ending_family": "timing_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0104",
+      "word": "なみゆらぎ",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "波の周辺でだけ確認される、ごく短い揺らぎ。",
+        "発生前には「水面の周期が一度だけ乱れるとき」という兆候があり、その後に「一定だったリズムが一度だけ揺れる」とされる。",
+        "現象より先に名称だけが広まり、なみゆらぎの実態は今も曖昧である。"
+      ],
+      "tags": [
+        "現象",
+        "波",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_first",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0105",
+      "word": "なみにじみ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "波をきっかけに小さなにじみが生じる現象。",
+        "当事者は「水面の周期が一度だけ乱れるとき」ころに気づき、周囲では「境界が少しずつ曖昧になる」ように見えるという。",
+        "長くは続かないため、なみにじみを説明している間にだいたい終わる。"
+      ],
+      "tags": [
+        "現象",
+        "波",
+        "にじみ"
+      ],
+      "tone": "absurd",
+      "ending_family": "short_lived",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0106",
+      "word": "なみこぼれ",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "波とこぼれが同時に観測された状態を指す俗称。",
+        "長くは続かず、「本来そこにないものが少量だけ現れる」段階で自然に収まることが多い。",
+        "写真には残りにくく、こぼれを見たという証言だけが残る。この小さな異変をなみこぼれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "波",
+        "こぼれ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "no_photo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0107",
+      "word": "なみかえり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "波の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「水面の周期が一度だけ乱れるとき」ことが挙げられるが、因果関係は確認されていない。",
+        "法則ではないが、波が絡むと同じ結末になりやすい。この小さな異変をなみかえりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "波",
+        "戻り"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_law",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0108",
+      "word": "なみずらし",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "ずれが波の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「位置や時刻がわずかに食い違う」ため当事者だけは妙に確信を持つ。",
+        "再現実験は何度か行われたが、なみずらしだけ都合よく発生しなかった。"
+      ],
+      "tags": [
+        "現象",
+        "波",
+        "ずれ"
+      ],
+      "tone": "observational",
+      "ending_family": "repro_fail",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0109",
+      "word": "なみおくれ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "波に関係して起きる、遅れの一種。",
+        "観測記録では「水面の周期が一度だけ乱れるとき」という状況で起こりやすく、結果として「反応が半拍だけ後ろへずれる」と説明される。",
+        "危険性は低い。ただし日常の段取りへ小さく効いてくる。この小さな異変をなみおくれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "波",
+        "遅れ"
+      ],
+      "tone": "dry",
+      "ending_family": "small_nuisance",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0110",
+      "word": "なみだまり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "波の周辺でだけ確認される、ごく短い滞留。",
+        "発生前には「水面の周期が一度だけ乱れるとき」という兆候があり、その後に「動くはずのものが一か所に溜まる」とされる。",
+        "出典は失われているが、なみだまりという五文字だけは残った。"
+      ],
+      "tags": [
+        "現象",
+        "波",
+        "滞留"
+      ],
+      "tone": "absurd",
+      "ending_family": "source_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0111",
+      "word": "もやしらせ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "靄をきっかけに小さな前触れが生じる現象。",
+        "当事者は「遠景の輪郭が薄くなる朝」ころに気づき、周囲では「まだ起きていない出来事を知らせる」ように見えるという。",
+        "なお、もやしらせは意識して観察すると急に起きにくくなる。"
+      ],
+      "tags": [
+        "現象",
+        "靄",
+        "前触れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "observe_fades",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0112",
+      "word": "もやまわり",
+      "category": "phenomenon",
+      "rarity": 4,
+      "paragraphs": [
+        "靄と回転が同時に観測された状態を指す俗称。",
+        "長くは続かず、「周囲の向きだけがゆっくり入れ替わる」段階で自然に収まることが多い。",
+        "天気予報には載らないが、靄を気にする人にはよく知られている。この小さな異変をもやまわりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "靄",
+        "回転"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "forecast_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0113",
+      "word": "もやほどき",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "靄の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「遠景の輪郭が薄くなる朝」ことが挙げられるが、因果関係は確認されていない。",
+        "原因は不明だが、たぶん靄のタイミングが悪かった。この小さな異変をもやほどきと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "靄",
+        "ほどけ"
+      ],
+      "tone": "observational",
+      "ending_family": "timing_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0114",
+      "word": "もやゆらぎ",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "揺らぎが靄の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「一定だったリズムが一度だけ揺れる」ため当事者だけは妙に確信を持つ。",
+        "現象より先に名称だけが広まり、もやゆらぎの実態は今も曖昧である。"
+      ],
+      "tags": [
+        "現象",
+        "靄",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_first",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0115",
+      "word": "もやにじみ",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "靄に関係して起きる、にじみの一種。",
+        "観測記録では「遠景の輪郭が薄くなる朝」という状況で起こりやすく、結果として「境界が少しずつ曖昧になる」と説明される。",
+        "長くは続かないため、もやにじみを説明している間にだいたい終わる。"
+      ],
+      "tags": [
+        "現象",
+        "靄",
+        "にじみ"
+      ],
+      "tone": "absurd",
+      "ending_family": "short_lived",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0116",
+      "word": "もやこぼれ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "靄の周辺でだけ確認される、ごく短いこぼれ。",
+        "発生前には「遠景の輪郭が薄くなる朝」という兆候があり、その後に「本来そこにないものが少量だけ現れる」とされる。",
+        "写真には残りにくく、こぼれを見たという証言だけが残る。この小さな異変をもやこぼれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "靄",
+        "こぼれ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "no_photo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0117",
+      "word": "もやかえり",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "靄をきっかけに小さな戻りが生じる現象。",
+        "当事者は「遠景の輪郭が薄くなる朝」ころに気づき、周囲では「消えたはずの気配が遅れて戻る」ように見えるという。",
+        "法則ではないが、靄が絡むと同じ結末になりやすい。この小さな異変をもやかえりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "靄",
+        "戻り"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_law",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0118",
+      "word": "もやずらし",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "靄とずれが同時に観測された状態を指す俗称。",
+        "長くは続かず、「位置や時刻がわずかに食い違う」段階で自然に収まることが多い。",
+        "再現実験は何度か行われたが、もやずらしだけ都合よく発生しなかった。"
+      ],
+      "tags": [
+        "現象",
+        "靄",
+        "ずれ"
+      ],
+      "tone": "observational",
+      "ending_family": "repro_fail",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0119",
+      "word": "もやおくれ",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "靄の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「遠景の輪郭が薄くなる朝」ことが挙げられるが、因果関係は確認されていない。",
+        "危険性は低い。ただし日常の段取りへ小さく効いてくる。この小さな異変をもやおくれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "靄",
+        "遅れ"
+      ],
+      "tone": "dry",
+      "ending_family": "small_nuisance",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0120",
+      "word": "もやだまり",
+      "category": "phenomenon",
+      "rarity": 4,
+      "paragraphs": [
+        "滞留が靄の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「動くはずのものが一か所に溜まる」ため当事者だけは妙に確信を持つ。",
+        "出典は失われているが、もやだまりという五文字だけは残った。"
+      ],
+      "tags": [
+        "現象",
+        "靄",
+        "滞留"
+      ],
+      "tone": "absurd",
+      "ending_family": "source_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0121",
+      "word": "そらしらせ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "空に関係して起きる、前触れの一種。",
+        "観測記録では「見上げた人だけが気づく瞬間」という状況で起こりやすく、結果として「まだ起きていない出来事を知らせる」と説明される。",
+        "なお、そらしらせは意識して観察すると急に起きにくくなる。"
+      ],
+      "tags": [
+        "現象",
+        "空",
+        "前触れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "observe_fades",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0122",
+      "word": "そらまわり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "空の周辺でだけ確認される、ごく短い回転。",
+        "発生前には「見上げた人だけが気づく瞬間」という兆候があり、その後に「周囲の向きだけがゆっくり入れ替わる」とされる。",
+        "天気予報には載らないが、空を気にする人にはよく知られている。この小さな異変をそらまわりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "空",
+        "回転"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "forecast_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0123",
+      "word": "そらほどき",
+      "category": "phenomenon",
+      "rarity": 4,
+      "paragraphs": [
+        "空をきっかけに小さなほどけが生じる現象。",
+        "当事者は「見上げた人だけが気づく瞬間」ころに気づき、周囲では「固まっていたものが自然に緩む」ように見えるという。",
+        "原因は不明だが、たぶん空のタイミングが悪かった。この小さな異変をそらほどきと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "空",
+        "ほどけ"
+      ],
+      "tone": "observational",
+      "ending_family": "timing_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0124",
+      "word": "そらゆらぎ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "空と揺らぎが同時に観測された状態を指す俗称。",
+        "長くは続かず、「一定だったリズムが一度だけ揺れる」段階で自然に収まることが多い。",
+        "現象より先に名称だけが広まり、そらゆらぎの実態は今も曖昧である。"
+      ],
+      "tags": [
+        "現象",
+        "空",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_first",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0125",
+      "word": "そらにじみ",
+      "category": "phenomenon",
+      "rarity": 4,
+      "paragraphs": [
+        "空の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「見上げた人だけが気づく瞬間」ことが挙げられるが、因果関係は確認されていない。",
+        "長くは続かないため、そらにじみを説明している間にだいたい終わる。"
+      ],
+      "tags": [
+        "現象",
+        "空",
+        "にじみ"
+      ],
+      "tone": "absurd",
+      "ending_family": "short_lived",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0126",
+      "word": "そらこぼれ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "こぼれが空の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「本来そこにないものが少量だけ現れる」ため当事者だけは妙に確信を持つ。",
+        "写真には残りにくく、こぼれを見たという証言だけが残る。この小さな異変をそらこぼれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "空",
+        "こぼれ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "no_photo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0127",
+      "word": "そらかえり",
+      "category": "phenomenon",
+      "rarity": 4,
+      "paragraphs": [
+        "空に関係して起きる、戻りの一種。",
+        "観測記録では「見上げた人だけが気づく瞬間」という状況で起こりやすく、結果として「消えたはずの気配が遅れて戻る」と説明される。",
+        "法則ではないが、空が絡むと同じ結末になりやすい。この小さな異変をそらかえりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "空",
+        "戻り"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_law",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0128",
+      "word": "そらずらし",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "空の周辺でだけ確認される、ごく短いずれ。",
+        "発生前には「見上げた人だけが気づく瞬間」という兆候があり、その後に「位置や時刻がわずかに食い違う」とされる。",
+        "再現実験は何度か行われたが、そらずらしだけ都合よく発生しなかった。"
+      ],
+      "tags": [
+        "現象",
+        "空",
+        "ずれ"
+      ],
+      "tone": "observational",
+      "ending_family": "repro_fail",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0129",
+      "word": "そらおくれ",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "空をきっかけに小さな遅れが生じる現象。",
+        "当事者は「見上げた人だけが気づく瞬間」ころに気づき、周囲では「反応が半拍だけ後ろへずれる」ように見えるという。",
+        "危険性は低い。ただし日常の段取りへ小さく効いてくる。この小さな異変をそらおくれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "空",
+        "遅れ"
+      ],
+      "tone": "dry",
+      "ending_family": "small_nuisance",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0130",
+      "word": "そらだまり",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "空と滞留が同時に観測された状態を指す俗称。",
+        "長くは続かず、「動くはずのものが一か所に溜まる」段階で自然に収まることが多い。",
+        "出典は失われているが、そらだまりという五文字だけは残った。"
+      ],
+      "tags": [
+        "現象",
+        "空",
+        "滞留"
+      ],
+      "tone": "absurd",
+      "ending_family": "source_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0131",
+      "word": "こえしらせ",
+      "category": "phenomenon",
+      "rarity": 4,
+      "paragraphs": [
+        "声の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「呼びかけが少し遅れて聞こえる場所」ことが挙げられるが、因果関係は確認されていない。",
+        "なお、こえしらせは意識して観察すると急に起きにくくなる。"
+      ],
+      "tags": [
+        "現象",
+        "声",
+        "前触れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "observe_fades",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0132",
+      "word": "こえまわり",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "回転が声の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「周囲の向きだけがゆっくり入れ替わる」ため当事者だけは妙に確信を持つ。",
+        "天気予報には載らないが、声を気にする人にはよく知られている。この小さな異変をこえまわりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "声",
+        "回転"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "forecast_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0133",
+      "word": "こえほどき",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "声に関係して起きる、ほどけの一種。",
+        "観測記録では「呼びかけが少し遅れて聞こえる場所」という状況で起こりやすく、結果として「固まっていたものが自然に緩む」と説明される。",
+        "原因は不明だが、たぶん声のタイミングが悪かった。この小さな異変をこえほどきと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "声",
+        "ほどけ"
+      ],
+      "tone": "observational",
+      "ending_family": "timing_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0134",
+      "word": "こえゆらぎ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "声の周辺でだけ確認される、ごく短い揺らぎ。",
+        "発生前には「呼びかけが少し遅れて聞こえる場所」という兆候があり、その後に「一定だったリズムが一度だけ揺れる」とされる。",
+        "現象より先に名称だけが広まり、こえゆらぎの実態は今も曖昧である。"
+      ],
+      "tags": [
+        "現象",
+        "声",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_first",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0135",
+      "word": "こえにじみ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "声をきっかけに小さなにじみが生じる現象。",
+        "当事者は「呼びかけが少し遅れて聞こえる場所」ころに気づき、周囲では「境界が少しずつ曖昧になる」ように見えるという。",
+        "長くは続かないため、こえにじみを説明している間にだいたい終わる。"
+      ],
+      "tags": [
+        "現象",
+        "声",
+        "にじみ"
+      ],
+      "tone": "absurd",
+      "ending_family": "short_lived",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0136",
+      "word": "こえこぼれ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "声とこぼれが同時に観測された状態を指す俗称。",
+        "長くは続かず、「本来そこにないものが少量だけ現れる」段階で自然に収まることが多い。",
+        "写真には残りにくく、こぼれを見たという証言だけが残る。この小さな異変をこえこぼれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "声",
+        "こぼれ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "no_photo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0137",
+      "word": "こえかえり",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "声の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「呼びかけが少し遅れて聞こえる場所」ことが挙げられるが、因果関係は確認されていない。",
+        "法則ではないが、声が絡むと同じ結末になりやすい。この小さな異変をこえかえりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "声",
+        "戻り"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_law",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0138",
+      "word": "こえずらし",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "ずれが声の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「位置や時刻がわずかに食い違う」ため当事者だけは妙に確信を持つ。",
+        "再現実験は何度か行われたが、こえずらしだけ都合よく発生しなかった。"
+      ],
+      "tags": [
+        "現象",
+        "声",
+        "ずれ"
+      ],
+      "tone": "observational",
+      "ending_family": "repro_fail",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0139",
+      "word": "こえおくれ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "声に関係して起きる、遅れの一種。",
+        "観測記録では「呼びかけが少し遅れて聞こえる場所」という状況で起こりやすく、結果として「反応が半拍だけ後ろへずれる」と説明される。",
+        "危険性は低い。ただし日常の段取りへ小さく効いてくる。この小さな異変をこえおくれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "声",
+        "遅れ"
+      ],
+      "tone": "dry",
+      "ending_family": "small_nuisance",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0140",
+      "word": "こえだまり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "声の周辺でだけ確認される、ごく短い滞留。",
+        "発生前には「呼びかけが少し遅れて聞こえる場所」という兆候があり、その後に「動くはずのものが一か所に溜まる」とされる。",
+        "出典は失われているが、こえだまりという五文字だけは残った。"
+      ],
+      "tags": [
+        "現象",
+        "声",
+        "滞留"
+      ],
+      "tone": "absurd",
+      "ending_family": "source_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0141",
+      "word": "かげしらせ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "影をきっかけに小さな前触れが生じる現象。",
+        "当事者は「影の向きが感覚と合わないとき」ころに気づき、周囲では「まだ起きていない出来事を知らせる」ように見えるという。",
+        "なお、かげしらせは意識して観察すると急に起きにくくなる。"
+      ],
+      "tags": [
+        "現象",
+        "影",
+        "前触れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "observe_fades",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0142",
+      "word": "かげまわり",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "影と回転が同時に観測された状態を指す俗称。",
+        "長くは続かず、「周囲の向きだけがゆっくり入れ替わる」段階で自然に収まることが多い。",
+        "天気予報には載らないが、影を気にする人にはよく知られている。この小さな異変をかげまわりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "影",
+        "回転"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "forecast_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0143",
+      "word": "かげほどき",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "影の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「影の向きが感覚と合わないとき」ことが挙げられるが、因果関係は確認されていない。",
+        "原因は不明だが、たぶん影のタイミングが悪かった。この小さな異変をかげほどきと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "影",
+        "ほどけ"
+      ],
+      "tone": "observational",
+      "ending_family": "timing_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0144",
+      "word": "かげゆらぎ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "揺らぎが影の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「一定だったリズムが一度だけ揺れる」ため当事者だけは妙に確信を持つ。",
+        "現象より先に名称だけが広まり、かげゆらぎの実態は今も曖昧である。"
+      ],
+      "tags": [
+        "現象",
+        "影",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_first",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0145",
+      "word": "かげにじみ",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "影に関係して起きる、にじみの一種。",
+        "観測記録では「影の向きが感覚と合わないとき」という状況で起こりやすく、結果として「境界が少しずつ曖昧になる」と説明される。",
+        "長くは続かないため、かげにじみを説明している間にだいたい終わる。"
+      ],
+      "tags": [
+        "現象",
+        "影",
+        "にじみ"
+      ],
+      "tone": "absurd",
+      "ending_family": "short_lived",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0146",
+      "word": "かげこぼれ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "影の周辺でだけ確認される、ごく短いこぼれ。",
+        "発生前には「影の向きが感覚と合わないとき」という兆候があり、その後に「本来そこにないものが少量だけ現れる」とされる。",
+        "写真には残りにくく、こぼれを見たという証言だけが残る。この小さな異変をかげこぼれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "影",
+        "こぼれ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "no_photo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0147",
+      "word": "かげかえり",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "影をきっかけに小さな戻りが生じる現象。",
+        "当事者は「影の向きが感覚と合わないとき」ころに気づき、周囲では「消えたはずの気配が遅れて戻る」ように見えるという。",
+        "法則ではないが、影が絡むと同じ結末になりやすい。この小さな異変をかげかえりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "影",
+        "戻り"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_law",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0148",
+      "word": "かげずらし",
+      "category": "phenomenon",
+      "rarity": 4,
+      "paragraphs": [
+        "影とずれが同時に観測された状態を指す俗称。",
+        "長くは続かず、「位置や時刻がわずかに食い違う」段階で自然に収まることが多い。",
+        "再現実験は何度か行われたが、かげずらしだけ都合よく発生しなかった。"
+      ],
+      "tags": [
+        "現象",
+        "影",
+        "ずれ"
+      ],
+      "tone": "observational",
+      "ending_family": "repro_fail",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0149",
+      "word": "かげおくれ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "影の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「影の向きが感覚と合わないとき」ことが挙げられるが、因果関係は確認されていない。",
+        "危険性は低い。ただし日常の段取りへ小さく効いてくる。この小さな異変をかげおくれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "影",
+        "遅れ"
+      ],
+      "tone": "dry",
+      "ending_family": "small_nuisance",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0150",
+      "word": "かげだまり",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "滞留が影の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「動くはずのものが一か所に溜まる」ため当事者だけは妙に確信を持つ。",
+        "出典は失われているが、かげだまりという五文字だけは残った。"
+      ],
+      "tags": [
+        "現象",
+        "影",
+        "滞留"
+      ],
+      "tone": "absurd",
+      "ending_family": "source_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    }
+  ]
+}

@@ -1,0 +1,1061 @@
+{
+  "schema_version": 2,
+  "pack_id": "pack_012",
+  "id_range": [
+    "GMG0551",
+    "GMG0600"
+  ],
+  "entry_count": 50,
+  "entries": [
+    {
+      "id": "GMG0551",
+      "word": "そらぱんち",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "空中を意識して行う打撃技の一種。",
+        "力より間合いを重視し、「地面との相談を一時的に打ち切る」姿勢から始める。",
+        "習得は難しくないが、そらぱんちを使う場面は年に一度あるかどうかである。"
+      ],
+      "tags": [
+        "技・動作",
+        "空中",
+        "打撃技"
+      ],
+      "tone": "absurd",
+      "ending_family": "rare_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0552",
+      "word": "そらずらせ",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "位置ずらしへ空中の考え方を持ち込んだ技。",
+        "本来は護身用だが、日常では「正面衝突を避けて問題を横へ置く」ために使われる。",
+        "実用性より見栄えが先に評価されるため、成功判定はやや甘い。この型をそらずらせと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "空中",
+        "位置ずらし"
+      ],
+      "tone": "deadpan",
+      "ending_family": "looks_better",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0553",
+      "word": "そらかえし",
+      "category": "technique",
+      "rarity": 4,
+      "paragraphs": [
+        "空中の使い方だけ妙に具体的な切り返し。",
+        "習得には三日ほどかかるが、使いどころは年に一度程度。",
+        "一度目は通用するが、同じ相手へ二度使うと普通に読まれる。この型をそらかえしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "空中",
+        "切り返し"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "second_fails",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0554",
+      "word": "そらまわし",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "空中を起点に、相手の判断を半拍遅らせる回転技。",
+        "相手より先に自分が驚く欠点があり、「一周して元の場所へ戻ることも成功に含める」ところで動作を終える。",
+        "成功すると相手より先に使用者が驚く。この型をそらまわしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "空中",
+        "回転技"
+      ],
+      "tone": "observational",
+      "ending_family": "self_surprise",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0555",
+      "word": "そらとばし",
+      "category": "technique",
+      "rarity": 3,
+      "paragraphs": [
+        "空中の動きを基礎にした飛ばし技。",
+        "動作では「地面との相談を一時的に打ち切る」ことを起点とし、「途中の手順を省いて結果だけ先へ送る」ことを狙う。",
+        "競技規則には載っていないため、公式戦での使用は想定されていない。この型をそらとばしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "空中",
+        "飛ばし技"
+      ],
+      "tone": "dry",
+      "ending_family": "not_sport",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0556",
+      "word": "そらためし",
+      "category": "technique",
+      "rarity": 3,
+      "paragraphs": [
+        "空中から仕掛ける、実用性の低い試し技。",
+        "成功しても地味だが、「本番と言わずに本番同様のことをする」点だけは評価される。",
+        "本来は技だが、日常では面倒を横へ送るために使われる。この型をそらためしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "空中",
+        "試し技"
+      ],
+      "tone": "absurd",
+      "ending_family": "daily_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0557",
+      "word": "そらよける",
+      "category": "technique",
+      "rarity": 4,
+      "paragraphs": [
+        "空中を意識して行う回避技の一種。",
+        "力より間合いを重視し、「地面との相談を一時的に打ち切る」姿勢から始める。",
+        "三日ほど練習すれば形にはなる。役立つかどうかは別問題である。この型をそらよけると呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "空中",
+        "回避技"
+      ],
+      "tone": "deadpan",
+      "ending_family": "practice_three",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0558",
+      "word": "そらとめる",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "制止技へ空中の考え方を持ち込んだ技。",
+        "本来は護身用だが、日常では「動きより言い訳を先に止める」ために使われる。",
+        "効果は小さいものの、そらとめると技名を付けると少し強く見える。"
+      ],
+      "tags": [
+        "技・動作",
+        "空中",
+        "制止技"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "small_effect",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0559",
+      "word": "そらおくり",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "空中の使い方だけ妙に具体的な送り技。",
+        "習得には三日ほどかかるが、使いどころは年に一度程度。",
+        "使用後に一度だけ振り返るのが礼儀とされる。この型をそらおくりと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "空中",
+        "送り技"
+      ],
+      "tone": "observational",
+      "ending_family": "courtesy_turn",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0560",
+      "word": "そらくだき",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "空中を起点に、相手の判断を半拍遅らせる崩し技。",
+        "相手より先に自分が驚く欠点があり、「形ではなく相手の自信から先に崩す」ところで動作を終える。",
+        "再現性が低いため、予定へ組み込むことは推奨されない。この型をそらくだきと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "空中",
+        "崩し技"
+      ],
+      "tone": "dry",
+      "ending_family": "no_repeat",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0561",
+      "word": "つまぱんち",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "つま先の動きを基礎にした打撃技。",
+        "動作では「最小の接地で方向だけを変える」ことを起点とし、「威力よりも使用者の意思表示を優先する」ことを狙う。",
+        "習得は難しくないが、つまぱんちを使う場面は年に一度あるかどうかである。"
+      ],
+      "tags": [
+        "技・動作",
+        "つま先",
+        "打撃技"
+      ],
+      "tone": "absurd",
+      "ending_family": "rare_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0562",
+      "word": "つまずらし",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "つま先から仕掛ける、実用性の低い位置ずらし。",
+        "成功しても地味だが、「正面衝突を避けて問題を横へ置く」点だけは評価される。",
+        "実用性より見栄えが先に評価されるため、成功判定はやや甘い。この型をつまずらしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "つま先",
+        "位置ずらし"
+      ],
+      "tone": "deadpan",
+      "ending_family": "looks_better",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0563",
+      "word": "つまかえし",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "つま先を意識して行う切り返しの一種。",
+        "力より間合いを重視し、「最小の接地で方向だけを変える」姿勢から始める。",
+        "一度目は通用するが、同じ相手へ二度使うと普通に読まれる。この型をつまかえしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "つま先",
+        "切り返し"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "second_fails",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0564",
+      "word": "つままわし",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "回転技へつま先の考え方を持ち込んだ技。",
+        "本来は護身用だが、日常では「一周して元の場所へ戻ることも成功に含める」ために使われる。",
+        "成功すると相手より先に使用者が驚く。この型をつままわしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "つま先",
+        "回転技"
+      ],
+      "tone": "observational",
+      "ending_family": "self_surprise",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0565",
+      "word": "つまとばし",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "つま先の使い方だけ妙に具体的な飛ばし技。",
+        "習得には三日ほどかかるが、使いどころは年に一度程度。",
+        "競技規則には載っていないため、公式戦での使用は想定されていない。この型をつまとばしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "つま先",
+        "飛ばし技"
+      ],
+      "tone": "dry",
+      "ending_family": "not_sport",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0566",
+      "word": "つまためし",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "つま先を起点に、相手の判断を半拍遅らせる試し技。",
+        "相手より先に自分が驚く欠点があり、「本番と言わずに本番同様のことをする」ところで動作を終える。",
+        "本来は技だが、日常では面倒を横へ送るために使われる。この型をつまためしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "つま先",
+        "試し技"
+      ],
+      "tone": "absurd",
+      "ending_family": "daily_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0567",
+      "word": "つまよける",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "つま先の動きを基礎にした回避技。",
+        "動作では「最小の接地で方向だけを変える」ことを起点とし、「危険ではなく責任の中心から外れる」ことを狙う。",
+        "三日ほど練習すれば形にはなる。役立つかどうかは別問題である。この型をつまよけると呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "つま先",
+        "回避技"
+      ],
+      "tone": "deadpan",
+      "ending_family": "practice_three",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0568",
+      "word": "つまとめる",
+      "category": "technique",
+      "rarity": 3,
+      "paragraphs": [
+        "つま先から仕掛ける、実用性の低い制止技。",
+        "成功しても地味だが、「動きより言い訳を先に止める」点だけは評価される。",
+        "効果は小さいものの、つまとめると技名を付けると少し強く見える。"
+      ],
+      "tags": [
+        "技・動作",
+        "つま先",
+        "制止技"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "small_effect",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0569",
+      "word": "つまおくり",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "つま先を意識して行う送り技の一種。",
+        "力より間合いを重視し、「最小の接地で方向だけを変える」姿勢から始める。",
+        "使用後に一度だけ振り返るのが礼儀とされる。この型をつまおくりと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "つま先",
+        "送り技"
+      ],
+      "tone": "observational",
+      "ending_family": "courtesy_turn",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0570",
+      "word": "つまくだき",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "崩し技へつま先の考え方を持ち込んだ技。",
+        "本来は護身用だが、日常では「形ではなく相手の自信から先に崩す」ために使われる。",
+        "再現性が低いため、予定へ組み込むことは推奨されない。この型をつまくだきと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "つま先",
+        "崩し技"
+      ],
+      "tone": "dry",
+      "ending_family": "no_repeat",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0571",
+      "word": "こしぱんち",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "腰の使い方だけ妙に具体的な打撃技。",
+        "習得には三日ほどかかるが、使いどころは年に一度程度。",
+        "習得は難しくないが、こしぱんちを使う場面は年に一度あるかどうかである。"
+      ],
+      "tags": [
+        "技・動作",
+        "腰",
+        "打撃技"
+      ],
+      "tone": "absurd",
+      "ending_family": "rare_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0572",
+      "word": "こしずらし",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "腰を起点に、相手の判断を半拍遅らせる位置ずらし。",
+        "相手より先に自分が驚く欠点があり、「正面衝突を避けて問題を横へ置く」ところで動作を終える。",
+        "実用性より見栄えが先に評価されるため、成功判定はやや甘い。この型をこしずらしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "腰",
+        "位置ずらし"
+      ],
+      "tone": "deadpan",
+      "ending_family": "looks_better",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0573",
+      "word": "こしかえし",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "腰の動きを基礎にした切り返し。",
+        "動作では「重心を使って余計な力を省く」ことを起点とし、「受けた勢いをそのまま返す」ことを狙う。",
+        "一度目は通用するが、同じ相手へ二度使うと普通に読まれる。この型をこしかえしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "腰",
+        "切り返し"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "second_fails",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0574",
+      "word": "こしまわし",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "腰から仕掛ける、実用性の低い回転技。",
+        "成功しても地味だが、「一周して元の場所へ戻ることも成功に含める」点だけは評価される。",
+        "成功すると相手より先に使用者が驚く。この型をこしまわしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "腰",
+        "回転技"
+      ],
+      "tone": "observational",
+      "ending_family": "self_surprise",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0575",
+      "word": "こしとばし",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "腰を意識して行う飛ばし技の一種。",
+        "力より間合いを重視し、「重心を使って余計な力を省く」姿勢から始める。",
+        "競技規則には載っていないため、公式戦での使用は想定されていない。この型をこしとばしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "腰",
+        "飛ばし技"
+      ],
+      "tone": "dry",
+      "ending_family": "not_sport",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0576",
+      "word": "こしためし",
+      "category": "technique",
+      "rarity": 3,
+      "paragraphs": [
+        "試し技へ腰の考え方を持ち込んだ技。",
+        "本来は護身用だが、日常では「本番と言わずに本番同様のことをする」ために使われる。",
+        "本来は技だが、日常では面倒を横へ送るために使われる。この型をこしためしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "腰",
+        "試し技"
+      ],
+      "tone": "absurd",
+      "ending_family": "daily_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0577",
+      "word": "こしよける",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "腰の使い方だけ妙に具体的な回避技。",
+        "習得には三日ほどかかるが、使いどころは年に一度程度。",
+        "三日ほど練習すれば形にはなる。役立つかどうかは別問題である。この型をこしよけると呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "腰",
+        "回避技"
+      ],
+      "tone": "deadpan",
+      "ending_family": "practice_three",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0578",
+      "word": "こしとめる",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "腰を起点に、相手の判断を半拍遅らせる制止技。",
+        "相手より先に自分が驚く欠点があり、「動きより言い訳を先に止める」ところで動作を終える。",
+        "効果は小さいものの、こしとめると技名を付けると少し強く見える。"
+      ],
+      "tags": [
+        "技・動作",
+        "腰",
+        "制止技"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "small_effect",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0579",
+      "word": "こしおくり",
+      "category": "technique",
+      "rarity": 3,
+      "paragraphs": [
+        "腰の動きを基礎にした送り技。",
+        "動作では「重心を使って余計な力を省く」ことを起点とし、「相手の勢いに便乗して遠ざける」ことを狙う。",
+        "使用後に一度だけ振り返るのが礼儀とされる。この型をこしおくりと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "腰",
+        "送り技"
+      ],
+      "tone": "observational",
+      "ending_family": "courtesy_turn",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0580",
+      "word": "こしくだき",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "腰から仕掛ける、実用性の低い崩し技。",
+        "成功しても地味だが、「形ではなく相手の自信から先に崩す」点だけは評価される。",
+        "再現性が低いため、予定へ組み込むことは推奨されない。この型をこしくだきと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "腰",
+        "崩し技"
+      ],
+      "tone": "dry",
+      "ending_family": "no_repeat",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0581",
+      "word": "ゆびぱんち",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "指先を意識して行う打撃技の一種。",
+        "力より間合いを重視し、「大げさな動きを小さく代行する」姿勢から始める。",
+        "習得は難しくないが、ゆびぱんちを使う場面は年に一度あるかどうかである。"
+      ],
+      "tags": [
+        "技・動作",
+        "指先",
+        "打撃技"
+      ],
+      "tone": "absurd",
+      "ending_family": "rare_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0582",
+      "word": "ゆびずらし",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "位置ずらしへ指先の考え方を持ち込んだ技。",
+        "本来は護身用だが、日常では「正面衝突を避けて問題を横へ置く」ために使われる。",
+        "実用性より見栄えが先に評価されるため、成功判定はやや甘い。この型をゆびずらしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "指先",
+        "位置ずらし"
+      ],
+      "tone": "deadpan",
+      "ending_family": "looks_better",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0583",
+      "word": "ゆびかえし",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "指先の使い方だけ妙に具体的な切り返し。",
+        "習得には三日ほどかかるが、使いどころは年に一度程度。",
+        "一度目は通用するが、同じ相手へ二度使うと普通に読まれる。この型をゆびかえしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "指先",
+        "切り返し"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "second_fails",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0584",
+      "word": "ゆびまわし",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "指先を起点に、相手の判断を半拍遅らせる回転技。",
+        "相手より先に自分が驚く欠点があり、「一周して元の場所へ戻ることも成功に含める」ところで動作を終える。",
+        "成功すると相手より先に使用者が驚く。この型をゆびまわしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "指先",
+        "回転技"
+      ],
+      "tone": "observational",
+      "ending_family": "self_surprise",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0585",
+      "word": "ゆびとばし",
+      "category": "technique",
+      "rarity": 4,
+      "paragraphs": [
+        "指先の動きを基礎にした飛ばし技。",
+        "動作では「大げさな動きを小さく代行する」ことを起点とし、「途中の手順を省いて結果だけ先へ送る」ことを狙う。",
+        "競技規則には載っていないため、公式戦での使用は想定されていない。この型をゆびとばしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "指先",
+        "飛ばし技"
+      ],
+      "tone": "dry",
+      "ending_family": "not_sport",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0586",
+      "word": "ゆびためし",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "指先から仕掛ける、実用性の低い試し技。",
+        "成功しても地味だが、「本番と言わずに本番同様のことをする」点だけは評価される。",
+        "本来は技だが、日常では面倒を横へ送るために使われる。この型をゆびためしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "指先",
+        "試し技"
+      ],
+      "tone": "absurd",
+      "ending_family": "daily_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0587",
+      "word": "ゆびよける",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "指先を意識して行う回避技の一種。",
+        "力より間合いを重視し、「大げさな動きを小さく代行する」姿勢から始める。",
+        "三日ほど練習すれば形にはなる。役立つかどうかは別問題である。この型をゆびよけると呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "指先",
+        "回避技"
+      ],
+      "tone": "deadpan",
+      "ending_family": "practice_three",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0588",
+      "word": "ゆびとめる",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "制止技へ指先の考え方を持ち込んだ技。",
+        "本来は護身用だが、日常では「動きより言い訳を先に止める」ために使われる。",
+        "効果は小さいものの、ゆびとめると技名を付けると少し強く見える。"
+      ],
+      "tags": [
+        "技・動作",
+        "指先",
+        "制止技"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "small_effect",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0589",
+      "word": "ゆびおくり",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "指先の使い方だけ妙に具体的な送り技。",
+        "習得には三日ほどかかるが、使いどころは年に一度程度。",
+        "使用後に一度だけ振り返るのが礼儀とされる。この型をゆびおくりと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "指先",
+        "送り技"
+      ],
+      "tone": "observational",
+      "ending_family": "courtesy_turn",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0590",
+      "word": "ゆびくだき",
+      "category": "technique",
+      "rarity": 3,
+      "paragraphs": [
+        "指先を起点に、相手の判断を半拍遅らせる崩し技。",
+        "相手より先に自分が驚く欠点があり、「形ではなく相手の自信から先に崩す」ところで動作を終える。",
+        "再現性が低いため、予定へ組み込むことは推奨されない。この型をゆびくだきと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "指先",
+        "崩し技"
+      ],
+      "tone": "dry",
+      "ending_family": "no_repeat",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0591",
+      "word": "ひざぱんち",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "膝の動きを基礎にした打撃技。",
+        "動作では「立つか座るかを曖昧にしたまま動く」ことを起点とし、「威力よりも使用者の意思表示を優先する」ことを狙う。",
+        "習得は難しくないが、ひざぱんちを使う場面は年に一度あるかどうかである。"
+      ],
+      "tags": [
+        "技・動作",
+        "膝",
+        "打撃技"
+      ],
+      "tone": "absurd",
+      "ending_family": "rare_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0592",
+      "word": "ひざずらし",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "膝から仕掛ける、実用性の低い位置ずらし。",
+        "成功しても地味だが、「正面衝突を避けて問題を横へ置く」点だけは評価される。",
+        "実用性より見栄えが先に評価されるため、成功判定はやや甘い。この型をひざずらしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "膝",
+        "位置ずらし"
+      ],
+      "tone": "deadpan",
+      "ending_family": "looks_better",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0593",
+      "word": "ひざかえし",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "膝を意識して行う切り返しの一種。",
+        "力より間合いを重視し、「立つか座るかを曖昧にしたまま動く」姿勢から始める。",
+        "一度目は通用するが、同じ相手へ二度使うと普通に読まれる。この型をひざかえしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "膝",
+        "切り返し"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "second_fails",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0594",
+      "word": "ひざまわし",
+      "category": "technique",
+      "rarity": 3,
+      "paragraphs": [
+        "回転技へ膝の考え方を持ち込んだ技。",
+        "本来は護身用だが、日常では「一周して元の場所へ戻ることも成功に含める」ために使われる。",
+        "成功すると相手より先に使用者が驚く。この型をひざまわしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "膝",
+        "回転技"
+      ],
+      "tone": "observational",
+      "ending_family": "self_surprise",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0595",
+      "word": "ひざとばし",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "膝の使い方だけ妙に具体的な飛ばし技。",
+        "習得には三日ほどかかるが、使いどころは年に一度程度。",
+        "競技規則には載っていないため、公式戦での使用は想定されていない。この型をひざとばしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "膝",
+        "飛ばし技"
+      ],
+      "tone": "dry",
+      "ending_family": "not_sport",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0596",
+      "word": "ひざためし",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "膝を起点に、相手の判断を半拍遅らせる試し技。",
+        "相手より先に自分が驚く欠点があり、「本番と言わずに本番同様のことをする」ところで動作を終える。",
+        "本来は技だが、日常では面倒を横へ送るために使われる。この型をひざためしと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "膝",
+        "試し技"
+      ],
+      "tone": "absurd",
+      "ending_family": "daily_use",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0597",
+      "word": "ひざよける",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "膝の動きを基礎にした回避技。",
+        "動作では「立つか座るかを曖昧にしたまま動く」ことを起点とし、「危険ではなく責任の中心から外れる」ことを狙う。",
+        "三日ほど練習すれば形にはなる。役立つかどうかは別問題である。この型をひざよけると呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "膝",
+        "回避技"
+      ],
+      "tone": "deadpan",
+      "ending_family": "practice_three",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0598",
+      "word": "ひざとめる",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "膝から仕掛ける、実用性の低い制止技。",
+        "成功しても地味だが、「動きより言い訳を先に止める」点だけは評価される。",
+        "効果は小さいものの、ひざとめると技名を付けると少し強く見える。"
+      ],
+      "tags": [
+        "技・動作",
+        "膝",
+        "制止技"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "small_effect",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0599",
+      "word": "ひざおくり",
+      "category": "technique",
+      "rarity": 3,
+      "paragraphs": [
+        "膝を意識して行う送り技の一種。",
+        "力より間合いを重視し、「立つか座るかを曖昧にしたまま動く」姿勢から始める。",
+        "使用後に一度だけ振り返るのが礼儀とされる。この型をひざおくりと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "膝",
+        "送り技"
+      ],
+      "tone": "observational",
+      "ending_family": "courtesy_turn",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0600",
+      "word": "ひざくだき",
+      "category": "technique",
+      "rarity": 1,
+      "paragraphs": [
+        "崩し技へ膝の考え方を持ち込んだ技。",
+        "本来は護身用だが、日常では「形ではなく相手の自信から先に崩す」ために使われる。",
+        "再現性が低いため、予定へ組み込むことは推奨されない。この型をひざくだきと呼ぶ。"
+      ],
+      "tags": [
+        "技・動作",
+        "膝",
+        "崩し技"
+      ],
+      "tone": "dry",
+      "ending_family": "no_repeat",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    }
+  ]
+}

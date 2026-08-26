@@ -1,0 +1,847 @@
+{
+  "schema_version": 2,
+  "description": "UI・折り返し・入力・結果表示の初期確認に使う個別作成シード40件。",
+  "entry_count": 40,
+  "entries": [
+    {
+      "id": "GMG0001",
+      "word": "あめしらせ",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "雨が降る少し前に、なぜか洗濯物を外へ出したくなる現象。",
+        "空模様を見た本人は「まだいける」と判断するが、その判断まで含めて発生条件とされる。",
+        "なお、取り込んだ直後に晴れる場合も同じ現象へ含まれる。"
+      ],
+      "tags": [
+        "雨",
+        "洗濯",
+        "予兆"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_weather_laundry",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0012",
+      "word": "ちょいずれ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "時刻、位置、会話の意図などが、困らない程度に少しだけ食い違う現象。",
+        "一つずつ直すと別の箇所がずれるため、最終的には全員が気づかないふりをする。",
+        "大事故にはならないが、地味に一日を削ってくる。"
+      ],
+      "tags": [
+        "ずれ",
+        "日常",
+        "時間"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "manual_small_misalignment",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0023",
+      "word": "すっぽぬけ",
+      "category": "phenomenon",
+      "rarity": 5,
+      "paragraphs": [
+        "確実に覚えていたはずの情報だけが、必要な瞬間に抜け落ちる現象。",
+        "人名、暗証番号、買う物の三種で特に起こりやすく、用事が終わると自然に戻る。",
+        "記憶力の問題ではない。タイミングの性格が悪いだけである。"
+      ],
+      "tags": [
+        "記憶",
+        "忘却",
+        "日常"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_memory_timing",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0034",
+      "word": "ぴゅうかぜ",
+      "category": "phenomenon",
+      "rarity": 4,
+      "paragraphs": [
+        "窓を閉めた直後に限って、部屋へ入り込もうとする細い風。",
+        "紙だけを選んで動かす性質があり、重い物には一切関心を示さない。",
+        "換気には役立たないが、机の上の秩序は壊す。"
+      ],
+      "tags": [
+        "風",
+        "窓",
+        "紙"
+      ],
+      "tone": "dry",
+      "ending_family": "manual_thin_wind",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0172",
+      "word": "ふとねむい",
+      "category": "condition",
+      "rarity": 3,
+      "paragraphs": [
+        "作業を始めた直後にだけ、急激な眠気が発生する状態。",
+        "休憩中にはほとんど確認されず、締切の一時間前になると自然に治る。",
+        "労働との因果関係が強く疑われている。"
+      ],
+      "tags": [
+        "眠気",
+        "作業",
+        "締切"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_work_sleepiness",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0183",
+      "word": "しょんぼり",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "期待していた結果が出なかった時、肩だけが先に納得する状態。",
+        "本人は平気だと主張できるが、姿勢がすべて説明してしまう。",
+        "甘い物で一時的に改善するとの報告が多い。"
+      ],
+      "tags": [
+        "落胆",
+        "姿勢",
+        "感情"
+      ],
+      "tone": "dry",
+      "ending_family": "manual_shoulders_accept",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0194",
+      "word": "ちょいねむ",
+      "category": "condition",
+      "rarity": 2,
+      "paragraphs": [
+        "眠るほどではないが、起きていると断言するのも難しい状態。",
+        "返事は可能でも内容が保存されないため、重要な相談には向かない。",
+        "五分だけ休むという宣言から長編化しやすい。"
+      ],
+      "tags": [
+        "眠気",
+        "休憩",
+        "返事"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_light_sleep",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0205",
+      "word": "ぐっとくる",
+      "category": "condition",
+      "rarity": 5,
+      "paragraphs": [
+        "説明できない何かが胸の内側へ届き、数秒だけ言葉が遅れる状態。",
+        "感動、懐かしさ、悔しさのどれでも起こるため、本人にも分類が難しい。",
+        "とりあえず黙ってうなずくのが一般的な対処法である。"
+      ],
+      "tags": [
+        "感動",
+        "沈黙",
+        "感情"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_emotion_arrival",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0291",
+      "word": "ねこもどき",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "猫に似た姿と態度を持つが、猫として重要な部分が少しずつ足りない生物。",
+        "箱には入るものの収まりが悪く、呼んでも来ない点だけは本物に近い。",
+        "専門家は猫ではないとしている。本人は特に気にしていない。"
+      ],
+      "tags": [
+        "猫",
+        "未確認生物",
+        "箱"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_cat_like",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0302",
+      "word": "ぴょこたん",
+      "category": "creature",
+      "rarity": 5,
+      "paragraphs": [
+        "物陰から頭だけを出し、周囲の安全を何度も確認する小型生物。",
+        "全身を見たという報告は少なく、頭部だけで生活している説もある。",
+        "近づくと引っ込むため、観察は永遠に最初からやり直しになる。"
+      ],
+      "tags": [
+        "小動物",
+        "物陰",
+        "観察"
+      ],
+      "tone": "dry",
+      "ending_family": "manual_peek_creature",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0313",
+      "word": "にゃんこえ",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "姿は見えないが、猫らしい声だけで存在を主張する生物。",
+        "返事をすると別の方向から鳴くため、位置の特定には向かない。",
+        "餌袋の音を出した時だけ、急に実体を持つ。"
+      ],
+      "tags": [
+        "猫",
+        "声",
+        "気配"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_cat_voice",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0324",
+      "word": "ぎょろみる",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "目だけを大きく動かし、体を一切向けずに周囲を観察する生物。",
+        "警戒しているように見えるが、実際にはだいたい退屈している。",
+        "こちらが見返すと、なぜか見ていなかった顔をする。"
+      ],
+      "tags": [
+        "目",
+        "観察",
+        "小動物"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_eye_watcher",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0403",
+      "word": "もちあぶり",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "餅の表面だけを慎重に炙り、中身の危険性を残した料理。",
+        "香ばしさは増すが伸びる力も増すため、食べる側にも技術が求められる。",
+        "急ぐ理由がある日は選ばないほうがよい。"
+      ],
+      "tags": [
+        "餅",
+        "炙り",
+        "食感"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_mochi_grill",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0412",
+      "word": "がっつめし",
+      "category": "food",
+      "rarity": 4,
+      "paragraphs": [
+        "量の説明を省き、見た目の圧だけで満腹を予告する食事。",
+        "食べ始めは勢いがあるが、中盤から箸と相談する時間が増える。",
+        "完食より、注文した時の覚悟が評価される。"
+      ],
+      "tags": [
+        "大盛り",
+        "食事",
+        "覚悟"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_heavy_meal",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0423",
+      "word": "ふっくらめ",
+      "category": "food",
+      "rarity": 1,
+      "paragraphs": [
+        "通常より少しだけ厚く、柔らかく仕上げる調理上の加減。",
+        "数値で指定できないため、作る側の自信と食べる側の好意で成立する。",
+        "失敗しても「ふっくらめ」と言えば説明としては丸い。"
+      ],
+      "tags": [
+        "食感",
+        "調理",
+        "曖昧"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_softish",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0434",
+      "word": "ぴりっから",
+      "category": "food",
+      "rarity": 2,
+      "paragraphs": [
+        "辛いと言い切るほどではない刺激を、最後まで舌へ残す味付け。",
+        "最初の一口では油断させ、二口目から飲み物の位置を確認させる。",
+        "子ども向けかどうかは、作った人の自己申告による。"
+      ],
+      "tags": [
+        "辛味",
+        "味付け",
+        "飲み物"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "manual_mild_spice",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0501",
+      "word": "ねこぱんち",
+      "category": "technique",
+      "rarity": 5,
+      "paragraphs": [
+        "猫が会話を打ち切る際に使用する、前脚による短い打撃。",
+        "威力よりも使用者の態度に意味があり、防御しても関係は改善しない。",
+        "なお、二発目から爪が出る場合がある。"
+      ],
+      "tags": [
+        "猫",
+        "打撃",
+        "意思表示"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_cat_punch",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0512",
+      "word": "ひょいよけ",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "大げさに構えず、半歩だけ位置を変えて問題を避ける技。",
+        "身体への負担は少ないが、避けた問題が後ろの人へ届く欠点がある。",
+        "使用後は一度だけ振り返るのが礼儀とされる。"
+      ],
+      "tags": [
+        "回避",
+        "半歩",
+        "技"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_casual_dodge",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0523",
+      "word": "きゅっとめ",
+      "category": "technique",
+      "rarity": 3,
+      "paragraphs": [
+        "広がりかけた物事を、最小限の動きで一度だけ締める技。",
+        "袋、話題、口元などに応用できるが、締めすぎると別の問題になる。",
+        "力加減は経験ではなく、その場の空気で決まる。"
+      ],
+      "tags": [
+        "制止",
+        "締める",
+        "技"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "manual_quick_stop",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0534",
+      "word": "しょいこみ",
+      "category": "technique",
+      "rarity": 2,
+      "paragraphs": [
+        "本来は複数人で持つべき役割を、一人で背負って進める動作。",
+        "開始直後は頼もしく見えるが、途中から周囲が声をかけにくくなる。",
+        "技というより癖であり、解除には他人の強制参加が必要である。"
+      ],
+      "tags": [
+        "役割",
+        "負担",
+        "動作"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_take_on",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0601",
+      "word": "かみつまみ",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "机へ平らに張りついた紙の角だけを持ち上げるための小さな道具。",
+        "爪で取れば済む場面でも使えるため、導入理由は主に気分である。",
+        "なくした時に限って必要性を強く感じる。"
+      ],
+      "tags": [
+        "紙",
+        "机",
+        "道具"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_paper_picker",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0612",
+      "word": "ちょんおき",
+      "category": "tool",
+      "rarity": 2,
+      "paragraphs": [
+        "小物を一時的に置いたという事実だけを記録する台。",
+        "定位置ではないため、数分後には置いた本人も場所を説明できない。",
+        "整理用品として売られているが、散らかりの中継地点になりやすい。"
+      ],
+      "tags": [
+        "小物",
+        "整理",
+        "台"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "manual_temporary_stand",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0623",
+      "word": "ぴたっとめ",
+      "category": "tool",
+      "rarity": 4,
+      "paragraphs": [
+        "扉や紙などを、閉じ切らず開き切らずの位置で固定する道具。",
+        "便利な角度は毎回違うため、製品より使う人の勘が重要になる。",
+        "外した後の置き場所までは固定してくれない。"
+      ],
+      "tags": [
+        "固定",
+        "扉",
+        "道具"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_exact_stop",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0634",
+      "word": "ぎゅうおし",
+      "category": "tool",
+      "rarity": 1,
+      "paragraphs": [
+        "蓋や荷物を、理屈ではなく面積と体重で押し込むための補助具。",
+        "正しい使用法では少しずつ圧をかけるが、実際は一度に使われる。",
+        "閉まった場合は成功、開かなくなった場合は別件である。"
+      ],
+      "tags": [
+        "圧力",
+        "蓋",
+        "補助具"
+      ],
+      "tone": "dry",
+      "ending_family": "manual_pressure_tool",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0701",
+      "word": "あさまつり",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "朝早く起きた事実を、必要以上に前向きな出来事として扱う小さな祭り。",
+        "参加者は主に本人一人で、温かい飲み物を用意した時点で成立する。",
+        "二度寝した場合は昼の部へ自動的に延期される。"
+      ],
+      "tags": [
+        "朝",
+        "祭り",
+        "習慣"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "manual_morning_festival",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0712",
+      "word": "ちょいまつ",
+      "category": "custom",
+      "rarity": 3,
+      "paragraphs": [
+        "すぐ戻るという言葉を信じ、予定より少し長く待つ習慣。",
+        "待つ側は五分を想定し、待たせる側は時間を具体的に想定していない。",
+        "両者の「ちょい」が一致した例は少ない。"
+      ],
+      "tags": [
+        "待機",
+        "時間",
+        "習慣"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_wait_a_bit",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0723",
+      "word": "きゅうやす",
+      "category": "custom",
+      "rarity": 1,
+      "paragraphs": [
+        "休む予定を立てず、その場の疲労だけを根拠に始める休止制度。",
+        "開始は早いが終了条件が曖昧で、気づくと別の娯楽へ移行している。",
+        "休憩としては正しい。計画としてはかなり弱い。"
+      ],
+      "tags": [
+        "休憩",
+        "制度",
+        "疲労"
+      ],
+      "tone": "dry",
+      "ending_family": "manual_sudden_break",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0734",
+      "word": "まったなし",
+      "category": "custom",
+      "rarity": 2,
+      "paragraphs": [
+        "先送りを重ねた結果、検討時間が完全に消えた状態で始まる慣習。",
+        "関係者は以前から分かっていた顔をするが、準備物はだいたい足りない。",
+        "緊張感だけは予定どおり到着する。"
+      ],
+      "tags": [
+        "締切",
+        "慣習",
+        "先送り"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_no_more_delay",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0803",
+      "word": "そらこみち",
+      "category": "place",
+      "rarity": 3,
+      "paragraphs": [
+        "空を見上げたまま歩くと、一度だけ入り込めるとされる細い道。",
+        "地図上では普通の路地だが、通行中だけ建物の高さが少し遠ざかる。",
+        "出口へ着くころには、何を探していたか忘れている。"
+      ],
+      "tags": [
+        "空",
+        "小道",
+        "路地"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_sky_path",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0812",
+      "word": "ちょいみち",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "近道のつもりで選ばれ、結果として少しだけ遠回りになる道。",
+        "景色は悪くないため、案内した側は失敗を認めず散歩だったことにする。",
+        "急いでいない日に限れば、かなり良い道である。"
+      ],
+      "tags": [
+        "道",
+        "遠回り",
+        "散歩"
+      ],
+      "tone": "dry",
+      "ending_family": "manual_slight_detour",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0823",
+      "word": "きゃくまち",
+      "category": "place",
+      "rarity": 2,
+      "paragraphs": [
+        "誰かを迎えるために立つ場所が、待つ人の数だけ少しずつ移動した区域。",
+        "駅前、玄関、店先などに発生し、正しい位置は相手が現れた後で判明する。",
+        "目印を伝え合うほど互いに動くので、収束には時間がかかる。"
+      ],
+      "tags": [
+        "待ち合わせ",
+        "場所",
+        "移動"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_guest_wait",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0834",
+      "word": "ひょいまち",
+      "category": "place",
+      "rarity": 1,
+      "paragraphs": [
+        "曲がり角を一つ越えただけで、知らない町へ入った気がする場所。",
+        "実際の距離は短いが、看板と匂いが急に変わるため帰り道が長く感じる。",
+        "写真を撮ると、だいたいいつもの町に戻る。"
+      ],
+      "tags": [
+        "町",
+        "曲がり角",
+        "違和感"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_quick_town",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0881",
+      "word": "れすまわし",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "一つの返信を別の話題へ持ち運び、少しずつ意味を変えていく行為。",
+        "引用が増えるほど最初の発言は見えにくくなり、最後には語尾だけが残る。",
+        "誰が始めたかは、だいたい全員が別の人だと思っている。"
+      ],
+      "tags": [
+        "返信",
+        "引用",
+        "流れ"
+      ],
+      "tone": "dry",
+      "ending_family": "manual_reply_rotation",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0892",
+      "word": "しゃべりて",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "内容より先に会話へ参加し、流れを止めないことを役割とする人。",
+        "詳しくなくても反応は速く、沈黙が続く場面では意外と重宝される。",
+        "情報の正確さは、後から来る人へ委ねられる。"
+      ],
+      "tags": [
+        "会話",
+        "参加者",
+        "反応"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_talker",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0903",
+      "word": "こめぴたっ",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "コメント欄の流れが、特定の一言を境に突然止まる現象。",
+        "強い反論より、返し方の分からない正論や妙に具体的な体験談で起こりやすい。",
+        "止めた本人だけは、まだ通知を待っている。"
+      ],
+      "tags": [
+        "コメント",
+        "沈黙",
+        "正論"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_comment_stop",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0914",
+      "word": "ねたちょい",
+      "category": "internet",
+      "rarity": 1,
+      "paragraphs": [
+        "完成していない話題を少しだけ出し、周囲の反応で続きを決める投稿形式。",
+        "反応が良ければ予告だったことになり、悪ければ独り言だったことになる。",
+        "撤退経路まで含めて一つの技法である。"
+      ],
+      "tags": [
+        "話題",
+        "投稿",
+        "反応"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "manual_teaser",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0951",
+      "word": "かげわらい",
+      "category": "mystery",
+      "rarity": 5,
+      "paragraphs": [
+        "人が笑っていない時に、その影だけが口元を緩める怪異。",
+        "日差しの強い場所ほど見つけやすいが、確認のため振り返ると普通の形へ戻る。",
+        "害はない。ただし、同じ冗談を二度言う必要もない。"
+      ],
+      "tags": [
+        "影",
+        "笑い",
+        "怪異"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_shadow_laugh",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0962",
+      "word": "ゆめぴたっ",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "夢の途中で景色も音も完全に止まり、自分だけが数歩動ける現象。",
+        "止まった人物へ触れると目が覚めるため、詳しい調査は毎回そこで終わる。",
+        "続きを見ようとして二度寝しても、別番組になる。"
+      ],
+      "tags": [
+        "夢",
+        "停止",
+        "怪異"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_dream_stop",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0973",
+      "word": "こえしゅん",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "誰かに呼ばれた気がした直後、周囲の音が一瞬だけ遠ざかる現象。",
+        "名前を知っている声にも知らない声にも聞こえるため、聞き分けはできない。",
+        "返事をしなければ終わる。返事をしても、たぶん終わる。"
+      ],
+      "tags": [
+        "声",
+        "静寂",
+        "怪異"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "manual_voice_hush",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0984",
+      "word": "まどのぞき",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "夜の窓へ近づいた時、室内ではなく別の部屋が一瞬だけ映る怪異。",
+        "家具の配置は似ているが、こちらにない物が一つだけ置かれている。",
+        "確認のため照明を消す行為は推奨されない。普通に怖い。"
+      ],
+      "tags": [
+        "窓",
+        "夜",
+        "怪異"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_window_peek",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    }
+  ]
+}

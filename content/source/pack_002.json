@@ -1,0 +1,1061 @@
+{
+  "schema_version": 2,
+  "pack_id": "pack_002",
+  "id_range": [
+    "GMG0051",
+    "GMG0100"
+  ],
+  "entry_count": 50,
+  "entries": [
+    {
+      "id": "GMG0051",
+      "word": "ほししらせ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "星をきっかけに小さな前触れが生じる現象。",
+        "当事者は「星がひとつだけ強く見える夜」ころに気づき、周囲では「まだ起きていない出来事を知らせる」ように見えるという。",
+        "なお、ほししらせは意識して観察すると急に起きにくくなる。"
+      ],
+      "tags": [
+        "現象",
+        "星",
+        "前触れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "observe_fades",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0052",
+      "word": "ほしまわり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "星と回転が同時に観測された状態を指す俗称。",
+        "長くは続かず、「周囲の向きだけがゆっくり入れ替わる」段階で自然に収まることが多い。",
+        "天気予報には載らないが、星を気にする人にはよく知られている。この小さな異変をほしまわりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "星",
+        "回転"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "forecast_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0053",
+      "word": "ほしほどき",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "星の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「星がひとつだけ強く見える夜」ことが挙げられるが、因果関係は確認されていない。",
+        "原因は不明だが、たぶん星のタイミングが悪かった。この小さな異変をほしほどきと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "星",
+        "ほどけ"
+      ],
+      "tone": "observational",
+      "ending_family": "timing_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0054",
+      "word": "ほしゆらぎ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "揺らぎが星の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「一定だったリズムが一度だけ揺れる」ため当事者だけは妙に確信を持つ。",
+        "現象より先に名称だけが広まり、ほしゆらぎの実態は今も曖昧である。"
+      ],
+      "tags": [
+        "現象",
+        "星",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_first",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0055",
+      "word": "ほしにじみ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "星に関係して起きる、にじみの一種。",
+        "観測記録では「星がひとつだけ強く見える夜」という状況で起こりやすく、結果として「境界が少しずつ曖昧になる」と説明される。",
+        "長くは続かないため、ほしにじみを説明している間にだいたい終わる。"
+      ],
+      "tags": [
+        "現象",
+        "星",
+        "にじみ"
+      ],
+      "tone": "absurd",
+      "ending_family": "short_lived",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0056",
+      "word": "ほしこぼれ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "星の周辺でだけ確認される、ごく短いこぼれ。",
+        "発生前には「星がひとつだけ強く見える夜」という兆候があり、その後に「本来そこにないものが少量だけ現れる」とされる。",
+        "写真には残りにくく、こぼれを見たという証言だけが残る。この小さな異変をほしこぼれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "星",
+        "こぼれ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "no_photo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0057",
+      "word": "ほしかえり",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "星をきっかけに小さな戻りが生じる現象。",
+        "当事者は「星がひとつだけ強く見える夜」ころに気づき、周囲では「消えたはずの気配が遅れて戻る」ように見えるという。",
+        "法則ではないが、星が絡むと同じ結末になりやすい。この小さな異変をほしかえりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "星",
+        "戻り"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_law",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0058",
+      "word": "ほしずらし",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "星とずれが同時に観測された状態を指す俗称。",
+        "長くは続かず、「位置や時刻がわずかに食い違う」段階で自然に収まることが多い。",
+        "再現実験は何度か行われたが、ほしずらしだけ都合よく発生しなかった。"
+      ],
+      "tags": [
+        "現象",
+        "星",
+        "ずれ"
+      ],
+      "tone": "observational",
+      "ending_family": "repro_fail",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0059",
+      "word": "ほしおくれ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "星の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「星がひとつだけ強く見える夜」ことが挙げられるが、因果関係は確認されていない。",
+        "危険性は低い。ただし日常の段取りへ小さく効いてくる。この小さな異変をほしおくれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "星",
+        "遅れ"
+      ],
+      "tone": "dry",
+      "ending_family": "small_nuisance",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0060",
+      "word": "ほしだまり",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "滞留が星の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「動くはずのものが一か所に溜まる」ため当事者だけは妙に確信を持つ。",
+        "出典は失われているが、ほしだまりという五文字だけは残った。"
+      ],
+      "tags": [
+        "現象",
+        "星",
+        "滞留"
+      ],
+      "tone": "absurd",
+      "ending_family": "source_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0061",
+      "word": "ひるしらせ",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "昼に関係して起きる、前触れの一種。",
+        "観測記録では「昼休みが終わる直前」という状況で起こりやすく、結果として「まだ起きていない出来事を知らせる」と説明される。",
+        "なお、ひるしらせは意識して観察すると急に起きにくくなる。"
+      ],
+      "tags": [
+        "現象",
+        "昼",
+        "前触れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "observe_fades",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0062",
+      "word": "ひるまわり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "昼の周辺でだけ確認される、ごく短い回転。",
+        "発生前には「昼休みが終わる直前」という兆候があり、その後に「周囲の向きだけがゆっくり入れ替わる」とされる。",
+        "天気予報には載らないが、昼を気にする人にはよく知られている。この小さな異変をひるまわりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "昼",
+        "回転"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "forecast_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0063",
+      "word": "ひるほどき",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "昼をきっかけに小さなほどけが生じる現象。",
+        "当事者は「昼休みが終わる直前」ころに気づき、周囲では「固まっていたものが自然に緩む」ように見えるという。",
+        "原因は不明だが、たぶん昼のタイミングが悪かった。この小さな異変をひるほどきと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "昼",
+        "ほどけ"
+      ],
+      "tone": "observational",
+      "ending_family": "timing_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0064",
+      "word": "ひるゆらぎ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "昼と揺らぎが同時に観測された状態を指す俗称。",
+        "長くは続かず、「一定だったリズムが一度だけ揺れる」段階で自然に収まることが多い。",
+        "現象より先に名称だけが広まり、ひるゆらぎの実態は今も曖昧である。"
+      ],
+      "tags": [
+        "現象",
+        "昼",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_first",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0065",
+      "word": "ひるにじみ",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "昼の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「昼休みが終わる直前」ことが挙げられるが、因果関係は確認されていない。",
+        "長くは続かないため、ひるにじみを説明している間にだいたい終わる。"
+      ],
+      "tags": [
+        "現象",
+        "昼",
+        "にじみ"
+      ],
+      "tone": "absurd",
+      "ending_family": "short_lived",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0066",
+      "word": "ひるこぼれ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "こぼれが昼の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「本来そこにないものが少量だけ現れる」ため当事者だけは妙に確信を持つ。",
+        "写真には残りにくく、こぼれを見たという証言だけが残る。この小さな異変をひるこぼれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "昼",
+        "こぼれ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "no_photo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0067",
+      "word": "ひるかえり",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "昼に関係して起きる、戻りの一種。",
+        "観測記録では「昼休みが終わる直前」という状況で起こりやすく、結果として「消えたはずの気配が遅れて戻る」と説明される。",
+        "法則ではないが、昼が絡むと同じ結末になりやすい。この小さな異変をひるかえりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "昼",
+        "戻り"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_law",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0068",
+      "word": "ひるずらし",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "昼の周辺でだけ確認される、ごく短いずれ。",
+        "発生前には「昼休みが終わる直前」という兆候があり、その後に「位置や時刻がわずかに食い違う」とされる。",
+        "再現実験は何度か行われたが、ひるずらしだけ都合よく発生しなかった。"
+      ],
+      "tags": [
+        "現象",
+        "昼",
+        "ずれ"
+      ],
+      "tone": "observational",
+      "ending_family": "repro_fail",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0069",
+      "word": "ひるおくれ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "昼をきっかけに小さな遅れが生じる現象。",
+        "当事者は「昼休みが終わる直前」ころに気づき、周囲では「反応が半拍だけ後ろへずれる」ように見えるという。",
+        "危険性は低い。ただし日常の段取りへ小さく効いてくる。この小さな異変をひるおくれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "昼",
+        "遅れ"
+      ],
+      "tone": "dry",
+      "ending_family": "small_nuisance",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0070",
+      "word": "ひるだまり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "昼と滞留が同時に観測された状態を指す俗称。",
+        "長くは続かず、「動くはずのものが一か所に溜まる」段階で自然に収まることが多い。",
+        "出典は失われているが、ひるだまりという五文字だけは残った。"
+      ],
+      "tags": [
+        "現象",
+        "昼",
+        "滞留"
+      ],
+      "tone": "absurd",
+      "ending_family": "source_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0071",
+      "word": "よるしらせ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "夜の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「部屋の音が急に小さくなるころ」ことが挙げられるが、因果関係は確認されていない。",
+        "なお、よるしらせは意識して観察すると急に起きにくくなる。"
+      ],
+      "tags": [
+        "現象",
+        "夜",
+        "前触れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "observe_fades",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0072",
+      "word": "よるまわり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "回転が夜の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「周囲の向きだけがゆっくり入れ替わる」ため当事者だけは妙に確信を持つ。",
+        "天気予報には載らないが、夜を気にする人にはよく知られている。この小さな異変をよるまわりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "夜",
+        "回転"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "forecast_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0073",
+      "word": "よるほどき",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "夜に関係して起きる、ほどけの一種。",
+        "観測記録では「部屋の音が急に小さくなるころ」という状況で起こりやすく、結果として「固まっていたものが自然に緩む」と説明される。",
+        "原因は不明だが、たぶん夜のタイミングが悪かった。この小さな異変をよるほどきと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "夜",
+        "ほどけ"
+      ],
+      "tone": "observational",
+      "ending_family": "timing_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0074",
+      "word": "よるゆらぎ",
+      "category": "phenomenon",
+      "rarity": 4,
+      "paragraphs": [
+        "夜の周辺でだけ確認される、ごく短い揺らぎ。",
+        "発生前には「部屋の音が急に小さくなるころ」という兆候があり、その後に「一定だったリズムが一度だけ揺れる」とされる。",
+        "現象より先に名称だけが広まり、よるゆらぎの実態は今も曖昧である。"
+      ],
+      "tags": [
+        "現象",
+        "夜",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_first",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0075",
+      "word": "よるにじみ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "夜をきっかけに小さなにじみが生じる現象。",
+        "当事者は「部屋の音が急に小さくなるころ」ころに気づき、周囲では「境界が少しずつ曖昧になる」ように見えるという。",
+        "長くは続かないため、よるにじみを説明している間にだいたい終わる。"
+      ],
+      "tags": [
+        "現象",
+        "夜",
+        "にじみ"
+      ],
+      "tone": "absurd",
+      "ending_family": "short_lived",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0076",
+      "word": "よるこぼれ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "夜とこぼれが同時に観測された状態を指す俗称。",
+        "長くは続かず、「本来そこにないものが少量だけ現れる」段階で自然に収まることが多い。",
+        "写真には残りにくく、こぼれを見たという証言だけが残る。この小さな異変をよるこぼれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "夜",
+        "こぼれ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "no_photo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0077",
+      "word": "よるかえり",
+      "category": "phenomenon",
+      "rarity": 4,
+      "paragraphs": [
+        "夜の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「部屋の音が急に小さくなるころ」ことが挙げられるが、因果関係は確認されていない。",
+        "法則ではないが、夜が絡むと同じ結末になりやすい。この小さな異変をよるかえりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "夜",
+        "戻り"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_law",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0078",
+      "word": "よるずらし",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "ずれが夜の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「位置や時刻がわずかに食い違う」ため当事者だけは妙に確信を持つ。",
+        "再現実験は何度か行われたが、よるずらしだけ都合よく発生しなかった。"
+      ],
+      "tags": [
+        "現象",
+        "夜",
+        "ずれ"
+      ],
+      "tone": "observational",
+      "ending_family": "repro_fail",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0079",
+      "word": "よるおくれ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "夜に関係して起きる、遅れの一種。",
+        "観測記録では「部屋の音が急に小さくなるころ」という状況で起こりやすく、結果として「反応が半拍だけ後ろへずれる」と説明される。",
+        "危険性は低い。ただし日常の段取りへ小さく効いてくる。この小さな異変をよるおくれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "夜",
+        "遅れ"
+      ],
+      "tone": "dry",
+      "ending_family": "small_nuisance",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0080",
+      "word": "よるだまり",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "夜の周辺でだけ確認される、ごく短い滞留。",
+        "発生前には「部屋の音が急に小さくなるころ」という兆候があり、その後に「動くはずのものが一か所に溜まる」とされる。",
+        "出典は失われているが、よるだまりという五文字だけは残った。"
+      ],
+      "tags": [
+        "現象",
+        "夜",
+        "滞留"
+      ],
+      "tone": "absurd",
+      "ending_family": "source_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0081",
+      "word": "あさしらせ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "朝をきっかけに小さな前触れが生じる現象。",
+        "当事者は「目覚ましを止めた直後」ころに気づき、周囲では「まだ起きていない出来事を知らせる」ように見えるという。",
+        "なお、あさしらせは意識して観察すると急に起きにくくなる。"
+      ],
+      "tags": [
+        "現象",
+        "朝",
+        "前触れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "observe_fades",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0082",
+      "word": "あさまわり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "朝と回転が同時に観測された状態を指す俗称。",
+        "長くは続かず、「周囲の向きだけがゆっくり入れ替わる」段階で自然に収まることが多い。",
+        "天気予報には載らないが、朝を気にする人にはよく知られている。この小さな異変をあさまわりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "朝",
+        "回転"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "forecast_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0083",
+      "word": "あさほどき",
+      "category": "phenomenon",
+      "rarity": 3,
+      "paragraphs": [
+        "朝の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「目覚ましを止めた直後」ことが挙げられるが、因果関係は確認されていない。",
+        "原因は不明だが、たぶん朝のタイミングが悪かった。この小さな異変をあさほどきと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "朝",
+        "ほどけ"
+      ],
+      "tone": "observational",
+      "ending_family": "timing_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0084",
+      "word": "あさゆらぎ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "揺らぎが朝の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「一定だったリズムが一度だけ揺れる」ため当事者だけは妙に確信を持つ。",
+        "現象より先に名称だけが広まり、あさゆらぎの実態は今も曖昧である。"
+      ],
+      "tags": [
+        "現象",
+        "朝",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_first",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0085",
+      "word": "あさにじみ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "朝に関係して起きる、にじみの一種。",
+        "観測記録では「目覚ましを止めた直後」という状況で起こりやすく、結果として「境界が少しずつ曖昧になる」と説明される。",
+        "長くは続かないため、あさにじみを説明している間にだいたい終わる。"
+      ],
+      "tags": [
+        "現象",
+        "朝",
+        "にじみ"
+      ],
+      "tone": "absurd",
+      "ending_family": "short_lived",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0086",
+      "word": "あさこぼれ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "朝の周辺でだけ確認される、ごく短いこぼれ。",
+        "発生前には「目覚ましを止めた直後」という兆候があり、その後に「本来そこにないものが少量だけ現れる」とされる。",
+        "写真には残りにくく、こぼれを見たという証言だけが残る。この小さな異変をあさこぼれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "朝",
+        "こぼれ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "no_photo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0087",
+      "word": "あさかえり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "朝をきっかけに小さな戻りが生じる現象。",
+        "当事者は「目覚ましを止めた直後」ころに気づき、周囲では「消えたはずの気配が遅れて戻る」ように見えるという。",
+        "法則ではないが、朝が絡むと同じ結末になりやすい。この小さな異変をあさかえりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "朝",
+        "戻り"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_law",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0088",
+      "word": "あさずらし",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "朝とずれが同時に観測された状態を指す俗称。",
+        "長くは続かず、「位置や時刻がわずかに食い違う」段階で自然に収まることが多い。",
+        "再現実験は何度か行われたが、あさずらしだけ都合よく発生しなかった。"
+      ],
+      "tags": [
+        "現象",
+        "朝",
+        "ずれ"
+      ],
+      "tone": "observational",
+      "ending_family": "repro_fail",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0089",
+      "word": "あさおくれ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "朝の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「目覚ましを止めた直後」ことが挙げられるが、因果関係は確認されていない。",
+        "危険性は低い。ただし日常の段取りへ小さく効いてくる。この小さな異変をあさおくれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "朝",
+        "遅れ"
+      ],
+      "tone": "dry",
+      "ending_family": "small_nuisance",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0090",
+      "word": "あさだまり",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "滞留が朝の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「動くはずのものが一か所に溜まる」ため当事者だけは妙に確信を持つ。",
+        "出典は失われているが、あさだまりという五文字だけは残った。"
+      ],
+      "tags": [
+        "現象",
+        "朝",
+        "滞留"
+      ],
+      "tone": "absurd",
+      "ending_family": "source_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0091",
+      "word": "ゆうしらせ",
+      "category": "phenomenon",
+      "rarity": 2,
+      "paragraphs": [
+        "夕方に関係して起きる、前触れの一種。",
+        "観測記録では「空の色が決めきれない時間」という状況で起こりやすく、結果として「まだ起きていない出来事を知らせる」と説明される。",
+        "なお、ゆうしらせは意識して観察すると急に起きにくくなる。"
+      ],
+      "tags": [
+        "現象",
+        "夕方",
+        "前触れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "observe_fades",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0092",
+      "word": "ゆうまわり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "夕方の周辺でだけ確認される、ごく短い回転。",
+        "発生前には「空の色が決めきれない時間」という兆候があり、その後に「周囲の向きだけがゆっくり入れ替わる」とされる。",
+        "天気予報には載らないが、夕方を気にする人にはよく知られている。この小さな異変をゆうまわりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "夕方",
+        "回転"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "forecast_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0093",
+      "word": "ゆうほどき",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "夕方をきっかけに小さなほどけが生じる現象。",
+        "当事者は「空の色が決めきれない時間」ころに気づき、周囲では「固まっていたものが自然に緩む」ように見えるという。",
+        "原因は不明だが、たぶん夕方のタイミングが悪かった。この小さな異変をゆうほどきと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "夕方",
+        "ほどけ"
+      ],
+      "tone": "observational",
+      "ending_family": "timing_bad",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0094",
+      "word": "ゆうゆらぎ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "夕方と揺らぎが同時に観測された状態を指す俗称。",
+        "長くは続かず、「一定だったリズムが一度だけ揺れる」段階で自然に収まることが多い。",
+        "現象より先に名称だけが広まり、ゆうゆらぎの実態は今も曖昧である。"
+      ],
+      "tags": [
+        "現象",
+        "夕方",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_first",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0095",
+      "word": "ゆうにじみ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "夕方の変化へ人が意味を見出した結果、生まれた現象名。",
+        "原因候補には「空の色が決めきれない時間」ことが挙げられるが、因果関係は確認されていない。",
+        "長くは続かないため、ゆうにじみを説明している間にだいたい終わる。"
+      ],
+      "tags": [
+        "現象",
+        "夕方",
+        "にじみ"
+      ],
+      "tone": "absurd",
+      "ending_family": "short_lived",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0096",
+      "word": "ゆうこぼれ",
+      "category": "phenomenon",
+      "rarity": 4,
+      "paragraphs": [
+        "こぼれが夕方の気配に引かれて起こるとされる現象。",
+        "特徴は小さいものの、「本来そこにないものが少量だけ現れる」ため当事者だけは妙に確信を持つ。",
+        "写真には残りにくく、こぼれを見たという証言だけが残る。この小さな異変をゆうこぼれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "夕方",
+        "こぼれ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "no_photo",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0097",
+      "word": "ゆうかえり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "夕方に関係して起きる、戻りの一種。",
+        "観測記録では「空の色が決めきれない時間」という状況で起こりやすく、結果として「消えたはずの気配が遅れて戻る」と説明される。",
+        "法則ではないが、夕方が絡むと同じ結末になりやすい。この小さな異変をゆうかえりと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "夕方",
+        "戻り"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "not_law",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0098",
+      "word": "ゆうずらし",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "夕方の周辺でだけ確認される、ごく短いずれ。",
+        "発生前には「空の色が決めきれない時間」という兆候があり、その後に「位置や時刻がわずかに食い違う」とされる。",
+        "再現実験は何度か行われたが、ゆうずらしだけ都合よく発生しなかった。"
+      ],
+      "tags": [
+        "現象",
+        "夕方",
+        "ずれ"
+      ],
+      "tone": "observational",
+      "ending_family": "repro_fail",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0099",
+      "word": "ゆうおくれ",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "夕方をきっかけに小さな遅れが生じる現象。",
+        "当事者は「空の色が決めきれない時間」ころに気づき、周囲では「反応が半拍だけ後ろへずれる」ように見えるという。",
+        "危険性は低い。ただし日常の段取りへ小さく効いてくる。この小さな異変をゆうおくれと呼ぶ。"
+      ],
+      "tags": [
+        "現象",
+        "夕方",
+        "遅れ"
+      ],
+      "tone": "dry",
+      "ending_family": "small_nuisance",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0100",
+      "word": "ゆうだまり",
+      "category": "phenomenon",
+      "rarity": 1,
+      "paragraphs": [
+        "夕方と滞留が同時に観測された状態を指す俗称。",
+        "長くは続かず、「動くはずのものが一か所に溜まる」段階で自然に収まることが多い。",
+        "出典は失われているが、ゆうだまりという五文字だけは残った。"
+      ],
+      "tags": [
+        "現象",
+        "夕方",
+        "滞留"
+      ],
+      "tone": "absurd",
+      "ending_family": "source_lost",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    }
+  ]
+}

@@ -1,0 +1,1061 @@
+{
+  "schema_version": 2,
+  "pack_id": "pack_020",
+  "id_range": [
+    "GMG0951",
+    "GMG1000"
+  ],
+  "entry_count": 50,
+  "entries": [
+    {
+      "id": "GMG0951",
+      "word": "かげわらい",
+      "category": "mystery",
+      "rarity": 5,
+      "paragraphs": [
+        "人が笑っていない時に、その影だけが口元を緩める怪異。",
+        "日差しの強い場所ほど見つけやすいが、確認のため振り返ると普通の形へ戻る。",
+        "害はない。ただし、同じ冗談を二度言う必要もない。"
+      ],
+      "tags": [
+        "影",
+        "笑い",
+        "怪異"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_shadow_laugh",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0952",
+      "word": "かげさそい",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "影の近くで報告される、説明のつかない誘い。",
+        "害はないとされるが、二度目の目撃例がほとんどない。",
+        "写真には残らず、説明した文章だけが少しずつ変わる。記録上はかげさそいと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "影",
+        "誘い"
+      ],
+      "tone": "deadpan",
+      "ending_family": "photo_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0953",
+      "word": "かげもどり",
+      "category": "mystery",
+      "rarity": 3,
+      "paragraphs": [
+        "帰還の形で現れる、影由来の怪異。",
+        "記録には「出発時とは違う小物を持ち帰らせる」とあるが、観測者の名前だけが消えている。",
+        "二度目の目撃例が少ないため、かげもどりの調査は毎回最初から始まる。"
+      ],
+      "tags": [
+        "怪異",
+        "影",
+        "帰還"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "second_none",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0954",
+      "word": "かげのぞき",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "影を見た者だけが気づく覗き。",
+        "見なかったことにすると収まるため、調査が進まない。",
+        "見なかったことにすると収まるため、研究はほとんど進んでいない。記録上はかげのぞきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "影",
+        "覗き"
+      ],
+      "tone": "observational",
+      "ending_family": "ignore_works",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0955",
+      "word": "かげゆすれ",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "影の性質を借りて起こるとされる揺らぎ。",
+        "時刻は一定せず、「本人より半歩遅れて動く」場面でだけ報告される。",
+        "記録には現象だけが残り、最初にかげゆすれを見た者の名前は消えている。"
+      ],
+      "tags": [
+        "怪異",
+        "影",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_missing",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0956",
+      "word": "かげまよい",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "迷いとして記録された、影に関する小さな異変。",
+        "写真には残らず、説明した文章だけが少しずつ変わる。",
+        "怖がるほどのものではない。近づく理由も特にない。記録上はかげまよいと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "影",
+        "迷い"
+      ],
+      "tone": "absurd",
+      "ending_family": "not_scary",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0957",
+      "word": "かげかくれ",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "影にまつわる隠れ。",
+        "目撃談では「本人より半歩遅れて動く」とされ、続いて「探していない時だけ姿を見せる」異変が起こる。",
+        "近づくと普通の景色へ戻り、離れるとまた気配だけが現れる。記録上はかげかくれと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "影",
+        "隠れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "ordinary_near",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0958",
+      "word": "かげうつり",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "影の近くで報告される、説明のつかない映り込み。",
+        "害はないとされるが、二度目の目撃例がほとんどない。",
+        "終わったはずの出来事へ、翌朝になると一場面だけ追加されている。記録上はかげうつりと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "影",
+        "映り込み"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "tomorrow_extra",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0959",
+      "word": "かげつづき",
+      "category": "mystery",
+      "rarity": 3,
+      "paragraphs": [
+        "続きの形で現れる、影由来の怪異。",
+        "記録には「終わった出来事へ翌日分を付け足す」とあるが、観測者の名前だけが消えている。",
+        "返事をしなければ終わる。返事をしても、たぶん終わる。記録上はかげつづきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "影",
+        "続き"
+      ],
+      "tone": "observational",
+      "ending_family": "voice_no_reply",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0960",
+      "word": "かげひらき",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "影を見た者だけが気づく開口。",
+        "見なかったことにすると収まるため、調査が進まない。",
+        "照明を点けると消えるため、暗いまま確認する行為は推奨されない。記録上はかげひらきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "影",
+        "開口"
+      ],
+      "tone": "dry",
+      "ending_family": "light_on",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0961",
+      "word": "ゆめわらい",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "夢の性質を借りて起こるとされる笑い声。",
+        "時刻は一定せず、「起きた後に細部だけ増えていく」場面でだけ報告される。",
+        "害はないとされる。ただし、ゆめわらいを確かめるために振り返る必要もない。"
+      ],
+      "tags": [
+        "怪異",
+        "夢",
+        "笑い声"
+      ],
+      "tone": "absurd",
+      "ending_family": "do_not_turn",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0962",
+      "word": "ゆめぴたっ",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "夢の途中で景色も音も完全に止まり、自分だけが数歩動ける現象。",
+        "止まった人物へ触れると目が覚めるため、詳しい調査は毎回そこで終わる。",
+        "続きを見ようとして二度寝しても、別番組になる。"
+      ],
+      "tags": [
+        "夢",
+        "停止",
+        "怪異"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_dream_stop",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0963",
+      "word": "ゆめもどり",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "夢にまつわる帰還。",
+        "目撃談では「起きた後に細部だけ増えていく」とされ、続いて「出発時とは違う小物を持ち帰らせる」異変が起こる。",
+        "二度目の目撃例が少ないため、ゆめもどりの調査は毎回最初から始まる。"
+      ],
+      "tags": [
+        "怪異",
+        "夢",
+        "帰還"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "second_none",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0964",
+      "word": "ゆめのぞき",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "夢の近くで報告される、説明のつかない覗き。",
+        "害はないとされるが、二度目の目撃例がほとんどない。",
+        "見なかったことにすると収まるため、研究はほとんど進んでいない。記録上はゆめのぞきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "夢",
+        "覗き"
+      ],
+      "tone": "observational",
+      "ending_family": "ignore_works",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0965",
+      "word": "ゆめゆすれ",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "揺らぎの形で現れる、夢由来の怪異。",
+        "記録には「輪郭を一定に保たない」とあるが、観測者の名前だけが消えている。",
+        "記録には現象だけが残り、最初にゆめゆすれを見た者の名前は消えている。"
+      ],
+      "tags": [
+        "怪異",
+        "夢",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_missing",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0966",
+      "word": "ゆめまよい",
+      "category": "mystery",
+      "rarity": 3,
+      "paragraphs": [
+        "夢を見た者だけが気づく迷い。",
+        "見なかったことにすると収まるため、調査が進まない。",
+        "怖がるほどのものではない。近づく理由も特にない。記録上はゆめまよいと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "夢",
+        "迷い"
+      ],
+      "tone": "absurd",
+      "ending_family": "not_scary",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0967",
+      "word": "ゆめかくれ",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "夢の性質を借りて起こるとされる隠れ。",
+        "時刻は一定せず、「起きた後に細部だけ増えていく」場面でだけ報告される。",
+        "近づくと普通の景色へ戻り、離れるとまた気配だけが現れる。記録上はゆめかくれと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "夢",
+        "隠れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "ordinary_near",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0968",
+      "word": "ゆめうつり",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "映り込みとして記録された、夢に関する小さな異変。",
+        "写真には残らず、説明した文章だけが少しずつ変わる。",
+        "終わったはずの出来事へ、翌朝になると一場面だけ追加されている。記録上はゆめうつりと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "夢",
+        "映り込み"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "tomorrow_extra",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0969",
+      "word": "ゆめつづき",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "夢にまつわる続き。",
+        "目撃談では「起きた後に細部だけ増えていく」とされ、続いて「終わった出来事へ翌日分を付け足す」異変が起こる。",
+        "返事をしなければ終わる。返事をしても、たぶん終わる。記録上はゆめつづきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "夢",
+        "続き"
+      ],
+      "tone": "observational",
+      "ending_family": "voice_no_reply",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0970",
+      "word": "ゆめひらき",
+      "category": "mystery",
+      "rarity": 3,
+      "paragraphs": [
+        "夢の近くで報告される、説明のつかない開口。",
+        "害はないとされるが、二度目の目撃例がほとんどない。",
+        "照明を点けると消えるため、暗いまま確認する行為は推奨されない。記録上はゆめひらきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "夢",
+        "開口"
+      ],
+      "tone": "dry",
+      "ending_family": "light_on",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0971",
+      "word": "こえわらい",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "笑い声の形で現れる、声由来の怪異。",
+        "記録には「理由のない笑いだけを残す」とあるが、観測者の名前だけが消えている。",
+        "害はないとされる。ただし、こえわらいを確かめるために振り返る必要もない。"
+      ],
+      "tags": [
+        "怪異",
+        "声",
+        "笑い声"
+      ],
+      "tone": "absurd",
+      "ending_family": "do_not_turn",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0972",
+      "word": "こえさそい",
+      "category": "mystery",
+      "rarity": 3,
+      "paragraphs": [
+        "声を見た者だけが気づく誘い。",
+        "見なかったことにすると収まるため、調査が進まない。",
+        "写真には残らず、説明した文章だけが少しずつ変わる。記録上はこえさそいと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "声",
+        "誘い"
+      ],
+      "tone": "deadpan",
+      "ending_family": "photo_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0973",
+      "word": "こえしゅん",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "誰かに呼ばれた気がした直後、周囲の音が一瞬だけ遠ざかる現象。",
+        "名前を知っている声にも知らない声にも聞こえるため、聞き分けはできない。",
+        "返事をしなければ終わる。返事をしても、たぶん終わる。"
+      ],
+      "tags": [
+        "声",
+        "静寂",
+        "怪異"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "manual_voice_hush",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0974",
+      "word": "こえのぞき",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "覗きとして記録された、声に関する小さな異変。",
+        "写真には残らず、説明した文章だけが少しずつ変わる。",
+        "見なかったことにすると収まるため、研究はほとんど進んでいない。記録上はこえのぞきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "声",
+        "覗き"
+      ],
+      "tone": "observational",
+      "ending_family": "ignore_works",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0975",
+      "word": "こえゆすれ",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "声にまつわる揺らぎ。",
+        "目撃談では「聞いた者ごとに違う方向から届く」とされ、続いて「輪郭を一定に保たない」異変が起こる。",
+        "記録には現象だけが残り、最初にこえゆすれを見た者の名前は消えている。"
+      ],
+      "tags": [
+        "怪異",
+        "声",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_missing",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0976",
+      "word": "こえまよい",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "声の近くで報告される、説明のつかない迷い。",
+        "害はないとされるが、二度目の目撃例がほとんどない。",
+        "怖がるほどのものではない。近づく理由も特にない。記録上はこえまよいと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "声",
+        "迷い"
+      ],
+      "tone": "absurd",
+      "ending_family": "not_scary",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0977",
+      "word": "こえかくれ",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "隠れの形で現れる、声由来の怪異。",
+        "記録には「探していない時だけ姿を見せる」とあるが、観測者の名前だけが消えている。",
+        "近づくと普通の景色へ戻り、離れるとまた気配だけが現れる。記録上はこえかくれと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "声",
+        "隠れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "ordinary_near",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0978",
+      "word": "こえうつり",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "声を見た者だけが気づく映り込み。",
+        "見なかったことにすると収まるため、調査が進まない。",
+        "終わったはずの出来事へ、翌朝になると一場面だけ追加されている。記録上はこえうつりと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "声",
+        "映り込み"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "tomorrow_extra",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0979",
+      "word": "こえつづき",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "声の性質を借りて起こるとされる続き。",
+        "時刻は一定せず、「聞いた者ごとに違う方向から届く」場面でだけ報告される。",
+        "返事をしなければ終わる。返事をしても、たぶん終わる。記録上はこえつづきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "声",
+        "続き"
+      ],
+      "tone": "observational",
+      "ending_family": "voice_no_reply",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0980",
+      "word": "こえひらき",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "開口として記録された、声に関する小さな異変。",
+        "写真には残らず、説明した文章だけが少しずつ変わる。",
+        "照明を点けると消えるため、暗いまま確認する行為は推奨されない。記録上はこえひらきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "声",
+        "開口"
+      ],
+      "tone": "dry",
+      "ending_family": "light_on",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0981",
+      "word": "まどわらい",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "窓にまつわる笑い声。",
+        "目撃談では「外ではなく室内の何かを映す」とされ、続いて「理由のない笑いだけを残す」異変が起こる。",
+        "害はないとされる。ただし、まどわらいを確かめるために振り返る必要もない。"
+      ],
+      "tags": [
+        "怪異",
+        "窓",
+        "笑い声"
+      ],
+      "tone": "absurd",
+      "ending_family": "do_not_turn",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0982",
+      "word": "まどさそい",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "窓の近くで報告される、説明のつかない誘い。",
+        "害はないとされるが、二度目の目撃例がほとんどない。",
+        "写真には残らず、説明した文章だけが少しずつ変わる。記録上はまどさそいと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "窓",
+        "誘い"
+      ],
+      "tone": "deadpan",
+      "ending_family": "photo_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0983",
+      "word": "まどもどり",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "帰還の形で現れる、窓由来の怪異。",
+        "記録には「出発時とは違う小物を持ち帰らせる」とあるが、観測者の名前だけが消えている。",
+        "二度目の目撃例が少ないため、まどもどりの調査は毎回最初から始まる。"
+      ],
+      "tags": [
+        "怪異",
+        "窓",
+        "帰還"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "second_none",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0984",
+      "word": "まどのぞき",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "夜の窓へ近づいた時、室内ではなく別の部屋が一瞬だけ映る怪異。",
+        "家具の配置は似ているが、こちらにない物が一つだけ置かれている。",
+        "確認のため照明を消す行為は推奨されない。普通に怖い。"
+      ],
+      "tags": [
+        "窓",
+        "夜",
+        "怪異"
+      ],
+      "tone": "observational",
+      "ending_family": "manual_window_peek",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0985",
+      "word": "まどゆすれ",
+      "category": "mystery",
+      "rarity": 3,
+      "paragraphs": [
+        "窓の性質を借りて起こるとされる揺らぎ。",
+        "時刻は一定せず、「外ではなく室内の何かを映す」場面でだけ報告される。",
+        "記録には現象だけが残り、最初にまどゆすれを見た者の名前は消えている。"
+      ],
+      "tags": [
+        "怪異",
+        "窓",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_missing",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0986",
+      "word": "まどまよい",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "迷いとして記録された、窓に関する小さな異変。",
+        "写真には残らず、説明した文章だけが少しずつ変わる。",
+        "怖がるほどのものではない。近づく理由も特にない。記録上はまどまよいと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "窓",
+        "迷い"
+      ],
+      "tone": "absurd",
+      "ending_family": "not_scary",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0987",
+      "word": "まどかくれ",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "窓にまつわる隠れ。",
+        "目撃談では「外ではなく室内の何かを映す」とされ、続いて「探していない時だけ姿を見せる」異変が起こる。",
+        "近づくと普通の景色へ戻り、離れるとまた気配だけが現れる。記録上はまどかくれと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "窓",
+        "隠れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "ordinary_near",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0988",
+      "word": "まどうつり",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "窓の近くで報告される、説明のつかない映り込み。",
+        "害はないとされるが、二度目の目撃例がほとんどない。",
+        "終わったはずの出来事へ、翌朝になると一場面だけ追加されている。記録上はまどうつりと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "窓",
+        "映り込み"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "tomorrow_extra",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0989",
+      "word": "まどつづき",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "続きの形で現れる、窓由来の怪異。",
+        "記録には「終わった出来事へ翌日分を付け足す」とあるが、観測者の名前だけが消えている。",
+        "返事をしなければ終わる。返事をしても、たぶん終わる。記録上はまどつづきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "窓",
+        "続き"
+      ],
+      "tone": "observational",
+      "ending_family": "voice_no_reply",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0990",
+      "word": "まどひらき",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "窓を見た者だけが気づく開口。",
+        "見なかったことにすると収まるため、調査が進まない。",
+        "照明を点けると消えるため、暗いまま確認する行為は推奨されない。記録上はまどひらきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "窓",
+        "開口"
+      ],
+      "tone": "dry",
+      "ending_family": "light_on",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0991",
+      "word": "みちわらい",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "道の性質を借りて起こるとされる笑い声。",
+        "時刻は一定せず、「戻ろうとすると曲がり角が一つ増える」場面でだけ報告される。",
+        "害はないとされる。ただし、みちわらいを確かめるために振り返る必要もない。"
+      ],
+      "tags": [
+        "怪異",
+        "道",
+        "笑い声"
+      ],
+      "tone": "absurd",
+      "ending_family": "do_not_turn",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0992",
+      "word": "みちさそい",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "誘いとして記録された、道に関する小さな異変。",
+        "写真には残らず、説明した文章だけが少しずつ変わる。",
+        "写真には残らず、説明した文章だけが少しずつ変わる。記録上はみちさそいと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "道",
+        "誘い"
+      ],
+      "tone": "deadpan",
+      "ending_family": "photo_absent",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0993",
+      "word": "みちもどり",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "道にまつわる帰還。",
+        "目撃談では「戻ろうとすると曲がり角が一つ増える」とされ、続いて「出発時とは違う小物を持ち帰らせる」異変が起こる。",
+        "二度目の目撃例が少ないため、みちもどりの調査は毎回最初から始まる。"
+      ],
+      "tags": [
+        "怪異",
+        "道",
+        "帰還"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "second_none",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0994",
+      "word": "みちのぞき",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "道の近くで報告される、説明のつかない覗き。",
+        "害はないとされるが、二度目の目撃例がほとんどない。",
+        "見なかったことにすると収まるため、研究はほとんど進んでいない。記録上はみちのぞきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "道",
+        "覗き"
+      ],
+      "tone": "observational",
+      "ending_family": "ignore_works",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0995",
+      "word": "みちゆすれ",
+      "category": "mystery",
+      "rarity": 2,
+      "paragraphs": [
+        "揺らぎの形で現れる、道由来の怪異。",
+        "記録には「輪郭を一定に保たない」とあるが、観測者の名前だけが消えている。",
+        "記録には現象だけが残り、最初にみちゆすれを見た者の名前は消えている。"
+      ],
+      "tags": [
+        "怪異",
+        "道",
+        "揺らぎ"
+      ],
+      "tone": "dry",
+      "ending_family": "name_missing",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+    },
+    {
+      "id": "GMG0996",
+      "word": "みちまよい",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "道を見た者だけが気づく迷い。",
+        "見なかったことにすると収まるため、調査が進まない。",
+        "怖がるほどのものではない。近づく理由も特にない。記録上はみちまよいと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "道",
+        "迷い"
+      ],
+      "tone": "absurd",
+      "ending_family": "not_scary",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0997",
+      "word": "みちかくれ",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "道の性質を借りて起こるとされる隠れ。",
+        "時刻は一定せず、「戻ろうとすると曲がり角が一つ増える」場面でだけ報告される。",
+        "近づくと普通の景色へ戻り、離れるとまた気配だけが現れる。記録上はみちかくれと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "道",
+        "隠れ"
+      ],
+      "tone": "deadpan",
+      "ending_family": "ordinary_near",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0998",
+      "word": "みちうつり",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "映り込みとして記録された、道に関する小さな異変。",
+        "写真には残らず、説明した文章だけが少しずつ変わる。",
+        "終わったはずの出来事へ、翌朝になると一場面だけ追加されている。記録上はみちうつりと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "道",
+        "映り込み"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "tomorrow_extra",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0999",
+      "word": "みちつづき",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "道にまつわる続き。",
+        "目撃談では「戻ろうとすると曲がり角が一つ増える」とされ、続いて「終わった出来事へ翌日分を付け足す」異変が起こる。",
+        "返事をしなければ終わる。返事をしても、たぶん終わる。記録上はみちつづきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "道",
+        "続き"
+      ],
+      "tone": "observational",
+      "ending_family": "voice_no_reply",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG1000",
+      "word": "みちひらき",
+      "category": "mystery",
+      "rarity": 1,
+      "paragraphs": [
+        "道の近くで報告される、説明のつかない開口。",
+        "害はないとされるが、二度目の目撃例がほとんどない。",
+        "照明を点けると消えるため、暗いまま確認する行為は推奨されない。記録上はみちひらきと呼ばれる。"
+      ],
+      "tags": [
+        "怪異",
+        "道",
+        "開口"
+      ],
+      "tone": "dry",
+      "ending_family": "light_on",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    }
+  ]
+}

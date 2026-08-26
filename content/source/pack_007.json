@@ -1,0 +1,1061 @@
+{
+  "schema_version": 2,
+  "pack_id": "pack_007",
+  "id_range": [
+    "GMG0301",
+    "GMG0350"
+  ],
+  "entry_count": 50,
+  "entries": [
+    {
+      "id": "GMG0301",
+      "word": "いぬもどき",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "犬の姿を借りて暮らすとされる似た生物。",
+        "見つかると「音に敏感で、だいたい先に気づく」かのように振る舞い、そのまま隠れる。",
+        "いぬもどきの捕獲例はないが、餌だけ減ったという報告は多い。"
+      ],
+      "tags": [
+        "生物",
+        "犬",
+        "似た生物"
+      ],
+      "tone": "observational",
+      "ending_family": "capture_none",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0302",
+      "word": "ぴょこたん",
+      "category": "creature",
+      "rarity": 5,
+      "paragraphs": [
+        "物陰から頭だけを出し、周囲の安全を何度も確認する小型生物。",
+        "全身を見たという報告は少なく、頭部だけで生活している説もある。",
+        "近づくと引っ込むため、観察は永遠に最初からやり直しになる。"
+      ],
+      "tags": [
+        "小動物",
+        "物陰",
+        "観察"
+      ],
+      "tone": "dry",
+      "ending_family": "manual_peek_creature",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0303",
+      "word": "いぬぼうず",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "犬に似た特徴を持つ、丸い個体に分類される小型生物。",
+        "習性として「音に敏感で、だいたい先に気づく」ことと、「頭部が滑らかで感情が読み取りにくい」ことが報告されている。",
+        "危険性は低いが、作業中の人間には妙に近づく。この個体がいぬぼうずである。"
+      ],
+      "tags": [
+        "生物",
+        "犬",
+        "丸い個体"
+      ],
+      "tone": "absurd",
+      "ending_family": "harmless",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0304",
+      "word": "いぬまるこ",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "犬の仲間と誤認されやすい球形種。",
+        "主に人のいない時間へ現れ、「転がることで移動を省略する」行動を繰り返す。",
+        "いぬまるこという呼び名を本人が認識しているかは不明である。"
+      ],
+      "tags": [
+        "生物",
+        "犬",
+        "球形種"
+      ],
+      "tone": "deadpan",
+      "ending_family": "name_self",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0305",
+      "word": "いぬねむり",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "犬の習性を一部だけ受け継いだ未確認生物。",
+        "餌より居場所を重視し、「音に敏感で、だいたい先に気づく」性質を持つ。",
+        "袋の音を出すと急に姿を見せるため、研究方法だけは確立している。この個体がいぬねむりである。"
+      ],
+      "tags": [
+        "生物",
+        "犬",
+        "休眠種"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "food_sound",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0306",
+      "word": "いぬみはり",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "監視種として各地で語られる、犬に近い生物。",
+        "危険性は低いが、「何も起きない場所を長時間見張る」ため作業の邪魔にはなる。",
+        "専門家は犬ではないとしている。本人は特に気にしていない。この個体がいぬみはりである。"
+      ],
+      "tags": [
+        "生物",
+        "犬",
+        "監視種"
+      ],
+      "tone": "observational",
+      "ending_family": "expert_denial",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0307",
+      "word": "いぬかくれ",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "犬の姿を借りて暮らすとされる潜伏種。",
+        "見つかると「音に敏感で、だいたい先に気づく」かのように振る舞い、そのまま隠れる。",
+        "夜行性とされるが、昼も寝ているだけで完全には否定できない。この個体がいぬかくれである。"
+      ],
+      "tags": [
+        "生物",
+        "犬",
+        "潜伏種"
+      ],
+      "tone": "dry",
+      "ending_family": "night_active",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0308",
+      "word": "いぬつかい",
+      "category": "creature",
+      "rarity": 3,
+      "paragraphs": [
+        "犬より少しだけ人間社会へ慣れた使役種。",
+        "鳴き声は小さく、行動の大半を「他の生物に用事を押しつける」ことへ使う。",
+        "主な生息地は人の家の隅で、所有者より先に居場所を決める。この個体がいぬつかいである。"
+      ],
+      "tags": [
+        "生物",
+        "犬",
+        "使役種"
+      ],
+      "tone": "absurd",
+      "ending_family": "habitat_home",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0309",
+      "word": "いぬたろう",
+      "category": "creature",
+      "rarity": 3,
+      "paragraphs": [
+        "犬に似た特徴を持つ、大型個体に分類される小型生物。",
+        "習性として「音に敏感で、だいたい先に気づく」ことと、「名前だけ立派で行動は慎重」ことが報告されている。",
+        "目撃者は多いが、全員が別の形を説明している。この個体がいぬたろうである。"
+      ],
+      "tags": [
+        "生物",
+        "犬",
+        "大型個体"
+      ],
+      "tone": "deadpan",
+      "ending_family": "one_seen",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0310",
+      "word": "いぬじぞう",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "犬の仲間と誤認されやすい静止種。",
+        "主に人のいない時間へ現れ、「動かないことで周囲へ圧をかける」行動を繰り返す。",
+        "追うと隠れ、放置すると近づくため、観察には諦めが必要である。この個体がいぬじぞうである。"
+      ],
+      "tags": [
+        "生物",
+        "犬",
+        "静止種"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "do_not_chase",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0311",
+      "word": "たぬもどき",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "狸の習性を一部だけ受け継いだ未確認生物。",
+        "餌より居場所を重視し、「丸いものを集めて安心する」性質を持つ。",
+        "たぬもどきの捕獲例はないが、餌だけ減ったという報告は多い。"
+      ],
+      "tags": [
+        "生物",
+        "狸",
+        "似た生物"
+      ],
+      "tone": "observational",
+      "ending_family": "capture_none",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0312",
+      "word": "たぬこぞう",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "幼体として各地で語られる、狸に近い生物。",
+        "危険性は低いが、「小柄なわりに態度だけは完成している」ため作業の邪魔にはなる。",
+        "写真ではだいたいぶれるため、狸との区別は今もついていない。この個体がたぬこぞうである。"
+      ],
+      "tags": [
+        "生物",
+        "狸",
+        "幼体"
+      ],
+      "tone": "dry",
+      "ending_family": "photo_blur",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0313",
+      "word": "にゃんこえ",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "姿は見えないが、猫らしい声だけで存在を主張する生物。",
+        "返事をすると別の方向から鳴くため、位置の特定には向かない。",
+        "餌袋の音を出した時だけ、急に実体を持つ。"
+      ],
+      "tags": [
+        "猫",
+        "声",
+        "気配"
+      ],
+      "tone": "absurd",
+      "ending_family": "manual_cat_voice",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0314",
+      "word": "たぬまるこ",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "狸より少しだけ人間社会へ慣れた球形種。",
+        "鳴き声は小さく、行動の大半を「転がることで移動を省略する」ことへ使う。",
+        "たぬまるこという呼び名を本人が認識しているかは不明である。"
+      ],
+      "tags": [
+        "生物",
+        "狸",
+        "球形種"
+      ],
+      "tone": "deadpan",
+      "ending_family": "name_self",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0315",
+      "word": "たぬねむり",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "狸に似た特徴を持つ、休眠種に分類される小型生物。",
+        "習性として「丸いものを集めて安心する」ことと、「起きている時間より寝場所の選定を重視する」ことが報告されている。",
+        "袋の音を出すと急に姿を見せるため、研究方法だけは確立している。この個体がたぬねむりである。"
+      ],
+      "tags": [
+        "生物",
+        "狸",
+        "休眠種"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "food_sound",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0316",
+      "word": "たぬみはり",
+      "category": "creature",
+      "rarity": 3,
+      "paragraphs": [
+        "狸の仲間と誤認されやすい監視種。",
+        "主に人のいない時間へ現れ、「何も起きない場所を長時間見張る」行動を繰り返す。",
+        "専門家は狸ではないとしている。本人は特に気にしていない。この個体がたぬみはりである。"
+      ],
+      "tags": [
+        "生物",
+        "狸",
+        "監視種"
+      ],
+      "tone": "observational",
+      "ending_family": "expert_denial",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0317",
+      "word": "たぬかくれ",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "狸の習性を一部だけ受け継いだ未確認生物。",
+        "餌より居場所を重視し、「丸いものを集めて安心する」性質を持つ。",
+        "夜行性とされるが、昼も寝ているだけで完全には否定できない。この個体がたぬかくれである。"
+      ],
+      "tags": [
+        "生物",
+        "狸",
+        "潜伏種"
+      ],
+      "tone": "dry",
+      "ending_family": "night_active",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0318",
+      "word": "たぬつかい",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "使役種として各地で語られる、狸に近い生物。",
+        "危険性は低いが、「他の生物に用事を押しつける」ため作業の邪魔にはなる。",
+        "主な生息地は人の家の隅で、所有者より先に居場所を決める。この個体がたぬつかいである。"
+      ],
+      "tags": [
+        "生物",
+        "狸",
+        "使役種"
+      ],
+      "tone": "absurd",
+      "ending_family": "habitat_home",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0319",
+      "word": "たぬたろう",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "狸の姿を借りて暮らすとされる大型個体。",
+        "見つかると「丸いものを集めて安心する」かのように振る舞い、そのまま隠れる。",
+        "目撃者は多いが、全員が別の形を説明している。この個体がたぬたろうである。"
+      ],
+      "tags": [
+        "生物",
+        "狸",
+        "大型個体"
+      ],
+      "tone": "deadpan",
+      "ending_family": "one_seen",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0320",
+      "word": "たぬじぞう",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "狸より少しだけ人間社会へ慣れた静止種。",
+        "鳴き声は小さく、行動の大半を「動かないことで周囲へ圧をかける」ことへ使う。",
+        "追うと隠れ、放置すると近づくため、観察には諦めが必要である。この個体がたぬじぞうである。"
+      ],
+      "tags": [
+        "生物",
+        "狸",
+        "静止種"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "do_not_chase",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0321",
+      "word": "きつもどき",
+      "category": "creature",
+      "rarity": 4,
+      "paragraphs": [
+        "狐に似た特徴を持つ、似た生物に分類される小型生物。",
+        "習性として「遠くから様子を見て判断を保留する」ことと、「本物らしく振る舞うが肝心な特徴が足りない」ことが報告されている。",
+        "きつもどきの捕獲例はないが、餌だけ減ったという報告は多い。"
+      ],
+      "tags": [
+        "生物",
+        "狐",
+        "似た生物"
+      ],
+      "tone": "observational",
+      "ending_family": "capture_none",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0322",
+      "word": "きつこぞう",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "狐の仲間と誤認されやすい幼体。",
+        "主に人のいない時間へ現れ、「小柄なわりに態度だけは完成している」行動を繰り返す。",
+        "写真ではだいたいぶれるため、狐との区別は今もついていない。この個体がきつこぞうである。"
+      ],
+      "tags": [
+        "生物",
+        "狐",
+        "幼体"
+      ],
+      "tone": "dry",
+      "ending_family": "photo_blur",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0323",
+      "word": "きつぼうず",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "狐の習性を一部だけ受け継いだ未確認生物。",
+        "餌より居場所を重視し、「遠くから様子を見て判断を保留する」性質を持つ。",
+        "危険性は低いが、作業中の人間には妙に近づく。この個体がきつぼうずである。"
+      ],
+      "tags": [
+        "生物",
+        "狐",
+        "丸い個体"
+      ],
+      "tone": "absurd",
+      "ending_family": "harmless",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0324",
+      "word": "ぎょろみる",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "目だけを大きく動かし、体を一切向けずに周囲を観察する生物。",
+        "警戒しているように見えるが、実際にはだいたい退屈している。",
+        "こちらが見返すと、なぜか見ていなかった顔をする。"
+      ],
+      "tags": [
+        "目",
+        "観察",
+        "小動物"
+      ],
+      "tone": "deadpan",
+      "ending_family": "manual_eye_watcher",
+      "status": "reviewed",
+      "source_kind": "manual_seed",
+      "editor_note": "初期シードとして個別作成・確認済み。最終公開前に画面収まりを再確認すること。"
+    },
+    {
+      "id": "GMG0325",
+      "word": "きつねむり",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "狐の姿を借りて暮らすとされる休眠種。",
+        "見つかると「遠くから様子を見て判断を保留する」かのように振る舞い、そのまま隠れる。",
+        "袋の音を出すと急に姿を見せるため、研究方法だけは確立している。この個体がきつねむりである。"
+      ],
+      "tags": [
+        "生物",
+        "狐",
+        "休眠種"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "food_sound",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0326",
+      "word": "きつみはり",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "狐より少しだけ人間社会へ慣れた監視種。",
+        "鳴き声は小さく、行動の大半を「何も起きない場所を長時間見張る」ことへ使う。",
+        "専門家は狐ではないとしている。本人は特に気にしていない。この個体がきつみはりである。"
+      ],
+      "tags": [
+        "生物",
+        "狐",
+        "監視種"
+      ],
+      "tone": "observational",
+      "ending_family": "expert_denial",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0327",
+      "word": "きつかくれ",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "狐に似た特徴を持つ、潜伏種に分類される小型生物。",
+        "習性として「遠くから様子を見て判断を保留する」ことと、「見つかった瞬間だけ隠れるのが上手い」ことが報告されている。",
+        "夜行性とされるが、昼も寝ているだけで完全には否定できない。この個体がきつかくれである。"
+      ],
+      "tags": [
+        "生物",
+        "狐",
+        "潜伏種"
+      ],
+      "tone": "dry",
+      "ending_family": "night_active",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0328",
+      "word": "きつつかい",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "狐の仲間と誤認されやすい使役種。",
+        "主に人のいない時間へ現れ、「他の生物に用事を押しつける」行動を繰り返す。",
+        "主な生息地は人の家の隅で、所有者より先に居場所を決める。この個体がきつつかいである。"
+      ],
+      "tags": [
+        "生物",
+        "狐",
+        "使役種"
+      ],
+      "tone": "absurd",
+      "ending_family": "habitat_home",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0329",
+      "word": "きつたろう",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "狐の習性を一部だけ受け継いだ未確認生物。",
+        "餌より居場所を重視し、「遠くから様子を見て判断を保留する」性質を持つ。",
+        "目撃者は多いが、全員が別の形を説明している。この個体がきつたろうである。"
+      ],
+      "tags": [
+        "生物",
+        "狐",
+        "大型個体"
+      ],
+      "tone": "deadpan",
+      "ending_family": "one_seen",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0330",
+      "word": "きつじぞう",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "静止種として各地で語られる、狐に近い生物。",
+        "危険性は低いが、「動かないことで周囲へ圧をかける」ため作業の邪魔にはなる。",
+        "追うと隠れ、放置すると近づくため、観察には諦めが必要である。この個体がきつじぞうである。"
+      ],
+      "tags": [
+        "生物",
+        "狐",
+        "静止種"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "do_not_chase",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0331",
+      "word": "くまもどき",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "熊の姿を借りて暮らすとされる似た生物。",
+        "見つかると「眠そうに見えるが食べ物には素早い」かのように振る舞い、そのまま隠れる。",
+        "くまもどきの捕獲例はないが、餌だけ減ったという報告は多い。"
+      ],
+      "tags": [
+        "生物",
+        "熊",
+        "似た生物"
+      ],
+      "tone": "observational",
+      "ending_family": "capture_none",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0332",
+      "word": "くまこぞう",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "熊より少しだけ人間社会へ慣れた幼体。",
+        "鳴き声は小さく、行動の大半を「小柄なわりに態度だけは完成している」ことへ使う。",
+        "写真ではだいたいぶれるため、熊との区別は今もついていない。この個体がくまこぞうである。"
+      ],
+      "tags": [
+        "生物",
+        "熊",
+        "幼体"
+      ],
+      "tone": "dry",
+      "ending_family": "photo_blur",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0333",
+      "word": "くまぼうず",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "熊に似た特徴を持つ、丸い個体に分類される小型生物。",
+        "習性として「眠そうに見えるが食べ物には素早い」ことと、「頭部が滑らかで感情が読み取りにくい」ことが報告されている。",
+        "危険性は低いが、作業中の人間には妙に近づく。この個体がくまぼうずである。"
+      ],
+      "tags": [
+        "生物",
+        "熊",
+        "丸い個体"
+      ],
+      "tone": "absurd",
+      "ending_family": "harmless",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0334",
+      "word": "くままるこ",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "熊の仲間と誤認されやすい球形種。",
+        "主に人のいない時間へ現れ、「転がることで移動を省略する」行動を繰り返す。",
+        "くままるこという呼び名を本人が認識しているかは不明である。"
+      ],
+      "tags": [
+        "生物",
+        "熊",
+        "球形種"
+      ],
+      "tone": "deadpan",
+      "ending_family": "name_self",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0335",
+      "word": "くまねむり",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "熊の習性を一部だけ受け継いだ未確認生物。",
+        "餌より居場所を重視し、「眠そうに見えるが食べ物には素早い」性質を持つ。",
+        "袋の音を出すと急に姿を見せるため、研究方法だけは確立している。この個体がくまねむりである。"
+      ],
+      "tags": [
+        "生物",
+        "熊",
+        "休眠種"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "food_sound",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0336",
+      "word": "くまみはり",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "監視種として各地で語られる、熊に近い生物。",
+        "危険性は低いが、「何も起きない場所を長時間見張る」ため作業の邪魔にはなる。",
+        "専門家は熊ではないとしている。本人は特に気にしていない。この個体がくまみはりである。"
+      ],
+      "tags": [
+        "生物",
+        "熊",
+        "監視種"
+      ],
+      "tone": "observational",
+      "ending_family": "expert_denial",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0337",
+      "word": "くまかくれ",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "熊の姿を借りて暮らすとされる潜伏種。",
+        "見つかると「眠そうに見えるが食べ物には素早い」かのように振る舞い、そのまま隠れる。",
+        "夜行性とされるが、昼も寝ているだけで完全には否定できない。この個体がくまかくれである。"
+      ],
+      "tags": [
+        "生物",
+        "熊",
+        "潜伏種"
+      ],
+      "tone": "dry",
+      "ending_family": "night_active",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0338",
+      "word": "くまつかい",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "熊より少しだけ人間社会へ慣れた使役種。",
+        "鳴き声は小さく、行動の大半を「他の生物に用事を押しつける」ことへ使う。",
+        "主な生息地は人の家の隅で、所有者より先に居場所を決める。この個体がくまつかいである。"
+      ],
+      "tags": [
+        "生物",
+        "熊",
+        "使役種"
+      ],
+      "tone": "absurd",
+      "ending_family": "habitat_home",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0339",
+      "word": "くまたろう",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "熊に似た特徴を持つ、大型個体に分類される小型生物。",
+        "習性として「眠そうに見えるが食べ物には素早い」ことと、「名前だけ立派で行動は慎重」ことが報告されている。",
+        "目撃者は多いが、全員が別の形を説明している。この個体がくまたろうである。"
+      ],
+      "tags": [
+        "生物",
+        "熊",
+        "大型個体"
+      ],
+      "tone": "deadpan",
+      "ending_family": "one_seen",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0340",
+      "word": "くまじぞう",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "熊の仲間と誤認されやすい静止種。",
+        "主に人のいない時間へ現れ、「動かないことで周囲へ圧をかける」行動を繰り返す。",
+        "追うと隠れ、放置すると近づくため、観察には諦めが必要である。この個体がくまじぞうである。"
+      ],
+      "tags": [
+        "生物",
+        "熊",
+        "静止種"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "do_not_chase",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0341",
+      "word": "うさもどき",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "兎の習性を一部だけ受け継いだ未確認生物。",
+        "餌より居場所を重視し、「危険より気配に先に反応する」性質を持つ。",
+        "うさもどきの捕獲例はないが、餌だけ減ったという報告は多い。"
+      ],
+      "tags": [
+        "生物",
+        "兎",
+        "似た生物"
+      ],
+      "tone": "observational",
+      "ending_family": "capture_none",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0342",
+      "word": "うさこぞう",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "幼体として各地で語られる、兎に近い生物。",
+        "危険性は低いが、「小柄なわりに態度だけは完成している」ため作業の邪魔にはなる。",
+        "写真ではだいたいぶれるため、兎との区別は今もついていない。この個体がうさこぞうである。"
+      ],
+      "tags": [
+        "生物",
+        "兎",
+        "幼体"
+      ],
+      "tone": "dry",
+      "ending_family": "photo_blur",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0343",
+      "word": "うさぼうず",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "兎の姿を借りて暮らすとされる丸い個体。",
+        "見つかると「危険より気配に先に反応する」かのように振る舞い、そのまま隠れる。",
+        "危険性は低いが、作業中の人間には妙に近づく。この個体がうさぼうずである。"
+      ],
+      "tags": [
+        "生物",
+        "兎",
+        "丸い個体"
+      ],
+      "tone": "absurd",
+      "ending_family": "harmless",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0344",
+      "word": "うさまるこ",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "兎より少しだけ人間社会へ慣れた球形種。",
+        "鳴き声は小さく、行動の大半を「転がることで移動を省略する」ことへ使う。",
+        "うさまるこという呼び名を本人が認識しているかは不明である。"
+      ],
+      "tags": [
+        "生物",
+        "兎",
+        "球形種"
+      ],
+      "tone": "deadpan",
+      "ending_family": "name_self",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0345",
+      "word": "うさねむり",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "兎に似た特徴を持つ、休眠種に分類される小型生物。",
+        "習性として「危険より気配に先に反応する」ことと、「起きている時間より寝場所の選定を重視する」ことが報告されている。",
+        "袋の音を出すと急に姿を見せるため、研究方法だけは確立している。この個体がうさねむりである。"
+      ],
+      "tags": [
+        "生物",
+        "兎",
+        "休眠種"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "food_sound",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0346",
+      "word": "うさみはり",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "兎の仲間と誤認されやすい監視種。",
+        "主に人のいない時間へ現れ、「何も起きない場所を長時間見張る」行動を繰り返す。",
+        "専門家は兎ではないとしている。本人は特に気にしていない。この個体がうさみはりである。"
+      ],
+      "tags": [
+        "生物",
+        "兎",
+        "監視種"
+      ],
+      "tone": "observational",
+      "ending_family": "expert_denial",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0347",
+      "word": "うさかくれ",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "兎の習性を一部だけ受け継いだ未確認生物。",
+        "餌より居場所を重視し、「危険より気配に先に反応する」性質を持つ。",
+        "夜行性とされるが、昼も寝ているだけで完全には否定できない。この個体がうさかくれである。"
+      ],
+      "tags": [
+        "生物",
+        "兎",
+        "潜伏種"
+      ],
+      "tone": "dry",
+      "ending_family": "night_active",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0348",
+      "word": "うさつかい",
+      "category": "creature",
+      "rarity": 2,
+      "paragraphs": [
+        "使役種として各地で語られる、兎に近い生物。",
+        "危険性は低いが、「他の生物に用事を押しつける」ため作業の邪魔にはなる。",
+        "主な生息地は人の家の隅で、所有者より先に居場所を決める。この個体がうさつかいである。"
+      ],
+      "tags": [
+        "生物",
+        "兎",
+        "使役種"
+      ],
+      "tone": "absurd",
+      "ending_family": "habitat_home",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0349",
+      "word": "うさたろう",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "兎の姿を借りて暮らすとされる大型個体。",
+        "見つかると「危険より気配に先に反応する」かのように振る舞い、そのまま隠れる。",
+        "目撃者は多いが、全員が別の形を説明している。この個体がうさたろうである。"
+      ],
+      "tags": [
+        "生物",
+        "兎",
+        "大型個体"
+      ],
+      "tone": "deadpan",
+      "ending_family": "one_seen",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    },
+    {
+      "id": "GMG0350",
+      "word": "うさじぞう",
+      "category": "creature",
+      "rarity": 1,
+      "paragraphs": [
+        "兎より少しだけ人間社会へ慣れた静止種。",
+        "鳴き声は小さく、行動の大半を「動かないことで周囲へ圧をかける」ことへ使う。",
+        "追うと隠れ、放置すると近づくため、観察には諦めが必要である。この個体がうさじぞうである。"
+      ],
+      "tags": [
+        "生物",
+        "兎",
+        "静止種"
+      ],
+      "tone": "mock_academic",
+      "ending_family": "do_not_chase",
+      "status": "draft",
+      "source_kind": "combinatorial_draft",
+      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+    }
+  ]
+}
