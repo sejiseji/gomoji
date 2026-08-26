@@ -61,7 +61,13 @@ class GomojiApp:
         center_y = config.SCREEN_HEIGHT // 2
         pulse = (self.state.frame // 12) % 2
 
-        pyxel.rectb(24, 24, config.SCREEN_WIDTH - 48, config.SCREEN_HEIGHT - 48, config.SHADOW_COLOR)
+        pyxel.rectb(
+            24,
+            24,
+            config.SCREEN_WIDTH - 48,
+            config.SCREEN_HEIGHT - 48,
+            config.SHADOW_COLOR,
+        )
         pyxel.circ(center_x - 34, center_y - 12, 18 + pulse, config.ACCENT_COLOR)
         pyxel.circ(center_x + 34, center_y - 12, 18 + pulse, config.ACCENT_COLOR)
         pyxel.rect(center_x - 42, center_y + 16, 84, 18, config.SHADOW_COLOR)
