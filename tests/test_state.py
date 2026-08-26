@@ -7,16 +7,16 @@ from gomoji.app import AppState
 
 
 class AppStateTest(unittest.TestCase):
-    def test_motif_cycles_through_configured_values(self) -> None:
+    def test_word_cycles_through_configured_values(self) -> None:
         state = AppState()
 
         seen = []
-        for _ in range(len(config.PLACEHOLDER_MOTIFS)):
-            seen.append(state.motif)
-            state.next_motif()
+        for _ in range(len(config.PLACEHOLDER_WORDS)):
+            seen.append(state.word)
+            state.next_word()
 
-        self.assertEqual(tuple(seen), config.PLACEHOLDER_MOTIFS)
-        self.assertEqual(state.motif, config.PLACEHOLDER_MOTIFS[0])
+        self.assertEqual(tuple(seen), config.PLACEHOLDER_WORDS)
+        self.assertEqual(state.word, config.PLACEHOLDER_WORDS[0])
 
     def test_debug_starts_disabled(self) -> None:
         self.assertIs(AppState().debug_enabled, False)
