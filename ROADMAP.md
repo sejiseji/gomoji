@@ -9,7 +9,7 @@ Done.
 - Japanese BDF font
 - GitHub Pages
 - pytest and ruff
-- Placeholder 5-slot screen
+- Initial placeholder 5-slot screen
 
 ## GMG001 — 仕様・コンテンツ基盤導入
 
@@ -22,11 +22,10 @@ Done in this branch.
 - Reviewed 40-entry runtime data generated at `src/gomoji/generated/content_data.py`
 - Runtime app imports generated content via `src/gomoji/content.py`
 - Existing Pages bootstrap kept self-contained to avoid the known Pyxel Web package import issue
-- Existing `Space` placeholder cycling remains temporary and should be replaced in GMG002
 
 ## GMG002 — スマートフォン5文字入力
 
-Next recommended task.
+Done.
 
 - Tap-selectable 5 slots
 - Row selection and character selection
@@ -34,14 +33,15 @@ Next recommended task.
 - Delete, clear all, random word
 - Prefix trie candidate control
 - PC helper controls
+- Result panel for completed words
+- Self-contained Pages bootstrap updated with the same mobile input flow
 
-## GMG003 — 結果パネル
+## GMG003 — 結果演出・発見体験
 
-- Confirm selected word
-- Result heading without fixed `んご/ンゴ`
-- Category and rarity display
-- Wrapped explanation panel
-- Retry and different word actions
+- Discovery animation and short confirm delay
+- NEW and found-count presentation
+- Result text overflow QA across the full reviewed 40
+- Stronger PC focus-grid behavior
 
 ## GMG004 — Web共通化
 

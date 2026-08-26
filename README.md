@@ -17,16 +17,21 @@ gomoji
 
 ## Controls
 
-- `Space`: switch placeholder word
-- `D`: toggle debug overlay
-- `Esc`: quit
+- Tap/click a slot to move the cursor.
+- Tap/click a kana row, then a kana character.
+- `けす`: delete from the current slot or step back one slot.
+- `ぜんぶけす`: clear all slots.
+- `おまかせ`: fill a registered word from the current prefix.
+- `しらべる`: show the result for a completed registered word.
+- PC helpers: arrow keys move focus, `Z`/`Enter` confirms, `X`/`Backspace` backs out or deletes, `C` clears, `R` autofills, `D` toggles debug.
 
-Current placeholder screen:
+Current screen:
 
 - Japanese display with the bundled `assets/umplus_j12r.bdf` font
 - Portrait layout tuned for an iPhone 16-sized `396x696` Pyxel screen
-- Larger 5-character slots backed by the generated reviewed content data
-- `Space` still cycles placeholder words; the smartphone input UI starts in GMG002
+- Tap-selectable 5-character slots backed by generated reviewed content data
+- Two-step kana input with prefix trie candidate control
+- Result panel with category, rarity, and wrapped explanation text
 
 ## Content
 
@@ -105,6 +110,7 @@ Then open `http://127.0.0.1:8000/`.
 - `src/gomoji/app.py`: Pyxel app loop
 - `src/gomoji/config.py`: screen, timing, and palette constants
 - `src/gomoji/content.py`: runtime content access helpers
+- `src/gomoji/input_model.py`: device-independent kana input state and trie logic
 - `src/gomoji/generated/content_data.py`: generated reviewed runtime content
 - `content/`: editable source corpus, schemas, fixtures, and audit reports
 - `scripts/`: content validation, build, and audit scripts
