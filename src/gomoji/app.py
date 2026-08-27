@@ -8,7 +8,7 @@ from gomoji.input_model import KANA_GROUPS, InputLayer, InputState, ScreenState
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 FONT_FILE = PROJECT_ROOT / config.FONT_PATH
-RESULT_WRAP_CHARS = 19
+RESULT_WRAP_CHARS = 25
 RESULT_TEXT_TOP = 282
 RESULT_TEXT_BOTTOM = 570
 

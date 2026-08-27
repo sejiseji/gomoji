@@ -29,7 +29,7 @@ LOCKED_COLOR = 3
 
 WORD_LENGTH = 5
 DEFAULT_REVEAL_FRAMES = 12
-RESULT_WRAP_CHARS = 19
+RESULT_WRAP_CHARS = 25
 RESULT_TEXT_TOP = 282
 KANA_GROUPS = {
     "あ": ("あ", "い", "う", "え", "お", "ぁ", "ぃ", "ぅ", "ぇ", "ぉ"),
