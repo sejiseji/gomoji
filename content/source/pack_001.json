@@ -30,108 +30,108 @@
     },
     {
       "id": "GMG0002",
-      "word": "あめまわり",
+      "word": "ひるのびる",
       "category": "phenomenon",
       "rarity": 2,
       "paragraphs": [
-        "雨の周辺でだけ確認される、ごく短い回転。",
-        "発生前には「雨粒が地面へ届く前後」という兆候があり、その後に「周囲の向きだけがゆっくり入れ替わる」とされる。",
-        "天気予報には載らないが、雨を気にする人にはよく知られている。この小さな異変をあめまわりと呼ぶ。"
+        "昼休みの終わりが近づくほど、時計の一分だけが妙に長く感じられる現象。",
+        "食事を終えて席へ戻るつもりでいると起こりやすく、片づけや歯みがきまで済ませた人にはほとんど現れない。",
+        "実際の時刻は進んでいるため、のびた昼はたいてい午後の予定から差し引かれる。"
       ],
       "tags": [
-        "現象",
-        "雨",
-        "回転"
+        "昼休み",
+        "時計",
+        "先延ばし"
       ],
-      "tone": "mock_academic",
-      "ending_family": "forecast_absent",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_lunch_clock",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0003",
-      "word": "あめほどき",
+      "word": "まどくもり",
       "category": "phenomenon",
       "rarity": 1,
       "paragraphs": [
-        "雨をきっかけに小さなほどけが生じる現象。",
-        "当事者は「雨粒が地面へ届く前後」ころに気づき、周囲では「固まっていたものが自然に緩む」ように見えるという。",
-        "原因は不明だが、たぶん雨のタイミングが悪かった。この小さな異変をあめほどきと呼ぶ。"
+        "窓ガラスの一部だけが曇り、外の見たい場所を狙って隠す現象。",
+        "指で拭けば視界は戻るが、その跡が気になって二度目の掃除が始まりやすい。",
+        "結露そのものより、最初の一拭きが生活を遅らせる。"
       ],
       "tags": [
-        "現象",
-        "雨",
-        "ほどけ"
+        "窓",
+        "結露",
+        "掃除"
       ],
-      "tone": "observational",
-      "ending_family": "timing_bad",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "dry",
+      "ending_family": "wave01_window_fog",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0004",
-      "word": "あめゆらぎ",
+      "word": "かぜまよい",
       "category": "phenomenon",
       "rarity": 1,
       "paragraphs": [
-        "雨と揺らぎが同時に観測された状態を指す俗称。",
-        "長くは続かず、「一定だったリズムが一度だけ揺れる」段階で自然に収まることが多い。",
-        "現象より先に名称だけが広まり、あめゆらぎの実態は今も曖昧である。"
+        "開いた窓から入った風が出口を見失い、部屋の中を一周してから同じ窓へ戻る現象。",
+        "カーテン、紙袋、吊るした服の順に触れていくため、通った道だけは分かりやすい。",
+        "換気量は少ないが、室内に何が置かれているかは丁寧に確認していく。"
       ],
       "tags": [
-        "現象",
-        "雨",
-        "揺らぎ"
+        "風",
+        "室内",
+        "換気"
       ],
-      "tone": "dry",
-      "ending_family": "name_first",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_lost_breeze",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0005",
-      "word": "あめにじみ",
+      "word": "あめおどり",
       "category": "phenomenon",
       "rarity": 1,
       "paragraphs": [
-        "雨の変化へ人が意味を見出した結果、生まれた現象名。",
-        "原因候補には「雨粒が地面へ届く前後」ことが挙げられるが、因果関係は確認されていない。",
-        "長くは続かないため、あめにじみを説明している間にだいたい終わる。"
+        "弱い雨粒が手すりや傘の縁で一度だけ跳ね、落ちる向きを変える現象。",
+        "粒が小さいほど軽やかに見えるが、見とれていると同じ場所へ次の一滴が当たる。",
+        "踊っているのは雨であり、袖口まで参加させる必要はない。"
       ],
       "tags": [
-        "現象",
         "雨",
-        "にじみ"
+        "傘",
+        "跳ね返り"
       ],
-      "tone": "absurd",
-      "ending_family": "short_lived",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "deadpan",
+      "ending_family": "wave01_raindrop_dance",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0006",
-      "word": "あめこぼれ",
+      "word": "こえのこり",
       "category": "phenomenon",
       "rarity": 3,
       "paragraphs": [
-        "こぼれが雨の気配に引かれて起こるとされる現象。",
-        "特徴は小さいものの、「本来そこにないものが少量だけ現れる」ため当事者だけは妙に確信を持つ。",
-        "写真には残りにくく、こぼれを見たという証言だけが残る。この小さな異変をあめこぼれと呼ぶ。"
+        "会話が終わったあとも、最後のひと言だけが部屋に残って聞こえるように感じる現象。",
+        "言い方を気にした時ほど繰り返され、別の作業を始めても語尾だけが勝手についてくる。",
+        "聞き直しても相手はもう帰っているので、修正できるのは次の会話からである。"
       ],
       "tags": [
-        "現象",
-        "雨",
-        "こぼれ"
+        "声",
+        "会話",
+        "余韻"
       ],
       "tone": "deadpan",
-      "ending_family": "no_photo",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "ending_family": "wave01_voice_afterimage",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0007",

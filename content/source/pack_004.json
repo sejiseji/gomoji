@@ -219,108 +219,108 @@
     },
     {
       "id": "GMG0161",
-      "word": "ねむこころ",
+      "word": "やるきまち",
       "category": "condition",
       "rarity": 2,
       "paragraphs": [
-        "眠気が心の状態へ表れた状態。",
-        "本人には「まぶたが勝手に重くなる」と感じられ、外からは「気持ちの置き場所が定まらない」ように見える。",
-        "多くは休憩で改善するが、ねむこころの最中は休憩を始める判断も遅い。"
+        "作業を始める準備だけ整え、やる気が到着するまで静かに待っている状態。",
+        "机を拭く、飲み物を用意する、必要のない設定を見直すなど、待合室の設備だけは充実していく。",
+        "やる気は準備が終わった頃ではなく、別の予定が始まる頃に来ることが多い。"
       ],
       "tags": [
-        "状態・感情",
-        "眠気",
-        "心の状態"
+        "やる気",
+        "準備",
+        "待機"
       ],
-      "tone": "mock_academic",
-      "ending_family": "rest_helps",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_motivation_waiting",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0162",
-      "word": "ねむぐあい",
+      "word": "ねむりかけ",
       "category": "condition",
       "rarity": 3,
       "paragraphs": [
-        "眠気と体調の偏りが同時に崩れたときの俗称。",
-        "始まりは「まぶたが勝手に重くなる」ことで、しばらくすると「体の一部だけが休みたがる」状態へ移る。",
-        "症状に見える場合もあるが、本項は医学的な説明ではない。俗にねむぐあいと呼ばれる。"
+        "眠ってはいないが、返事の一部を夢側へ預け始めている状態。",
+        "目は開いていても会話の接続が弱くなり、質問に対して少し前の話題が返ってくる。",
+        "本人は起きていたと主張するが、その証言も半分ほど眠っている。"
       ],
       "tags": [
-        "状態・感情",
         "眠気",
-        "体調の偏り"
+        "会話",
+        "半覚醒"
       ],
-      "tone": "observational",
-      "ending_family": "not_medical",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "dry",
+      "ending_family": "wave01_half_asleep",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0163",
-      "word": "ねむきぶん",
+      "word": "きもちあと",
       "category": "condition",
       "rarity": 1,
       "paragraphs": [
-        "眠気の影響で、気分の波だけが通常どおり働かなくなる状態。",
-        "平常を装っても「機嫌が理由なく上下する」ため、周囲には意外と分かりやすい。",
-        "締切が近づくと一時的に改善するため、治ったとは言いにくい。俗にねむきぶんと呼ばれる。"
+        "出来事が終わってから、遅れて本当の気持ちが追いついてくる状態。",
+        "その場では平然と対応できるため、帰り道や入浴中に感情の本体が到着する。",
+        "言いたかったことも一緒に届くが、会話の受付時間はすでに終わっている。"
       ],
       "tags": [
-        "状態・感情",
-        "眠気",
-        "気分の波"
+        "感情",
+        "後悔",
+        "遅延"
       ],
-      "tone": "dry",
-      "ending_family": "deadline_heals",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_delayed_feeling",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0164",
-      "word": "ねむあたま",
+      "word": "ぼんやりめ",
       "category": "condition",
       "rarity": 1,
       "paragraphs": [
-        "思考の状態へ眠気が混ざり、判断が少し遅くなる状態。",
-        "多くは休憩で改善するが、休むまでに「まぶたが勝手に重くなる」時間が続く。",
-        "本人は隠せているつもりでも、思考の状態へ出るので周囲には分かりやすい。俗にねむあたまと呼ばれる。"
+        "集中できていないほどではないが、物事の輪郭を少し甘く見ている状態。",
+        "簡単な用事はこなせるものの、置いた物の場所や返事の細部が薄く残る。",
+        "休めば治る程度なのに、休む判断だけがぼんやりしている。"
       ],
       "tags": [
-        "状態・感情",
-        "眠気",
-        "思考の状態"
+        "集中",
+        "記憶",
+        "疲れ"
       ],
-      "tone": "absurd",
-      "ending_family": "others_notice",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "dry",
+      "ending_family": "wave01_soft_focus",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0165",
-      "word": "ねむからだ",
+      "word": "ためいきち",
       "category": "condition",
       "rarity": 1,
       "paragraphs": [
-        "眠気を自覚した直後から身体感覚へ波及する軽い不調。",
-        "安心した直後に出やすく、「姿勢と疲労感の釣り合いが崩れる」ことが特徴とされる。",
-        "解決はしないが、ねむからだと呼ぶと少しだけ扱いやすくなる。"
+        "ため息が一度で終わらず、胸のあたりに次の一回分を残している状態。",
+        "大きな不満がなくても起こり、座り直した時や画面を閉じた時に続きが出る。",
+        "深呼吸に切り替えれば収まるが、見た目がほぼ同じなので周囲には伝わらない。"
       ],
       "tags": [
-        "状態・感情",
-        "眠気",
-        "身体感覚"
+        "ため息",
+        "疲労",
+        "呼吸"
       ],
-      "tone": "deadpan",
-      "ending_family": "name_relief",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "mock_academic",
+      "ending_family": "wave01_sigh_reserve",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0166",

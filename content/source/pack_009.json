@@ -9,45 +9,45 @@
   "entries": [
     {
       "id": "GMG0401",
-      "word": "もちころげ",
+      "word": "もちあわせ",
       "category": "food",
       "rarity": 1,
       "paragraphs": [
-        "餅を使った転がし料理。",
-        "素材には「粘りが強く、扱う側の判断力を試す」性質があり、調理では「皿の上で安定しない形に仕上げる」ことが特徴となる。",
-        "もちころげは温かいうちが最も評価され、冷めると急に議論が増える。"
+        "形や味の違う餅を少しずつ盛り、一皿で迷えるようにした取り合わせ。",
+        "最初は全種類を均等に食べる予定でも、好みの餅だけ先になくなり、最後に責任のような一個が残る。",
+        "持ち合わせがない時でも作れるが、餅の持ち合わせは必要である。"
       ],
       "tags": [
-        "食べ物",
         "餅",
-        "転がし料理"
+        "盛り合わせ",
+        "選択"
       ],
       "tone": "dry",
-      "ending_family": "best_hot",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "ending_family": "wave01_mochi_assortment",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0402",
-      "word": "もちまぶし",
+      "word": "ぱんしみる",
       "category": "food",
       "rarity": 1,
       "paragraphs": [
-        "餅を中心に組み立てる、素朴なまぶし料理。",
-        "作り方は単純だが、「粉や具材を必要以上にまとわせる」ため仕上がりに差が出る。",
-        "家庭ごとの差が大きく、同じもちまぶしでも別料理として出てくる。"
+        "焼いたパンへ温かい汁を吸わせ、外側の香ばしさと内側の柔らかさを同時に楽しむ料理。",
+        "浸す時間が短いと味が届かず、長いと持ち上げる前に形がほどける。",
+        "ちょうどよい瞬間は数秒しかないため、会話を始める前に食べたほうがよい。"
       ],
       "tags": [
-        "食べ物",
-        "餅",
-        "まぶし料理"
+        "パン",
+        "スープ",
+        "食べ時"
       ],
-      "tone": "absurd",
-      "ending_family": "home_diff",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_soaked_bread",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0403",
@@ -72,66 +72,66 @@
     },
     {
       "id": "GMG0404",
-      "word": "もちにこみ",
+      "word": "まめごろも",
       "category": "food",
       "rarity": 3,
       "paragraphs": [
-        "煮込み料理の形式で提供される餅料理。",
-        "見た目より量が多く、「待ち時間を調味料として使う」形式で提供される。",
-        "急ぐ日に選ぶ料理ではないが、急ぐ日に限って食べたくなる。この仕立てをもちにこみと呼ぶ。"
+        "煎った豆を薄い衣で包み、噛んだ時に二段階の音が出るよう仕上げた菓子。",
+        "外側は軽く割れ、少し遅れて豆が砕けるため、一粒でも食べた感じが長く続く。",
+        "静かな場所では食感より所在がよく分かる。"
       ],
       "tags": [
-        "食べ物",
-        "餅",
-        "煮込み料理"
+        "豆",
+        "菓子",
+        "食感"
       ],
       "tone": "mock_academic",
-      "ending_family": "not_rush",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "ending_family": "wave01_bean_coating",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0405",
-      "word": "もちつつみ",
+      "word": "いもひとや",
       "category": "food",
       "rarity": 2,
       "paragraphs": [
-        "餅を食べやすくしたつもりの包み料理。",
-        "味付けは自由とされるが、自由にするとだいたい濃くなる。",
-        "レシピの「適量」が多く、もちつつみの完成には作る側の自信が必要になる。"
+        "蒸した芋を一晩休ませ、甘さと落ち着きを引き出した素朴な食べ物。",
+        "出来たてより冷めた頃のほうが味がまとまるため、急いで食べないことも調理に含まれる。",
+        "翌朝まで残すつもりで作られるが、夜の確認作業で量が減りやすい。"
       ],
       "tags": [
-        "食べ物",
-        "餅",
-        "包み料理"
+        "芋",
+        "一晩",
+        "甘味"
       ],
-      "tone": "observational",
-      "ending_family": "recipe_vague",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "deadpan",
+      "ending_family": "wave01_overnight_potato",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0406",
-      "word": "もちかさね",
+      "word": "くりしずく",
       "category": "food",
       "rarity": 2,
       "paragraphs": [
-        "餅の長所を残し、短所まで強調した重ね料理。",
-        "食感の評価が分かれやすく、「粘りが強く、扱う側の判断力を試す」性質が原因とされる。",
-        "一口目より二口目から特徴が出るため、評価は少し待つ必要がある。この仕立てをもちかさねと呼ぶ。"
+        "栗を裏ごしした餡へ蜜を一滴ずつ落とし、口当たりを軽くした小さな甘味。",
+        "蜜が多いと栗の香りが隠れ、少ないと名前ほどしずく感が出ない。",
+        "調整中の味見が最も完成に近いという、作り手には不便な菓子である。"
       ],
       "tags": [
-        "食べ物",
-        "餅",
-        "重ね料理"
+        "栗",
+        "蜜",
+        "甘味"
       ],
-      "tone": "dry",
-      "ending_family": "second_bite",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_chestnut_drop",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0407",

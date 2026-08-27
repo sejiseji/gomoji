@@ -30,108 +30,108 @@
     },
     {
       "id": "GMG0602",
-      "word": "かみおさえ",
+      "word": "ひもまとめ",
       "category": "tool",
       "rarity": 3,
       "paragraphs": [
-        "紙の不便さを別の不便さへ置き換える押さえ具。",
-        "操作は簡単だが、保管場所を忘れると何も解決しない。",
-        "一つあると便利で、二つ目から急に置き場所へ困る。この道具がかみおさえである。"
+        "充電ケーブルや細い紐を、一つの輪にまとめてほどけにくくする道具。",
+        "巻く向きをそろえると美しく収まるが、急いで外す時ほど結び目のように抵抗する。",
+        "机は整うものの、必要な一本を選ぶ作業までまとめてはくれない。"
       ],
       "tags": [
-        "道具",
-        "紙",
-        "押さえ具"
+        "紐",
+        "ケーブル",
+        "整理"
       ],
-      "tone": "mock_academic",
-      "ending_family": "one_good_two_bad",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_cord_binder",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0603",
-      "word": "かみまもり",
+      "word": "ふたおこし",
       "category": "tool",
       "rarity": 1,
       "paragraphs": [
-        "紙と一緒に使うことを想定した小型の保護具。",
-        "説明書では「壊れないことより触らせないことを重視する」とされるが、実際は別用途で使われがち。",
-        "操作は簡単だが、説明書だけは用途以上に長い。この道具がかみまもりである。"
+        "固く閉じた蓋の縁へ差し込み、最初のわずかな隙間を作る道具。",
+        "隙間さえできれば手で開けられるため、働く時間は短いが役割ははっきりしている。",
+        "使い終える頃には、蓋より先に見失われている。"
       ],
       "tags": [
-        "道具",
-        "紙",
-        "保護具"
+        "蓋",
+        "隙間",
+        "台所"
       ],
-      "tone": "observational",
-      "ending_family": "manual_long",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "dry",
+      "ending_family": "wave01_lid_lifter",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0604",
-      "word": "かみはかり",
+      "word": "くつそろえ",
       "category": "tool",
       "rarity": 2,
       "paragraphs": [
-        "計測具として販売されたが、用途の半分は紙の整理である。",
-        "壊れにくい一方、「薄さを理由に多くの仕事を任される」点はそのまま残る。",
-        "本来の用途より、別の作業へ流用される時間のほうが長い。この道具がかみはかりである。"
+        "玄関で向きのばらついた靴を、つま先が同じ方向へ向くよう静かに押す道具。",
+        "左右の小さな板が一足ずつ位置を直すため、手を使わずに見た目だけ整えられる。",
+        "靴底の泥や脱ぎ方までは直せないので、玄関の礼儀は半分ほど本人に残る。"
       ],
       "tags": [
-        "道具",
-        "紙",
-        "計測具"
+        "靴",
+        "玄関",
+        "整頓"
       ],
-      "tone": "dry",
-      "ending_family": "other_use",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "deadpan",
+      "ending_family": "wave01_shoe_aligner",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0605",
-      "word": "かみよせる",
+      "word": "ものさがし",
       "category": "tool",
       "rarity": 1,
       "paragraphs": [
-        "紙を扱う者の手間を少しだけ減らす寄せ具。",
-        "使用前後で見た目はほぼ変わらないが、使った側は満足する。",
-        "使用後の保管場所までは解決してくれない。この道具がかみよせるである。"
+        "探している物の特徴を入力すると、最後に見た可能性の高い場所を示す小型端末。",
+        "机、鞄、上着の順に候補を出すが、使用者がそこを探したと言い張ると次へ進む。",
+        "正解が手の中だった場合だけ、画面を暗くして配慮する。"
       ],
       "tags": [
-        "道具",
-        "紙",
-        "寄せ具"
+        "探索",
+        "小物",
+        "端末"
       ],
       "tone": "absurd",
-      "ending_family": "storage_unsolved",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "ending_family": "wave01_object_finder",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0606",
-      "word": "かみたたき",
+      "word": "まよいばこ",
       "category": "tool",
       "rarity": 2,
       "paragraphs": [
-        "紙の紛失を防ぐために作られた、紛失しやすい打ち具。",
-        "一つあると便利で、二つ目から急に邪魔になる。",
-        "使用前後で見た目はほぼ変わらないが、使った側は満足する。この道具がかみたたきである。"
+        "置き場所が決まっていない小物を、ひとまず受け入れるための箱。",
+        "片づけの流れを止めない利点があり、鍵、部品、説明書などが一時的に集まる。",
+        "一時的という言葉を守らないと、箱そのものが大きな迷い物になる。"
       ],
       "tags": [
-        "道具",
-        "紙",
-        "打ち具"
+        "箱",
+        "片づけ",
+        "仮置き"
       ],
-      "tone": "deadpan",
-      "ending_family": "looks_same",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_lost_box",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0607",

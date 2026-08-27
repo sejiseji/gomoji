@@ -30,108 +30,108 @@
     },
     {
       "id": "GMG0702",
-      "word": "あさならい",
+      "word": "あとでやる",
       "category": "custom",
       "rarity": 3,
       "paragraphs": [
-        "朝をきっかけに始まったとされる習わし。",
-        "参加は自由とされるが、不参加の理由だけは聞かれる。",
-        "参加は自由とされるが、不参加の理由だけは聞かれる。この習わしをあさならいと呼ぶ。"
+        "今は行わない用事について、忘れていないことだけを確認する小さな宣言。",
+        "口に出すことで一度安心できるため、実行の代わりとして使われやすい。",
+        "後での時刻を決めないまま繰り返すと、用事より宣言のほうが習慣になる。"
       ],
       "tags": [
-        "習慣・制度",
-        "朝",
-        "習わし"
+        "宣言",
+        "用事",
+        "先延ばし"
       ],
-      "tone": "observational",
-      "ending_family": "free_but_reason",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "dry",
+      "ending_family": "wave01_do_later_ritual",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0703",
-      "word": "あさきまり",
+      "word": "おやつわけ",
       "category": "custom",
       "rarity": 3,
       "paragraphs": [
-        "規則のうち、朝だけで通用する地域的な形式。",
-        "由来を知る者はいないものの、「破られる前提で細部だけ厳しい」点だけは守られている。",
-        "準備のほうが長く、本番は思ったより早く終わる。この習わしをあさきまりと呼ぶ。"
+        "人数より少し多い菓子を開け、欲しい量を互いに探りながら分ける習慣。",
+        "最初の一人が遠慮すると全体の基準が下がり、最後に一個だけ判断の難しい菓子が残る。",
+        "誰も取らない時間が長いほど、その一個への関心は高い。"
       ],
       "tags": [
-        "習慣・制度",
-        "朝",
-        "規則"
+        "おやつ",
+        "分配",
+        "遠慮"
       ],
-      "tone": "dry",
-      "ending_family": "prep_long",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_snack_sharing",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0704",
-      "word": "あさやすみ",
+      "word": "せきゆずり",
       "category": "custom",
       "rarity": 1,
       "paragraphs": [
-        "朝の空気を整えるための小さな休止日。",
-        "準備のほうが長く、本番は思ったより早く終わる。",
-        "担当は毎回変わるが、詳しい人だけはなぜか固定される。この習わしをあさやすみと呼ぶ。"
+        "座席を必要としていそうな人へ、相手が気まずくならない形で場所を渡す作法。",
+        "立ち上がってから声をかけると断りにくく、先に尋ねると互いに遠慮が始まる。",
+        "譲った後に平気な顔で立っているところまで含めて、一連の作法とされる。"
       ],
       "tags": [
-        "習慣・制度",
-        "朝",
-        "休止日"
+        "座席",
+        "気遣い",
+        "作法"
       ],
-      "tone": "absurd",
-      "ending_family": "same_expert",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "deadpan",
+      "ending_family": "wave01_seat_yielding",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0705",
-      "word": "あさばんこ",
+      "word": "ひとやすみ",
       "category": "custom",
       "rarity": 1,
       "paragraphs": [
-        "朝で昔から続くことになっている持ち回り。",
-        "担当は毎回変わるが、詳しい人だけはなぜか固定される。",
-        "終了後の片づけまで含めてあさばんことされる。"
+        "作業を完全にやめず、再開できる姿勢だけ残して短く休む習慣。",
+        "飲み物を取る、窓の外を見る、椅子へ深く座るなど、終了時刻を決めやすい動作が選ばれる。",
+        "横になると別の制度へ移行するため、ひとやすみの範囲から外れる。"
       ],
       "tags": [
-        "習慣・制度",
-        "朝",
-        "持ち回り"
+        "休憩",
+        "作業",
+        "再開"
       ],
-      "tone": "deadpan",
-      "ending_family": "cleanup_part",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+      "tone": "mock_academic",
+      "ending_family": "wave01_short_break",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0706",
-      "word": "あさおくり",
+      "word": "ねるまえに",
       "category": "custom",
       "rarity": 1,
       "paragraphs": [
-        "朝へ人を集める理由として使われる送り事。",
-        "形式より顔を出すことが重視され、「まだ判断力が立ち上がっていない時間」場でも続けられる。",
-        "一度中止すると再開理由が見つからないため、惰性で続いている。この習わしをあさおくりと呼ぶ。"
+        "就寝の直前になって、日中は気にならなかった用事を一つだけ始める習慣。",
+        "机の整理や返信の確認など短く終わる作業が選ばれるが、その途中で別の用事も見つかる。",
+        "眠る準備が整うほど活動的になるため、開始条件と目的がかみ合っていない。"
       ],
       "tags": [
-        "習慣・制度",
-        "朝",
-        "送り事"
+        "就寝",
+        "用事",
+        "夜"
       ],
-      "tone": "mock_academic",
-      "ending_family": "resume_hard",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_bedtime_task",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0707",

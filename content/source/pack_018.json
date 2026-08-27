@@ -660,108 +660,108 @@
     },
     {
       "id": "GMG0882",
-      "word": "れすのこし",
+      "word": "へんじまち",
       "category": "internet",
       "rarity": 1,
       "paragraphs": [
-        "返信の流れで頻繁に見られる保存行為。",
-        "本人は整理したつもりでも、読む側には「後で読むと言って二度と開かない」ように見える。",
-        "訂正は可能だが、訂正前の内容のほうが長く残る。この状態をれすのこしと呼ぶ。"
+        "送ったメッセージへの返事を待ちながら、別のことへ集中できなくなる時間。",
+        "通知を確認するたび待ち時間が最初から意識され、画面を伏せると音がした気がする。",
+        "返事が来た瞬間だけ、何を書いたか思い出す時間が必要になる。"
       ],
       "tags": [
-        "インターネット",
         "返信",
-        "保存行為"
+        "通知",
+        "待機"
       ],
-      "tone": "absurd",
-      "ending_family": "correction_late",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_reply_wait",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0883",
-      "word": "れすながれ",
+      "word": "いいねだけ",
       "category": "internet",
       "rarity": 2,
       "paragraphs": [
-        "進行状態のうち、返信だけが先行する状態。",
-        "速度だけは速く、内容の確認は後回しになる。",
-        "反応が増えるほど意味が薄まり、最後には雰囲気だけが共有される。この状態をれすながれと呼ぶ。"
+        "内容には強く同意しているが、文章で返すほどの言葉が見つからない時に行う反応。",
+        "短くても意思は伝わる一方、深刻な話題では押した側が少し不安になる。",
+        "相手もいいねだけで返すと、会話は静かに成立したことになる。"
       ],
       "tags": [
-        "インターネット",
-        "返信",
-        "進行状態"
+        "反応",
+        "同意",
+        "会話"
       ],
       "tone": "deadpan",
-      "ending_family": "meaning_thins",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "ending_family": "wave01_like_only",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0884",
-      "word": "れすずらし",
+      "word": "きじよまず",
       "category": "internet",
       "rarity": 1,
       "paragraphs": [
-        "返信を長く続けた結果発生する論点移動。",
-        "発生後は元の話題へ戻りにくく、「内容より反応の速さが評価される」傾向だけが残る。",
-        "書き込まない者ほど状況を理解しているが、説明役は引き受けない。この状態をれすずらしと呼ぶ。"
+        "見出しと添えられた一文だけで記事の内容を理解した気になる読み方。",
+        "話題へ早く参加できるが、本文にある条件や例外を後から教えられることが多い。",
+        "記事を開けば解決するものの、その頃には別の見出しが来ている。"
       ],
       "tags": [
-        "インターネット",
-        "返信",
-        "論点移動"
+        "記事",
+        "見出し",
+        "早合点"
       ],
-      "tone": "mock_academic",
-      "ending_family": "silent_knows",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "dry",
+      "ending_family": "wave01_headline_only",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0885",
-      "word": "れすだまり",
+      "word": "あとでよむ",
       "category": "internet",
       "rarity": 3,
       "paragraphs": [
-        "返信の内容より反応を優先した停滞状態。",
-        "反応が増えるほど意味が薄まり、最後には雰囲気だけが残る。",
-        "誰が始めたかは、だいたい全員が別の人だと思っている。この状態をれすだまりと呼ぶ。"
+        "気になる記事や投稿を保存し、未来の自分へ読む役目を渡す行為。",
+        "保存した時点で少し理解した気持ちになるため、一覧は増えるが消化は進みにくい。",
+        "数か月後に見返すと、内容より保存した当時の関心がよく分かる。"
       ],
       "tags": [
-        "インターネット",
-        "返信",
-        "停滞状態"
+        "保存",
+        "記事",
+        "未読"
       ],
       "tone": "observational",
-      "ending_family": "origin_elsewhere",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "ending_family": "wave01_read_later",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0886",
-      "word": "れすひろい",
+      "word": "かきなおし",
       "category": "internet",
       "rarity": 1,
       "paragraphs": [
-        "返信を別の場所へ運ぶための拾い行為。",
-        "悪意がなくても起こり、「本筋より小さな誤字だけを持ち帰る」結果になりやすい。",
-        "速度だけは速く、内容の確認は後回しになる。この状態をれすひろいと呼ぶ。"
+        "送信前の文章を何度も直し、最初の勢いと最後の礼儀を両立させようとする作業。",
+        "語尾を柔らかくすると本文が強く見え、本文を削ると挨拶だけが立派になる。",
+        "最終稿が最初の一文へ戻った時は、考えた時間だけが丁寧さとして残る。"
       ],
       "tags": [
-        "インターネット",
-        "返信",
-        "拾い行為"
+        "文章",
+        "推敲",
+        "送信"
       ],
-      "tone": "dry",
-      "ending_family": "speed_over_check",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "deadpan",
+      "ending_family": "wave01_rewrite_message",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0887",

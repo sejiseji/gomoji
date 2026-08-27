@@ -30,108 +30,108 @@
     },
     {
       "id": "GMG0952",
-      "word": "かげさそい",
+      "word": "かげふたり",
       "category": "mystery",
       "rarity": 2,
       "paragraphs": [
-        "影の近くで報告される、説明のつかない誘い。",
-        "害はないとされるが、二度目の目撃例がほとんどない。",
-        "写真には残らず、説明した文章だけが少しずつ変わる。記録上はかげさそいと呼ばれる。"
+        "一人で歩いているのに、足元へ二人分の影が並ぶ怪異。",
+        "片方は本人と同じ動きをするが、もう片方は半歩遅れて角を曲がる。",
+        "立ち止まると二つとも重なるため、数え直す機会だけは与えられない。"
       ],
       "tags": [
-        "怪異",
         "影",
-        "誘い"
+        "夜道",
+        "二人"
       ],
       "tone": "deadpan",
-      "ending_family": "photo_absent",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "ending_family": "wave01_double_shadow",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0953",
-      "word": "かげもどり",
+      "word": "まどのあと",
       "category": "mystery",
       "rarity": 3,
       "paragraphs": [
-        "帰還の形で現れる、影由来の怪異。",
-        "記録には「出発時とは違う小物を持ち帰らせる」とあるが、観測者の名前だけが消えている。",
-        "二度目の目撃例が少ないため、かげもどりの調査は毎回最初から始まる。"
+        "誰も触れていない窓に、内側から指でなぞったような跡が残る現象。",
+        "跡は外の景色を指す形だが、確認するたび少しだけ向きが変わる。",
+        "拭けば消えるものの、布には何も付かないので掃除の達成感がない。"
       ],
       "tags": [
-        "怪異",
-        "影",
-        "帰還"
+        "窓",
+        "指跡",
+        "夜"
       ],
-      "tone": "mock_academic",
-      "ending_family": "second_none",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+      "tone": "dry",
+      "ending_family": "wave01_window_trace",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0954",
-      "word": "かげのぞき",
+      "word": "こえのぬし",
       "category": "mystery",
       "rarity": 1,
       "paragraphs": [
-        "影を見た者だけが気づく覗き。",
-        "見なかったことにすると収まるため、調査が進まない。",
-        "見なかったことにすると収まるため、研究はほとんど進んでいない。記録上はかげのぞきと呼ばれる。"
+        "夜の家で一度だけ名前を呼び、返事を待たずに黙る正体不明の声。",
+        "家族に似て聞こえるが、誰の声か考えるほど細部が曖昧になる。",
+        "翌朝に尋ねると全員が違うと言うため、声だけが家族構成に詳しい。"
       ],
       "tags": [
-        "怪異",
-        "影",
-        "覗き"
+        "声",
+        "家",
+        "呼びかけ"
       ],
-      "tone": "observational",
-      "ending_family": "ignore_works",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "deadpan",
+      "ending_family": "wave01_unknown_caller",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0955",
-      "word": "かげゆすれ",
+      "word": "みちのさき",
       "category": "mystery",
       "rarity": 1,
       "paragraphs": [
-        "影の性質を借りて起こるとされる揺らぎ。",
-        "時刻は一定せず、「本人より半歩遅れて動く」場面でだけ報告される。",
-        "記録には現象だけが残り、最初にかげゆすれを見た者の名前は消えている。"
+        "何度曲がっても同じ景色が続き、先へ進んだ距離だけが分からなくなる場所。",
+        "後ろを振り返れば来た道は普通に見えるため、戻る判断だけが難しくなる。",
+        "立ち止まって地図を開くと現在地は合っており、地図のほうが少し困っている。"
       ],
       "tags": [
-        "怪異",
-        "影",
-        "揺らぎ"
+        "道",
+        "反復",
+        "地図"
       ],
-      "tone": "dry",
-      "ending_family": "name_missing",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+      "tone": "absurd",
+      "ending_family": "wave01_endless_turn",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0956",
-      "word": "かげまよい",
+      "word": "よるのしみ",
       "category": "mystery",
       "rarity": 1,
       "paragraphs": [
-        "迷いとして記録された、影に関する小さな異変。",
-        "写真には残らず、説明した文章だけが少しずつ変わる。",
-        "怖がるほどのものではない。近づく理由も特にない。記録上はかげまよいと呼ばれる。"
+        "夜になると壁や天井の一部へ現れ、朝には消える薄い影。",
+        "湿気の跡に似ているが、照明を変えると形だけがゆっくり別の場所へ移る。",
+        "毎晩少しずつ近づいてくるが、家具を動かすと元の位置へ戻る。"
       ],
       "tags": [
-        "怪異",
+        "夜",
         "影",
-        "迷い"
+        "壁"
       ],
-      "tone": "absurd",
-      "ending_family": "not_scary",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_night_stain",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0957",

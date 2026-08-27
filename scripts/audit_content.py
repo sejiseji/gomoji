@@ -112,11 +112,16 @@ def main() -> int:
         threshold=args.similarity_threshold,
         limit=args.similarity_limit,
     )
+    reviewed_count = status_counts.get("reviewed", 0)
+    draft_count = status_counts.get("draft", 0)
 
     lines: list[str] = [
         "# ごもじンゴ コンテンツ監査レポート",
         "",
-        "> このレポートは構造監査であり、960件のドラフトを公開品質と認定するものではない。",
+        (
+            "> このレポートは構造監査であり、"
+            f"{draft_count}件のドラフトを公開品質と認定するものではない。"
+        ),
         "",
         "## 概要",
         "",
@@ -209,9 +214,12 @@ def main() -> int:
             "",
             "## 編集上の結論",
             "",
-            "- `reviewed` 40件はUI・入力・本文折り返しのゴールデンセットとして使用できる。",
             (
-                "- `draft` 960件は語数・分岐・カテゴリ・レアリティを満たす"
+                f"- `reviewed` {reviewed_count}件はUI・入力・本文折り返しの"
+                "確認セットとして使用できる。"
+            ),
+            (
+                f"- `draft` {draft_count}件は語数・分岐・カテゴリ・レアリティを満たす"
                 "制作スキャフォールドであり、公開前に個別レビューが必要。"
             ),
             (

@@ -42,7 +42,7 @@ Done.
 
 - Discovery animation and short confirm delay
 - NEW and found-count presentation
-- Result text overflow QA across the full reviewed 40
+- Result text overflow QA across the reviewed runtime set
 - Stronger PC focus-grid behavior
 
 ## GMG004 — Web共通化
@@ -59,4 +59,5 @@ Done.
 - Dictionary view
 - Development-only 1000-entry draft builds
 - Draft review workflow
+- Wave-by-wave 50-entry editorial review
 - Final 1000 approved release gate

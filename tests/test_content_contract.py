@@ -38,8 +38,8 @@ def test_category_and_rarity_distribution() -> None:
 def test_current_review_state_is_explicit() -> None:
     entries = load_all_entries()
     assert Counter(entry["status"] for entry in entries) == {
-        "draft": 960,
-        "reviewed": 40,
+        "draft": 910,
+        "reviewed": 90,
     }
 
 

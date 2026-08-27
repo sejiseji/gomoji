@@ -41,10 +41,10 @@ The editable source corpus lives in `content/source/pack_001.json` through `pack
 Current content state:
 
 - `source`: 1000 entries
-- `reviewed`: 40 entries
-- `draft`: 960 entries
+- `reviewed`: 90 entries
+- `draft`: 910 entries
 - `approved`: 0 entries
-- runtime generated data: 40 reviewed entries in `src/gomoji/generated/content_data.py`
+- runtime generated data: 90 reviewed entries in `src/gomoji/generated/content_data.py`
 
 Validate the full source corpus:
 
@@ -71,7 +71,7 @@ For development-only 1000-entry builds:
 .venv/bin/python scripts/build_content.py --include-drafts --output src/gomoji/generated/content_data.py
 ```
 
-Do not treat the 960 `draft` entries as release-quality content. `scripts/validate_content.py --release` is expected to fail until all 1000 entries are `approved`.
+Do not treat the 910 `draft` entries as release-quality content. `scripts/validate_content.py --release` is expected to fail until all 1000 entries are `approved`.
 
 The fixed `んご/ンゴ` suffix is prohibited outside the product title `ごもじンゴ`.
 

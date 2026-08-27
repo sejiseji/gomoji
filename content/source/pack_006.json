@@ -870,108 +870,108 @@
     },
     {
       "id": "GMG0292",
-      "word": "ねここぞう",
+      "word": "すみねずみ",
       "category": "creature",
       "rarity": 2,
       "paragraphs": [
-        "猫の仲間と誤認されやすい幼体。",
-        "主に人のいない時間へ現れ、「小柄なわりに態度だけは完成している」行動を繰り返す。",
-        "写真ではだいたいぶれるため、猫との区別は今もついていない。この個体がねここぞうである。"
+        "部屋の隅から隅へ移り、中央をできるだけ使わずに暮らす小さなねずみ。",
+        "壁際に沿って進むため動きは慎重に見えるが、本人は最短距離のつもりでいる。",
+        "家具を動かすと新しい隅を探し始めるので、掃除のたびに住所が変わる。"
       ],
       "tags": [
-        "生物",
-        "猫",
-        "幼体"
+        "ねずみ",
+        "部屋",
+        "隅"
       ],
-      "tone": "dry",
-      "ending_family": "photo_blur",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_corner_mouse",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0293",
-      "word": "ねこぼうず",
+      "word": "ぬくもぐら",
       "category": "creature",
       "rarity": 2,
       "paragraphs": [
-        "猫の習性を一部だけ受け継いだ未確認生物。",
-        "餌より居場所を重視し、「気まぐれで、人の作業を静かに妨げる」性質を持つ。",
-        "危険性は低いが、作業中の人間には妙に近づく。この個体がねこぼうずである。"
+        "地中ではなく、家の中の温かい場所を掘り当てることに長けたもぐら。",
+        "日なた、毛布の下、充電中の機器のそばを順に巡り、温度が下がると黙って移動する。",
+        "穴は掘らないため被害は少ないが、最も快適な席だけは先に取られる。"
       ],
       "tags": [
-        "生物",
-        "猫",
-        "丸い個体"
+        "もぐら",
+        "暖かさ",
+        "居場所"
       ],
-      "tone": "absurd",
-      "ending_family": "harmless",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "deadpan",
+      "ending_family": "wave01_warm_mole",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0294",
-      "word": "ねこまるこ",
+      "word": "まどすずめ",
       "category": "creature",
       "rarity": 3,
       "paragraphs": [
-        "球形種として各地で語られる、猫に近い生物。",
-        "危険性は低いが、「転がることで移動を省略する」ため作業の邪魔にはなる。",
-        "ねこまるこという呼び名を本人が認識しているかは不明である。"
+        "窓の外から室内をのぞき、誰かと目が合うまで小さく跳ねるすずめ。",
+        "餌を待っているのかと思えば、与えると少し離れて食べ、また同じ位置へ戻ってくる。",
+        "用事は最後まで分からないものの、こちらが席を立つと満足して飛び去る。"
       ],
       "tags": [
-        "生物",
-        "猫",
-        "球形種"
+        "すずめ",
+        "窓",
+        "観察"
       ],
-      "tone": "deadpan",
-      "ending_family": "name_self",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_window_sparrow",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0295",
-      "word": "ねこねむり",
+      "word": "こたつむり",
       "category": "creature",
       "rarity": 3,
       "paragraphs": [
-        "猫の姿を借りて暮らすとされる休眠種。",
-        "見つかると「気まぐれで、人の作業を静かに妨げる」かのように振る舞い、そのまま隠れる。",
-        "袋の音を出すと急に姿を見せるため、研究方法だけは確立している。この個体がねこねむりである。"
+        "こたつの中へ体の大半を収め、必要な時だけ上半身を出す冬の生物。",
+        "みかん、飲み物、充電器を手の届く範囲へ集めることで、移動回数を極端に減らしている。",
+        "春になると自然に姿を消すが、抜け殻として座布団が残る。"
       ],
       "tags": [
-        "生物",
-        "猫",
-        "休眠種"
+        "こたつ",
+        "冬",
+        "省エネ"
       ],
-      "tone": "mock_academic",
-      "ending_family": "food_sound",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "absurd",
+      "ending_family": "wave01_kotatsu_snail",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0296",
-      "word": "ねこみはり",
+      "word": "つきたぬき",
       "category": "creature",
       "rarity": 2,
       "paragraphs": [
-        "猫より少しだけ人間社会へ慣れた監視種。",
-        "鳴き声は小さく、行動の大半を「何も起きない場所を長時間見張る」ことへ使う。",
-        "専門家は猫ではないとしている。本人は特に気にしていない。この個体がねこみはりである。"
+        "月明かりのある夜だけ、水面に映った自分を長く眺めるたぬき。",
+        "月を眺めているのかと思えば、雲で顔が隠れると水面へ少し近づく。",
+        "風で像が崩れるたびに姿勢を直すため、観月より身だしなみに忙しい。"
       ],
       "tags": [
-        "生物",
-        "猫",
-        "監視種"
+        "たぬき",
+        "月",
+        "水面"
       ],
-      "tone": "observational",
-      "ending_family": "expert_denial",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "deadpan",
+      "ending_family": "wave01_moon_tanuki",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0297",

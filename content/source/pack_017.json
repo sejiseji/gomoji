@@ -9,45 +9,45 @@
   "entries": [
     {
       "id": "GMG0801",
-      "word": "そらまがり",
+      "word": "まよいみち",
       "category": "place",
       "rarity": 1,
       "paragraphs": [
-        "空にあるとされる曲がり道。",
-        "周囲では「地面の都合がほとんど届かない」と感じられ、内部では「曲がった後に元の方角へ戻った気がする」場所とされる。",
-        "そらまがりは地図に載らないが、帰ってきた者だけは道順を説明したがる。"
+        "目的地へ向かっている人だけが、同じ角を二度通った気になる細い道。",
+        "景色は少しずつ変わるため戻ってはいないが、目印にした物だけが先回りして現れる。",
+        "急がず歩けば普通の近道で、迷っていると認めた瞬間に出口が近くなる。"
       ],
       "tags": [
-        "場所",
-        "空",
-        "曲がり道"
+        "道",
+        "迷い",
+        "近道"
       ],
-      "tone": "observational",
-      "ending_family": "map_absent",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "deadpan",
+      "ending_family": "wave01_lost_lane",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0802",
-      "word": "そらたまり",
+      "word": "ひるねばし",
       "category": "place",
       "rarity": 1,
       "paragraphs": [
-        "空の奥で見つかる、小さな溜まり場。",
-        "入口は分かりやすいが、帰り道だけ説明しにくい。",
-        "写真では普通の場所に見えるため、そらたまりの証明には向かない。"
+        "昼過ぎに渡ると、川音と揺れがちょうど眠気を誘う小さな橋。",
+        "立ち止まる場所はないものの、欄干へ手を置くと数分だけ用事を忘れやすい。",
+        "橋を渡り終える頃には目が覚めるので、昼寝としては移動が多い。"
       ],
       "tags": [
-        "場所",
-        "空",
-        "溜まり場"
+        "橋",
+        "昼寝",
+        "川"
       ],
-      "tone": "dry",
-      "ending_family": "photo_normal",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。 語重複回避のため表示語を調整。"
+      "tone": "observational",
+      "ending_family": "wave01_nap_bridge",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0803",
@@ -72,66 +72,66 @@
     },
     {
       "id": "GMG0804",
-      "word": "そらひろば",
+      "word": "こえのへや",
       "category": "place",
       "rarity": 3,
       "paragraphs": [
-        "空を歩く者が一度だけ通る広場。",
-        "訪れた者は「地面の都合がほとんど届かない」と話すが、写真では普通の場所に見える。",
-        "目印が毎回少し変わるため、同じ道順は二度使えない。この場所がそらひろばである。"
+        "話した声がすぐ消えず、壁の近くに薄く残る部屋。",
+        "同じ場所で別の言葉を重ねると前の声が押し出され、入口付近で小さく聞こえる。",
+        "秘密の相談には向かないが、言い直しには少しだけ親切である。"
       ],
       "tags": [
-        "場所",
-        "空",
-        "広場"
+        "部屋",
+        "声",
+        "反響"
       ],
       "tone": "deadpan",
-      "ending_family": "landmark_moves",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "ending_family": "wave01_voice_room",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0805",
-      "word": "そらさかい",
+      "word": "すみっこや",
       "category": "place",
       "rarity": 3,
       "paragraphs": [
-        "空の地図には載らないが、道順だけ知られている境界。",
-        "長居する理由はないのに、「越えた瞬間より戻る時に気づく」ため妙に記憶へ残る。",
-        "目的地には向かないが、途中で休む場所として妙に覚えられる。この場所がそらさかいである。"
+        "部屋や店の端に生まれる、一人分だけ落ち着ける小さな場所。",
+        "正式な席ではなくても、壁と家具の角度が合うと自然に荷物と人が収まる。",
+        "人気が出ると誰かが椅子を置き、すみっこではなくなる。"
       ],
       "tags": [
-        "場所",
-        "空",
-        "境界"
+        "隅",
+        "居場所",
+        "一人"
       ],
-      "tone": "mock_academic",
-      "ending_family": "no_destination",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "observational",
+      "ending_family": "wave01_corner_nook",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0806",
-      "word": "そらはずれ",
+      "word": "あめのうら",
       "category": "place",
       "rarity": 3,
       "paragraphs": [
-        "空と日常の境目に生じる外れ地。",
-        "目印が毎回少し変わるため、同じ道順が二度は使えない。",
-        "長居した記憶はないのに、戻ると予定より少し時間が進んでいる。この場所がそらはずれである。"
+        "強い雨の向こう側に、一瞬だけ見える明るく乾いた場所。",
+        "建物や木の輪郭は分かるが、雨脚が動くたび位置も変わるため近づけない。",
+        "雨が止むと普通の景色に戻り、乾いていた理由だけが残らない。"
       ],
       "tags": [
-        "場所",
-        "空",
-        "外れ地"
+        "雨",
+        "遠景",
+        "境界"
       ],
-      "tone": "observational",
-      "ending_family": "time_feels",
-      "status": "draft",
-      "source_kind": "combinatorial_draft",
-      "editor_note": "組合せ生成ドラフト。公開前に語感・説明・重複感を個別レビューすること。"
+      "tone": "dry",
+      "ending_family": "wave01_behind_rain",
+      "status": "reviewed",
+      "source_kind": "manual_revision",
+      "editor_note": "Wave 01で語と説明を手動推敲。句間の因果・語彙重複・25文字折り返しを確認し、公開前の実機確認対象とする。"
     },
     {
       "id": "GMG0807",
