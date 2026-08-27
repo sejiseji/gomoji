@@ -98,6 +98,7 @@ class InputState:
     slots: list[str | None] = field(default_factory=lambda: [None] * WORD_LENGTH)
     cursor_index: int = 0
     selected_group: str | None = None
+    input_locked: bool = False
     focused_button: int = 0
     result_entry_id: str | None = None
     pending_result_entry_id: str | None = None
@@ -133,6 +134,8 @@ class InputState:
         return "".join(letters)
 
     def valid_next_chars(self) -> tuple[str, ...]:
+        if self.input_locked:
+            return ()
         return self.index.next_chars(self.prefix_for_cursor())
 
     def enabled_groups(self) -> tuple[str, ...]:
@@ -144,10 +147,8 @@ class InputState:
         )
 
     def enabled_kana(self) -> tuple[str, ...]:
-        if self.selected_group is None:
-            return ()
         valid = set(self.valid_next_chars())
-        return tuple(kana for kana in KANA_GROUPS[self.selected_group] if kana in valid)
+        return tuple(kana for kana in all_kana() if kana in valid)
 
     def can_confirm(self) -> bool:
         return len(self.word) == WORD_LENGTH and self.word in content.BY_WORD
@@ -156,6 +157,7 @@ class InputState:
         self.cursor_index = max(0, min(WORD_LENGTH - 1, index))
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
+        self.input_locked = False
         self.focused_button = 0
 
     def open_kana_group(self, group_id: str) -> bool:
@@ -176,6 +178,9 @@ class InputState:
 
         if self.cursor_index < WORD_LENGTH - 1:
             self.cursor_index += 1
+            self.input_locked = False
+        else:
+            self.input_locked = self.can_confirm()
 
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
@@ -193,6 +198,7 @@ class InputState:
 
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
+        self.input_locked = False
         self.focused_button = 0
 
     def clear_word(self) -> None:
@@ -200,6 +206,7 @@ class InputState:
         self.cursor_index = 0
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
+        self.input_locked = False
         self.result_entry_id = None
         self.pending_result_entry_id = None
         self.focused_button = 0
@@ -217,6 +224,7 @@ class InputState:
         entry = content.BY_ID[chosen_id]
         self.slots = list(entry.word)
         self.cursor_index = WORD_LENGTH - 1
+        self.input_locked = True
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
         self.focused_button = 0

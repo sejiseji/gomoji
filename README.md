@@ -18,7 +18,8 @@ gomoji
 ## Controls
 
 - Tap/click a slot to move the cursor.
-- Tap/click a kana row, then a kana character.
+- Scroll the kana grid, then tap/click an enabled kana character.
+- After five characters are filled, kana input locks until a slot is selected again.
 - `けす`: delete from the current slot or step back one slot.
 - `ぜんぶけす`: clear all slots.
 - `おまかせ`: fill a registered word from the current prefix.
@@ -30,7 +31,7 @@ Current screen:
 - Japanese display with the bundled `assets/umplus_j12r.bdf` font
 - Portrait layout tuned for an iPhone 16-sized `396x696` Pyxel screen
 - Tap-selectable 5-character slots backed by generated reviewed content data
-- Two-step kana input with prefix trie candidate control
+- Scrollable kana grid with prefix trie candidate control
 - Result panel with category, rarity, and wrapped explanation text
 - Short discovery reveal, `NEW` label, and found-count display
 

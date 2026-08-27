@@ -31,6 +31,12 @@ WORD_LENGTH = 5
 DEFAULT_REVEAL_FRAMES = 12
 RESULT_WRAP_CHARS = 25
 RESULT_TEXT_TOP = 282
+KANA_PANEL_TOP = 230
+KANA_PANEL_BOTTOM = 560
+KANA_BUTTON_WIDTH = 64
+KANA_BUTTON_HEIGHT = 46
+KANA_BUTTON_GAP = 8
+KANA_COLUMNS = 5
 KANA_GROUPS = {
     "あ": ("あ", "い", "う", "え", "お", "ぁ", "ぃ", "ぅ", "ぇ", "ぉ"),
     "か": ("か", "き", "く", "け", "こ", "が", "ぎ", "ぐ", "げ", "ご"),
@@ -1113,6 +1119,7 @@ class WebState:
     slots: list[str | None] = field(default_factory=lambda: [None] * WORD_LENGTH)
     cursor_index: int = 0
     selected_group: str | None = None
+    input_locked: bool = False
     focused_button: int = 0
     result_entry_id: str | None = None
     pending_result_entry_id: str | None = None
@@ -1146,6 +1153,8 @@ class WebState:
         return "".join(letters)
 
     def valid_next_chars(self):
+        if self.input_locked:
+            return ()
         return NEXT_CHARS_BY_PREFIX.get(self.prefix_for_cursor(), ())
 
     def enabled_groups(self):
@@ -1157,10 +1166,8 @@ class WebState:
         )
 
     def enabled_kana(self):
-        if self.selected_group is None:
-            return ()
         valid = set(self.valid_next_chars())
-        return tuple(kana for kana in KANA_GROUPS[self.selected_group] if kana in valid)
+        return tuple(kana for kana in all_kana() if kana in valid)
 
     def can_confirm(self):
         return len(self.word) == WORD_LENGTH and self.word in BY_WORD
@@ -1169,6 +1176,7 @@ class WebState:
         self.cursor_index = max(0, min(WORD_LENGTH - 1, index))
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
+        self.input_locked = False
         self.focused_button = 0
 
     def open_kana_group(self, group_id):
@@ -1186,6 +1194,9 @@ class WebState:
             self.slots[index] = None
         if self.cursor_index < WORD_LENGTH - 1:
             self.cursor_index += 1
+            self.input_locked = False
+        else:
+            self.input_locked = self.can_confirm()
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
         self.focused_button = 0
@@ -1200,12 +1211,14 @@ class WebState:
                 self.slots[index] = None
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
+        self.input_locked = False
 
     def clear_word(self):
         self.slots = [None] * WORD_LENGTH
         self.cursor_index = 0
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
+        self.input_locked = False
         self.result_entry_id = None
         self.pending_result_entry_id = None
 
@@ -1216,6 +1229,7 @@ class WebState:
         entry = BY_ID[random.choice(candidate_ids)]
         self.slots = list(entry["word"])
         self.cursor_index = WORD_LENGTH - 1
+        self.input_locked = True
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
 
@@ -1268,6 +1282,11 @@ class GomojiWebApp:
         self.pyxel = pyxel
         self.state = WebState()
         self.buttons = []
+        self.kana_scroll_offset = 0
+        self.dragging_kana_panel = False
+        self.drag_start_y = 0
+        self.drag_last_y = 0
+        self.drag_distance = 0
         self.font = None
         pyxel.init(SCREEN_WIDTH, SCREEN_HEIGHT, title=WINDOW_TITLE, fps=FPS)
         self.font = pyxel.Font(FONT_PATH)
@@ -1305,9 +1324,7 @@ class GomojiWebApp:
         if pyxel.btnp(pyxel.KEY_Z) or pyxel.btnp(pyxel.KEY_RETURN):
             self.activate_focused_button()
 
-        mouse_button = getattr(pyxel, "MOUSE_BUTTON_LEFT", 0)
-        if pyxel.btnp(mouse_button):
-            self.activate_button_at(pyxel.mouse_x, pyxel.mouse_y)
+        self.update_kana_scroll()
 
     def draw(self):
         self.pyxel.cls(BACKGROUND_COLOR)
@@ -1363,54 +1380,50 @@ class GomojiWebApp:
                 pyxel.rect(x + 15, y + slot_size + 11, 28, 3, ACTIVE_COLOR)
 
         pyxel.line(24, 196, SCREEN_WIDTH - 24, 196, GRID_COLOR)
-        guide = "行をえらぶ"
-        if self.state.input_layer == InputLayer.CHARACTERS:
-            guide = f"{self.state.selected_group}行からえらぶ"
+        guide = "しらべるをタップ" if self.state.input_locked else "50音からえらぶ"
         self.draw_text_centered(center_x, 220, guide, TEXT_COLOR)
 
-        if self.state.input_layer == InputLayer.ROWS:
-            self.draw_row_panel(252)
-        else:
-            self.draw_kana_panel(252)
+        self.draw_kana_scroll_panel()
         self.draw_actions()
 
-    def draw_row_panel(self, top_y):
-        enabled = set(self.state.enabled_groups())
-        for index, group_id in enumerate(tuple(KANA_GROUPS)):
-            row = index // 5
-            col = index % 5
-            self.draw_button(
-                Button(
-                    22 + col * 72,
-                    top_y + row * 60,
-                    64,
-                    52,
-                    group_id,
-                    "row",
-                    group_id,
-                    group_id in enabled,
-                )
-            )
-
-    def draw_kana_panel(self, top_y):
-        if self.state.selected_group is None:
-            return
+    def draw_kana_scroll_panel(self):
+        pyxel = self.pyxel
         enabled = set(self.state.enabled_kana())
-        for index, kana in enumerate(KANA_GROUPS[self.state.selected_group]):
-            row = index // 5
-            col = index % 5
+        panel_height = KANA_PANEL_BOTTOM - KANA_PANEL_TOP
+        pyxel.rectb(18, KANA_PANEL_TOP - 8, SCREEN_WIDTH - 36, panel_height + 16, SHADOW_COLOR)
+        for index, kana in enumerate(all_kana()):
+            row = index // KANA_COLUMNS
+            col = index % KANA_COLUMNS
+            y = KANA_PANEL_TOP + row * (KANA_BUTTON_HEIGHT + KANA_BUTTON_GAP)
+            y -= self.kana_scroll_offset
+            if y < KANA_PANEL_TOP or y + KANA_BUTTON_HEIGHT > KANA_PANEL_BOTTOM:
+                continue
             self.draw_button(
                 Button(
-                    22 + col * 72,
-                    top_y + row * 56,
-                    64,
-                    48,
+                    22 + col * (KANA_BUTTON_WIDTH + KANA_BUTTON_GAP),
+                    y,
+                    KANA_BUTTON_WIDTH,
+                    KANA_BUTTON_HEIGHT,
                     kana,
                     "kana",
                     kana,
                     kana in enabled,
                 )
             )
+        self.draw_scrollbar()
+
+    def draw_scrollbar(self):
+        pyxel = self.pyxel
+        max_scroll = self.max_kana_scroll()
+        if max_scroll <= 0:
+            return
+        track_x = SCREEN_WIDTH - 15
+        track_y = KANA_PANEL_TOP
+        track_height = KANA_PANEL_BOTTOM - KANA_PANEL_TOP
+        thumb_height = max(34, track_height * track_height // self.kana_content_height())
+        thumb_y = track_y + (track_height - thumb_height) * self.kana_scroll_offset // max_scroll
+        pyxel.rect(track_x, track_y, 3, track_height, SHADOW_COLOR)
+        pyxel.rect(track_x - 1, thumb_y, 5, thumb_height, ACTIVE_COLOR)
 
     def draw_actions(self):
         y = 580
@@ -1550,6 +1563,52 @@ class GomojiWebApp:
             self.state.return_to_input(False)
         elif button.action == "new":
             self.state.return_to_input(True)
+
+    def update_kana_scroll(self):
+        pyxel = self.pyxel
+        mouse_button = getattr(pyxel, "MOUSE_BUTTON_LEFT", 0)
+        wheel = getattr(pyxel, "mouse_wheel", 0)
+        if self.state.screen == ScreenState.INPUT and wheel:
+            self.scroll_kana(-wheel * 32)
+
+        if pyxel.btnp(mouse_button):
+            if (
+                self.state.screen == ScreenState.INPUT
+                and self.is_inside_kana_panel(pyxel.mouse_x, pyxel.mouse_y)
+            ):
+                self.dragging_kana_panel = True
+                self.drag_start_y = pyxel.mouse_y
+                self.drag_last_y = pyxel.mouse_y
+                self.drag_distance = 0
+            else:
+                self.activate_button_at(pyxel.mouse_x, pyxel.mouse_y)
+
+        if self.dragging_kana_panel and pyxel.btn(mouse_button):
+            delta = self.drag_last_y - pyxel.mouse_y
+            self.drag_distance += abs(delta)
+            self.drag_last_y = pyxel.mouse_y
+            self.scroll_kana(delta)
+
+        if self.dragging_kana_panel and pyxel.btnr(mouse_button):
+            if self.drag_distance < 8:
+                self.activate_button_at(pyxel.mouse_x, pyxel.mouse_y)
+            self.dragging_kana_panel = False
+
+    def is_inside_kana_panel(self, x, y):
+        return 18 <= x < SCREEN_WIDTH - 18 and KANA_PANEL_TOP - 8 <= y < KANA_PANEL_BOTTOM + 8
+
+    def kana_content_height(self):
+        rows = (len(all_kana()) + KANA_COLUMNS - 1) // KANA_COLUMNS
+        return rows * (KANA_BUTTON_HEIGHT + KANA_BUTTON_GAP) - KANA_BUTTON_GAP
+
+    def max_kana_scroll(self):
+        return max(0, self.kana_content_height() - (KANA_PANEL_BOTTOM - KANA_PANEL_TOP))
+
+    def scroll_kana(self, delta):
+        self.kana_scroll_offset = max(
+            0,
+            min(self.max_kana_scroll(), self.kana_scroll_offset + delta),
+        )
 
     def wrap_text(self, text, max_chars):
         return [text[index : index + max_chars] for index in range(0, len(text), max_chars)]

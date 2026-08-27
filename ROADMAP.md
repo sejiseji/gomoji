@@ -28,10 +28,11 @@ Done in this branch.
 Done.
 
 - Tap-selectable 5 slots
-- Row selection and character selection
+- Scrollable kana grid
 - Voiced, semi-voiced, and small kana
 - Delete, clear all, random word
 - Prefix trie candidate control
+- Completed-word input lock
 - PC helper controls
 - Result panel for completed words
 - Self-contained Pages bootstrap updated with the same mobile input flow

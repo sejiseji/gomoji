@@ -19,17 +19,12 @@ class InputStateTest(unittest.TestCase):
     def test_prefix_control_reaches_registered_word(self) -> None:
         state = InputState()
 
-        for group_id, kana in (
-            ("な", "ね"),
-            ("か", "こ"),
-            ("は", "ぱ"),
-            ("わ", "ん"),
-            ("た", "ち"),
-        ):
-            self.assertTrue(state.open_kana_group(group_id))
+        for kana in ("ね", "こ", "ぱ", "ん", "ち"):
             self.assertTrue(state.select_kana(kana))
 
         self.assertEqual(state.word, "ねこぱんち")
+        self.assertTrue(state.input_locked)
+        self.assertEqual(state.enabled_kana(), ())
         self.assertTrue(state.can_confirm())
         self.assertTrue(state.confirm_word())
         self.assertEqual(state.screen, ScreenState.REVEAL)
@@ -60,15 +55,27 @@ class InputStateTest(unittest.TestCase):
     def test_invalid_kana_is_rejected_by_prefix(self) -> None:
         state = InputState()
 
-        self.assertFalse(state.open_kana_group("わ"))
+        self.assertFalse(state.select_kana("わ"))
         self.assertEqual(state.word, "")
+
+    def test_completed_word_rejects_extra_kana_until_slot_is_selected(self) -> None:
+        state = InputState()
+        for kana in "ねこぱんち":
+            self.assertTrue(state.select_kana(kana))
+
+        self.assertFalse(state.select_kana("ま"))
+        self.assertEqual(state.word, "ねこぱんち")
+
+        state.select_slot(2)
+        self.assertFalse(state.input_locked)
+        self.assertTrue(state.select_kana("ぱ"))
+        self.assertEqual(state.slots, ["ね", "こ", "ぱ", None, None])
 
     def test_editing_middle_slot_clears_following_slots(self) -> None:
         state = InputState()
         state.slots = list("ねこぱんち")
 
         state.select_slot(2)
-        self.assertTrue(state.open_kana_group("は"))
         self.assertTrue(state.select_kana("ぱ"))
 
         self.assertEqual(state.slots, ["ね", "こ", "ぱ", None, None])
