@@ -8,6 +8,7 @@ from enum import Enum, auto
 from gomoji import content
 
 WORD_LENGTH = 5
+DEFAULT_REVEAL_FRAMES = 12
 
 KANA_GROUPS: dict[str, tuple[str, ...]] = {
     "あ": ("あ", "い", "う", "え", "お", "ぁ", "ぃ", "ぅ", "ぇ", "ぉ"),
@@ -41,6 +42,7 @@ KANA_GROUPS: dict[str, tuple[str, ...]] = {
 
 class ScreenState(Enum):
     INPUT = auto()
+    REVEAL = auto()
     RESULT = auto()
 
 
@@ -98,6 +100,10 @@ class InputState:
     selected_group: str | None = None
     focused_button: int = 0
     result_entry_id: str | None = None
+    pending_result_entry_id: str | None = None
+    result_is_new: bool = False
+    reveal_frames_remaining: int = 0
+    discovered_entry_ids: set[str] = field(default_factory=set)
     recent_entry_ids: list[str] = field(default_factory=list)
     rng: random.Random = field(default_factory=random.Random, repr=False)
 
@@ -110,6 +116,10 @@ class InputState:
         if self.result_entry_id is None:
             return None
         return content.BY_ID.get(self.result_entry_id)
+
+    @property
+    def found_count(self) -> int:
+        return len(self.discovered_entry_ids)
 
     def prefix_for_cursor(self) -> str:
         return "".join(slot or "" for slot in self.slots[: self.cursor_index])
@@ -191,6 +201,7 @@ class InputState:
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
         self.result_entry_id = None
+        self.pending_result_entry_id = None
         self.focused_button = 0
 
     def autofill_word(self) -> None:
@@ -215,8 +226,11 @@ class InputState:
             return False
 
         entry = content.BY_WORD[self.word]
-        self.result_entry_id = entry.id
-        self.screen = ScreenState.RESULT
+        self.pending_result_entry_id = entry.id
+        self.result_entry_id = None
+        self.result_is_new = entry.id not in self.discovered_entry_ids
+        self.screen = ScreenState.REVEAL
+        self.reveal_frames_remaining = DEFAULT_REVEAL_FRAMES
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
         self.focused_button = 0
@@ -224,9 +238,29 @@ class InputState:
         del self.recent_entry_ids[:-5]
         return True
 
+    def tick_reveal(self) -> None:
+        if self.screen != ScreenState.REVEAL:
+            return
+        if self.reveal_frames_remaining > 0:
+            self.reveal_frames_remaining -= 1
+        if self.reveal_frames_remaining <= 0:
+            self.finish_reveal()
+
+    def finish_reveal(self) -> None:
+        if self.pending_result_entry_id is None:
+            self.return_to_input(clear=True)
+            return
+        self.result_entry_id = self.pending_result_entry_id
+        self.pending_result_entry_id = None
+        self.discovered_entry_ids.add(self.result_entry_id)
+        self.screen = ScreenState.RESULT
+        self.focused_button = 0
+
     def return_to_input(self, *, clear: bool) -> None:
         self.screen = ScreenState.INPUT
         self.result_entry_id = None
+        self.pending_result_entry_id = None
+        self.reveal_frames_remaining = 0
         if clear:
             self.clear_word()
         else:

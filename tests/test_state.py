@@ -3,6 +3,7 @@ from __future__ import annotations
 import unittest
 
 from gomoji import content
+from gomoji.app import RESULT_TEXT_BOTTOM, RESULT_TEXT_TOP, RESULT_WRAP_CHARS
 from gomoji.input_model import InputLayer, InputState, ScreenState
 
 
@@ -31,8 +32,30 @@ class InputStateTest(unittest.TestCase):
         self.assertEqual(state.word, "ねこぱんち")
         self.assertTrue(state.can_confirm())
         self.assertTrue(state.confirm_word())
+        self.assertEqual(state.screen, ScreenState.REVEAL)
+        self.assertTrue(state.result_is_new)
+
+        while state.screen == ScreenState.REVEAL:
+            state.tick_reveal()
+
         self.assertEqual(state.screen, ScreenState.RESULT)
         self.assertEqual(state.result_entry, content.BY_WORD["ねこぱんち"])
+        self.assertEqual(state.found_count, 1)
+
+    def test_repeated_result_is_not_new(self) -> None:
+        state = InputState()
+        state.slots = list("ねこぱんち")
+
+        self.assertTrue(state.confirm_word())
+        state.finish_reveal()
+        self.assertTrue(state.result_is_new)
+
+        state.return_to_input(clear=False)
+        self.assertTrue(state.confirm_word())
+        state.finish_reveal()
+
+        self.assertFalse(state.result_is_new)
+        self.assertEqual(state.found_count, 1)
 
     def test_invalid_kana_is_rejected_by_prefix(self) -> None:
         state = InputState()
@@ -71,6 +94,17 @@ class InputStateTest(unittest.TestCase):
     def test_result_heading_does_not_append_ngo(self) -> None:
         self.assertEqual(content.format_slot_text("ねこぱんち"), "ね こ ぱ ん ち")
         self.assertEqual(content.format_result_heading("ねこぱんち"), "【ねこぱんち】")
+
+    def test_reviewed_result_text_fits_current_panel(self) -> None:
+        for entry in content.RUNTIME_ENTRIES:
+            y = RESULT_TEXT_TOP
+            for paragraph in entry.paragraphs:
+                y += len(self.wrap_text(paragraph, RESULT_WRAP_CHARS)) * 19
+                y += 10
+            self.assertLessEqual(y, RESULT_TEXT_BOTTOM, entry.word)
+
+    def wrap_text(self, text: str, max_chars: int) -> list[str]:
+        return [text[index : index + max_chars] for index in range(0, len(text), max_chars)]
 
 
 if __name__ == "__main__":

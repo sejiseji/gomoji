@@ -38,12 +38,16 @@ Done.
 
 ## GMG003 — 結果演出・発見体験
 
+Done.
+
 - Discovery animation and short confirm delay
 - NEW and found-count presentation
 - Result text overflow QA across the full reviewed 40
 - Stronger PC focus-grid behavior
 
 ## GMG004 — Web共通化
+
+Next recommended task.
 
 - Make `src/gomoji` the single source of truth
 - Generate `web_bootstrap.py` deterministically

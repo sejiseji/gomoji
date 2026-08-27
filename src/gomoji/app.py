@@ -8,6 +8,9 @@ from gomoji.input_model import KANA_GROUPS, InputLayer, InputState, ScreenState
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 FONT_FILE = PROJECT_ROOT / config.FONT_PATH
+RESULT_WRAP_CHARS = 19
+RESULT_TEXT_TOP = 282
+RESULT_TEXT_BOTTOM = 570
 
 CATEGORY_LABELS = {
     "phenomenon": "現象",
@@ -62,6 +65,18 @@ class GomojiApp:
     def update(self) -> None:
         pyxel = self.pyxel
 
+        if self.state.screen == ScreenState.REVEAL:
+            if pyxel.btnp(pyxel.KEY_Z) or pyxel.btnp(pyxel.KEY_RETURN):
+                self.state.finish_reveal()
+            else:
+                mouse_button = getattr(pyxel, "MOUSE_BUTTON_LEFT", 0)
+                if pyxel.btnp(mouse_button):
+                    self.state.finish_reveal()
+                else:
+                    self.state.tick_reveal()
+            self.frame += 1
+            return
+
         if pyxel.btnp(pyxel.KEY_ESCAPE):
             if self.state.input_layer == InputLayer.CHARACTERS:
                 self.state.input_layer = InputLayer.ROWS
@@ -74,13 +89,13 @@ class GomojiApp:
             self.debug_enabled = not self.debug_enabled
 
         if pyxel.btnp(pyxel.KEY_LEFT):
-            self.move_focus(-1)
+            self.move_focus(-1, 0)
         if pyxel.btnp(pyxel.KEY_RIGHT):
-            self.move_focus(1)
+            self.move_focus(1, 0)
         if pyxel.btnp(pyxel.KEY_UP):
-            self.move_focus(-5)
+            self.move_focus(0, -1)
         if pyxel.btnp(pyxel.KEY_DOWN):
-            self.move_focus(5)
+            self.move_focus(0, 1)
         if pyxel.btnp(pyxel.KEY_Z) or pyxel.btnp(pyxel.KEY_RETURN):
             self.activate_focused_button()
         if pyxel.btnp(pyxel.KEY_X) or pyxel.btnp(pyxel.KEY_BACKSPACE):
@@ -109,7 +124,9 @@ class GomojiApp:
         pyxel.cls(config.BACKGROUND_COLOR)
         self.buttons = []
 
-        if self.state.screen == ScreenState.RESULT:
+        if self.state.screen == ScreenState.REVEAL:
+            self.draw_reveal()
+        elif self.state.screen == ScreenState.RESULT:
             self.draw_result()
         else:
             self.draw_input()
@@ -119,6 +136,30 @@ class GomojiApp:
             pyxel.text(4, 12, f"word={self.state.word}", config.DEBUG_COLOR)
             pyxel.text(4, 20, f"content={content.CONTENT_COUNT}", config.DEBUG_COLOR)
             pyxel.text(4, 28, f"screen={self.state.screen.name}", config.DEBUG_COLOR)
+
+    def draw_reveal(self) -> None:
+        pyxel = self.pyxel
+        center_x = config.SCREEN_WIDTH // 2
+        pulse = self.state.reveal_frames_remaining % 6
+
+        pyxel.rectb(
+            16,
+            18,
+            config.SCREEN_WIDTH - 32,
+            config.SCREEN_HEIGHT - 44,
+            config.SHADOW_COLOR,
+        )
+        self.draw_text_centered(center_x, 28, "ごもじンゴ", config.TEXT_COLOR)
+        self.draw_text_centered(
+            center_x,
+            120,
+            content.format_slot_text(self.state.word),
+            config.ACCENT_COLOR,
+        )
+        pyxel.rectb(96 - pulse, 228 - pulse, 204 + pulse * 2, 104 + pulse * 2, config.ACTIVE_COLOR)
+        self.draw_text_centered(center_x, 266, "みつけた", config.TEXT_COLOR)
+        if self.state.result_is_new:
+            self.draw_text_centered(center_x, 300, "NEW", config.ACCENT_COLOR)
 
     def draw_input(self) -> None:
         pyxel = self.pyxel
@@ -272,9 +313,14 @@ class GomojiApp:
         category = CATEGORY_LABELS.get(entry.category, entry.category)
         self.draw_text_centered(center_x, 242, f"{category} / R{entry.rarity}", config.ACTIVE_COLOR)
 
-        y = 282
+        if self.state.result_is_new:
+            self.draw_text_centered(center_x, 266, "NEW", config.ACCENT_COLOR)
+        elif entry.id in self.state.discovered_entry_ids:
+            self.draw_text_centered(center_x, 266, "発見済み", config.LOCKED_COLOR)
+
+        y = RESULT_TEXT_TOP
         for paragraph in entry.paragraphs:
-            for line in self.wrap_text(paragraph, 19):
+            for line in self.wrap_text(paragraph, RESULT_WRAP_CHARS):
                 self.draw_text(34, y, line, config.TEXT_COLOR)
                 y += 19
             y += 10
@@ -284,7 +330,7 @@ class GomojiApp:
         self.draw_text_centered(
             center_x,
             650,
-            f"{entry.id} / {content.CONTENT_COUNT}語",
+            f"発見 {self.state.found_count}/{content.CONTENT_COUNT}  {entry.id}",
             config.LOCKED_COLOR,
         )
 
@@ -320,11 +366,32 @@ class GomojiApp:
         self.state.focused_button %= len(buttons)
         return self.state.focused_button
 
-    def move_focus(self, delta: int) -> None:
+    def move_focus(self, dx: int, dy: int) -> None:
         buttons = self.focusable_buttons()
         if not buttons:
             return
-        self.state.focused_button = (self.state.focused_button + delta) % len(buttons)
+        current = buttons[self.focus_index()]
+        current_x = current.x + current.width / 2
+        current_y = current.y + current.height / 2
+
+        candidates: list[tuple[float, int]] = []
+        for index, button in enumerate(buttons):
+            if button is current:
+                continue
+            button_x = button.x + button.width / 2
+            button_y = button.y + button.height / 2
+            offset_x = button_x - current_x
+            offset_y = button_y - current_y
+            if dx and offset_x * dx <= 0:
+                continue
+            if dy and offset_y * dy <= 0:
+                continue
+            axis_distance = abs(offset_x) if dx else abs(offset_y)
+            cross_distance = abs(offset_y) if dx else abs(offset_x)
+            candidates.append((axis_distance * 10 + cross_distance, index))
+
+        if candidates:
+            self.state.focused_button = min(candidates)[1]
 
     def activate_focused_button(self) -> None:
         buttons = self.focusable_buttons()

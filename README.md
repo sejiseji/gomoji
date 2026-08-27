@@ -32,6 +32,7 @@ Current screen:
 - Tap-selectable 5-character slots backed by generated reviewed content data
 - Two-step kana input with prefix trie candidate control
 - Result panel with category, rarity, and wrapped explanation text
+- Short discovery reveal, `NEW` label, and found-count display
 
 ## Content
 

@@ -3,7 +3,7 @@
 # desc: Pyxel project scaffold for Gomoji
 # site: https://github.com/sejiseji/gomoji
 # license: MIT
-# version: 0.2.0
+# version: 0.3.0
 
 from __future__ import annotations
 
@@ -28,6 +28,9 @@ ACTIVE_COLOR = 11
 LOCKED_COLOR = 3
 
 WORD_LENGTH = 5
+DEFAULT_REVEAL_FRAMES = 12
+RESULT_WRAP_CHARS = 19
+RESULT_TEXT_TOP = 282
 KANA_GROUPS = {
     "あ": ("あ", "い", "う", "え", "お", "ぁ", "ぃ", "ぅ", "ぇ", "ぉ"),
     "か": ("か", "き", "く", "け", "こ", "が", "ぎ", "ぐ", "げ", "ご"),
@@ -145,6 +148,7 @@ NEXT_CHARS_BY_PREFIX, ENTRY_IDS_BY_PREFIX = build_index()
 
 class ScreenState(Enum):
     INPUT = auto()
+    REVEAL = auto()
     RESULT = auto()
 
 
@@ -174,6 +178,10 @@ class WebState:
     selected_group: str | None = None
     focused_button: int = 0
     result_entry_id: str | None = None
+    pending_result_entry_id: str | None = None
+    result_is_new: bool = False
+    reveal_frames_remaining: int = 0
+    discovered_entry_ids: set[str] = field(default_factory=set)
 
     @property
     def word(self):
@@ -184,6 +192,10 @@ class WebState:
         if self.result_entry_id is None:
             return None
         return BY_ID.get(self.result_entry_id)
+
+    @property
+    def found_count(self):
+        return len(self.discovered_entry_ids)
 
     def prefix_for_cursor(self):
         return "".join(slot or "" for slot in self.slots[: self.cursor_index])
@@ -258,6 +270,7 @@ class WebState:
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
         self.result_entry_id = None
+        self.pending_result_entry_id = None
 
     def autofill_word(self):
         candidate_ids = list(ENTRY_IDS_BY_PREFIX.get(self.filled_prefix(), ()))
@@ -272,14 +285,38 @@ class WebState:
     def confirm_word(self):
         if not self.can_confirm():
             return
-        self.result_entry_id = BY_WORD[self.word]["id"]
-        self.screen = ScreenState.RESULT
+        entry_id = BY_WORD[self.word]["id"]
+        self.pending_result_entry_id = entry_id
+        self.result_entry_id = None
+        self.result_is_new = entry_id not in self.discovered_entry_ids
+        self.screen = ScreenState.REVEAL
+        self.reveal_frames_remaining = DEFAULT_REVEAL_FRAMES
         self.input_layer = InputLayer.ROWS
         self.selected_group = None
+
+    def tick_reveal(self):
+        if self.screen != ScreenState.REVEAL:
+            return
+        if self.reveal_frames_remaining > 0:
+            self.reveal_frames_remaining -= 1
+        if self.reveal_frames_remaining <= 0:
+            self.finish_reveal()
+
+    def finish_reveal(self):
+        if self.pending_result_entry_id is None:
+            self.return_to_input(True)
+            return
+        self.result_entry_id = self.pending_result_entry_id
+        self.pending_result_entry_id = None
+        self.discovered_entry_ids.add(self.result_entry_id)
+        self.screen = ScreenState.RESULT
+        self.focused_button = 0
 
     def return_to_input(self, clear):
         self.screen = ScreenState.INPUT
         self.result_entry_id = None
+        self.pending_result_entry_id = None
+        self.reveal_frames_remaining = 0
         if clear:
             self.clear_word()
         else:
@@ -301,6 +338,14 @@ class GomojiWebApp:
 
     def update(self):
         pyxel = self.pyxel
+        if self.state.screen == ScreenState.REVEAL:
+            mouse_button = getattr(pyxel, "MOUSE_BUTTON_LEFT", 0)
+            if pyxel.btnp(pyxel.KEY_Z) or pyxel.btnp(pyxel.KEY_RETURN) or pyxel.btnp(mouse_button):
+                self.state.finish_reveal()
+            else:
+                self.state.tick_reveal()
+            return
+
         if pyxel.btnp(pyxel.KEY_ESCAPE):
             if self.state.input_layer == InputLayer.CHARACTERS:
                 self.state.input_layer = InputLayer.ROWS
@@ -312,6 +357,14 @@ class GomojiWebApp:
             self.state.clear_word()
         if pyxel.btnp(pyxel.KEY_R):
             self.state.autofill_word()
+        if pyxel.btnp(pyxel.KEY_LEFT):
+            self.move_focus(-1, 0)
+        if pyxel.btnp(pyxel.KEY_RIGHT):
+            self.move_focus(1, 0)
+        if pyxel.btnp(pyxel.KEY_UP):
+            self.move_focus(0, -1)
+        if pyxel.btnp(pyxel.KEY_DOWN):
+            self.move_focus(0, 1)
         if pyxel.btnp(pyxel.KEY_Z) or pyxel.btnp(pyxel.KEY_RETURN):
             self.activate_focused_button()
 
@@ -322,10 +375,24 @@ class GomojiWebApp:
     def draw(self):
         self.pyxel.cls(BACKGROUND_COLOR)
         self.buttons = []
-        if self.state.screen == ScreenState.RESULT:
+        if self.state.screen == ScreenState.REVEAL:
+            self.draw_reveal()
+        elif self.state.screen == ScreenState.RESULT:
             self.draw_result()
         else:
             self.draw_input()
+
+    def draw_reveal(self):
+        pyxel = self.pyxel
+        center_x = SCREEN_WIDTH // 2
+        pulse = self.state.reveal_frames_remaining % 6
+        pyxel.rectb(16, 18, SCREEN_WIDTH - 32, SCREEN_HEIGHT - 44, SHADOW_COLOR)
+        self.draw_text_centered(center_x, 28, "ごもじンゴ", TEXT_COLOR)
+        self.draw_text_centered(center_x, 120, " ".join(self.state.word), ACCENT_COLOR)
+        pyxel.rectb(96 - pulse, 228 - pulse, 204 + pulse * 2, 104 + pulse * 2, ACTIVE_COLOR)
+        self.draw_text_centered(center_x, 266, "みつけた", TEXT_COLOR)
+        if self.state.result_is_new:
+            self.draw_text_centered(center_x, 300, "NEW", ACCENT_COLOR)
 
     def draw_input(self):
         pyxel = self.pyxel
@@ -436,16 +503,25 @@ class GomojiWebApp:
             f"{entry['category']} / R{entry['rarity']}",
             ACTIVE_COLOR,
         )
+        if self.state.result_is_new:
+            self.draw_text_centered(center_x, 266, "NEW", ACCENT_COLOR)
+        elif entry["id"] in self.state.discovered_entry_ids:
+            self.draw_text_centered(center_x, 266, "発見済み", LOCKED_COLOR)
 
-        y = 282
+        y = RESULT_TEXT_TOP
         for paragraph in entry["paragraphs"]:
-            for line in self.wrap_text(paragraph, 19):
+            for line in self.wrap_text(paragraph, RESULT_WRAP_CHARS):
                 self.draw_text(34, y, line, TEXT_COLOR)
                 y += 19
             y += 10
         self.draw_button(Button(58, 586, 126, 48, "もういちど", "again"))
         self.draw_button(Button(212, 586, 126, 48, "べつのことば", "new"))
-        self.draw_text_centered(center_x, 650, f"{entry['id']} / {len(ENTRIES)}語", LOCKED_COLOR)
+        self.draw_text_centered(
+            center_x,
+            650,
+            f"発見 {self.state.found_count}/{len(ENTRIES)}  {entry['id']}",
+            LOCKED_COLOR,
+        )
 
     def draw_button(self, button):
         pyxel = self.pyxel
@@ -477,6 +553,31 @@ class GomojiWebApp:
             return 0
         self.state.focused_button %= len(buttons)
         return self.state.focused_button
+
+    def move_focus(self, dx, dy):
+        buttons = self.focusable_buttons()
+        if not buttons:
+            return
+        current = buttons[self.focus_index()]
+        current_x = current.x + current.width / 2
+        current_y = current.y + current.height / 2
+        candidates = []
+        for index, button in enumerate(buttons):
+            if button is current:
+                continue
+            button_x = button.x + button.width / 2
+            button_y = button.y + button.height / 2
+            offset_x = button_x - current_x
+            offset_y = button_y - current_y
+            if dx and offset_x * dx <= 0:
+                continue
+            if dy and offset_y * dy <= 0:
+                continue
+            axis_distance = abs(offset_x) if dx else abs(offset_y)
+            cross_distance = abs(offset_y) if dx else abs(offset_x)
+            candidates.append((axis_distance * 10 + cross_distance, index))
+        if candidates:
+            self.state.focused_button = min(candidates)[1]
 
     def activate_focused_button(self):
         buttons = self.focusable_buttons()
