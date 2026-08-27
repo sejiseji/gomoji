@@ -47,11 +47,11 @@ Done.
 
 ## GMG004 — Web共通化
 
-Next recommended task.
+Done.
 
-- Make `src/gomoji` the single source of truth
-- Generate `web_bootstrap.py` deterministically
-- Add web bootstrap `--check` to CI workflow
+- Runtime content is the source of truth for the Pages bootstrap entries
+- `scripts/build_web_bootstrap.py` deterministically syncs `web_bootstrap.py`
+- Pages workflow checks the generated bootstrap entry block
 
 ## GMG005+ — 保存・辞典・1000語運用
 

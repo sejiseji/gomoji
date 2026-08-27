@@ -62,6 +62,7 @@ Check that the generated dataset is current:
 
 ```sh
 .venv/bin/python scripts/build_content.py --check --output src/gomoji/generated/content_data.py
+.venv/bin/python scripts/build_web_bootstrap.py --check
 ```
 
 For development-only 1000-entry builds:
@@ -113,6 +114,7 @@ Then open `http://127.0.0.1:8000/`.
 - `src/gomoji/content.py`: runtime content access helpers
 - `src/gomoji/input_model.py`: device-independent kana input state and trie logic
 - `src/gomoji/generated/content_data.py`: generated reviewed runtime content
+- `scripts/build_web_bootstrap.py`: syncs generated runtime content into the self-contained Pages bootstrap
 - `content/`: editable source corpus, schemas, fixtures, and audit reports
 - `scripts/`: content validation, build, and audit scripts
 - `tests/`: low-risk tests for scaffold behavior
